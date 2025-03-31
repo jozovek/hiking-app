@@ -18,11 +18,10 @@ This MVP is designed to be completely free to develop while demonstrating core f
 
 ### Free Services Used
 
-- **Firebase Free Tier**: Cloud storage and updates
 - **Expo**: React Native development framework
 - **OpenStreetMap API**: Trail data collection
 - **React Native Maps**: Map visualization using device's native maps
-- **GitHub Pages**: Simple admin dashboard (if needed)
+- **GitHub Pages**: Simple static version check (if needed)
 
 ### Implementation Phases
 
@@ -31,9 +30,9 @@ flowchart TD
     A[Data Collection] -->|Manual Process| B[SQLite Database Creation]
     B --> C[Bundle Database with App]
     C --> D[Basic App Features]
-    D --> E[Firebase Integration]
-    E --> F[Simple Admin Dashboard]
-    F --> G[Weekly Manual Updates]
+    D --> E[Map Integration & Offline Support]
+    E --> F[Testing & Refinement]
+    F --> G[App Distribution]
 ```
 
 #### Phase 1: Data Collection & Processing
@@ -48,9 +47,9 @@ flowchart TD
 - Calculate distance from user's location
 
 #### Phase 3: Updates & Maintenance
-- Implement simple Firebase integration for trail updates
-- Create basic admin interface for data management
-- Set up weekly manual update process
+- Implement version check against static JSON file
+- Create simple update notification system
+- Set up app update process for data refreshes
 
 ### Timeline
 
@@ -58,7 +57,7 @@ flowchart TD
 |------|-------|------------|
 | 1-2 | Data Collection | OpenStreetMap, Python scripts |
 | 3-4 | Core App Development | Expo, React Native, SQLite |
-| 5 | Firebase Integration | Firebase free tier |
+| 5 | Map Integration & Offline Support | React Native Maps |
 | 6 | Testing & Refinement | Expo Go for distribution |
 
 ## Technical Implementation Details
@@ -67,9 +66,9 @@ flowchart TD
 
 - **Frontend**: React Native with Expo
 - **Local Storage**: SQLite
-- **Cloud Storage**: Firebase Firestore (free tier)
 - **Maps**: React Native Maps with Apple/Google Maps
 - **Data Processing**: Python with pandas/geopandas
+- **Version Check**: Static JSON hosted on GitHub Pages
 
 ### Architecture Overview
 
@@ -77,15 +76,14 @@ flowchart TD
 graph TD
     A[React Native / Expo] --> B[Frontend Components]
     B --> C[SQLite Local Database]
-    B --> D[Firebase Integration]
     B --> E[Map Integration]
     F[Python Scripts] --> G[Data Collection/Processing]
     G --> H[SQLite Database Creation]
     H --> I[App Bundle]
-    D --> J[Firebase Firestore]
-    J --> K[Trail Updates]
     E --> L[React Native Maps]
     L --> M[Device Native Maps]
+    B --> N[Version Check]
+    N --> O[GitHub Pages JSON]
 ```
 
 ### Data Flow
@@ -95,14 +93,13 @@ sequenceDiagram
     participant User
     participant App
     participant SQLite
-    participant Firebase
+    participant VersionCheck
     participant Maps
     
     User->>App: Open App
     App->>SQLite: Load trail data
-    App->>Firebase: Check for updates
-    Firebase-->>App: Return updates
-    App->>SQLite: Apply updates if any
+    App->>VersionCheck: Check for app updates
+    VersionCheck-->>App: Return version info
     User->>App: Set location & radius
     App->>SQLite: Query trails in radius
     SQLite-->>App: Return matching trails
@@ -120,6 +117,7 @@ sequenceDiagram
 ```
 PhillyHikingApp/
 ├── assets/                  # Images, icons, and static assets
+│   └── trails.db            # Pre-populated SQLite database
 ├── src/
 │   ├── components/          # Reusable UI components
 │   │   ├── TrailCard.js     # Trail preview card
@@ -132,8 +130,8 @@ PhillyHikingApp/
 │   │   └── MapScreen.js     # Full map view
 │   ├── services/            # Business logic
 │   │   ├── database.js      # SQLite operations
-│   │   ├── firebase.js      # Firebase operations
 │   │   ├── location.js      # Geolocation services
+│   │   ├── updateService.js # Version check operations
 │   │   └── trailService.js  # Trail data operations
 │   ├── utils/               # Helper functions
 │   │   ├── distance.js      # Distance calculations
@@ -171,11 +169,15 @@ CREATE TABLE trail_points (
     FOREIGN KEY (trail_id) REFERENCES trails(id)
 );
 
--- Metadata for versioning
-CREATE TABLE metadata (
+-- App metadata for versioning
+CREATE TABLE app_metadata (
     key TEXT PRIMARY KEY,
     value TEXT
 );
+
+-- Insert version and last updated info
+INSERT INTO app_metadata VALUES ('db_version', '1.0');
+INSERT INTO app_metadata VALUES ('last_updated', '2025-03-31');
 ```
 
 ## Setup Instructions
@@ -185,7 +187,6 @@ CREATE TABLE metadata (
 - Node.js and npm
 - Python 3.x (for data processing)
 - Expo CLI
-- Firebase account (free tier)
 
 ### Development Environment Setup
 
@@ -203,18 +204,14 @@ CREATE TABLE metadata (
 3. **Install Dependencies**:
    ```bash
    npm install react-native-maps
-   npm install @react-native-firebase/app @react-native-firebase/firestore
    npm install react-native-sqlite-storage
    npm install @react-navigation/native @react-navigation/stack
    npm install expo-location
+   npm install expo-file-system
+   npm install expo-asset
    ```
 
-4. **Firebase Setup**:
-   - Create a new Firebase project
-   - Enable Firestore database
-   - Add the Firebase configuration to your app
-
-5. **Python Environment for Data Processing**:
+4. **Python Environment for Data Processing**:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -231,9 +228,9 @@ CREATE TABLE metadata (
    - Implement the core features using React Native and Expo
    - Test on your device using Expo Go
 
-3. **Firebase Integration**:
-   - Set up the Firebase project and configure the app to connect to it
-   - Implement the update checking mechanism
+3. **Version Check Implementation**:
+   - Create a simple version.json file on GitHub Pages
+   - Implement basic version check mechanism
 
 4. **Testing**:
    - Use Expo Go to test on your own devices
@@ -271,15 +268,21 @@ Once the MVP is validated, consider these enhancements:
    - Apple Developer account ($99/year)
    - Google Play Developer account ($25 one-time)
 
-2. **Enhanced Features**:
-   - User accounts and favorites
-   - Trail reviews and ratings
-   - Photo uploads
-   - Enhanced offline maps
-   - Weather integration
-   - Trail condition reports
+2. **Firebase Integration**:
+   - Add real-time trail status updates
+   - Implement user accounts and favorites
+   - Enable trail reviews and ratings
+   - Support photo uploads
+   - Add trail condition reports
 
-3. **Monetization Options**:
+3. **Enhanced Features**:
+   - Weather integration
+   - Enhanced offline maps
+   - Elevation profiles
+   - Trail difficulty visualization
+   - Hiking time estimates
+
+4. **Monetization Options**:
    - Premium features
    - Partnerships with local outdoor retailers
    - Sponsored trails or events
@@ -297,7 +300,6 @@ During the development of this hiking app MVP, several challenges may arise that
 2. **Offline Functionality**:
    - Balancing app size with comprehensive offline data
    - Managing map tile caching for offline use
-   - Ensuring sync mechanisms work reliably when connectivity is restored
    - **Mitigation**: Implement progressive loading of map tiles; prioritize core trail data in the offline bundle
 
 3. **Location Accuracy**:
@@ -315,10 +317,10 @@ During the development of this hiking app MVP, several challenges may arise that
    - Rendering efficiency when displaying many trail paths on the map
    - **Mitigation**: Implement spatial indexing; use clustering for map markers; lazy-load trail path data
 
-6. **Free Tier Limitations**:
-   - Firebase free tier quotas might be exceeded with growing usage
-   - Map API usage limits
-   - **Mitigation**: Implement caching strategies; monitor usage metrics closely; be prepared with scaling plan
+6. **Update Mechanism Limitations**:
+   - App updates required for data refreshes
+   - Potential app store approval delays for urgent trail updates
+   - **Mitigation**: Include critical trail status in version check; implement in-app notifications for closures
 
 7. **User Experience in Low/No Connectivity Areas**:
    - Graceful degradation when features can't be accessed
