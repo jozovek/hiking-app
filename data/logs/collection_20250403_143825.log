@@ -1,0 +1,27 @@
+2025-04-03 14:38:25,244 - INFO - Starting data collection
+2025-04-03 14:38:25,244 - INFO - Using Overpass API endpoint: https://overpass-api.de/api/interpreter
+2025-04-03 14:38:25,244 - INFO - Processing Philadelphia County
+2025-04-03 14:38:25,244 - INFO - Collecting trails data for Philadelphia County
+2025-04-03 14:38:25,983 - INFO - Collected 0 elements for Philadelphia trails
+2025-04-03 14:38:30,249 - INFO - Collecting parks data for Philadelphia County
+2025-04-03 14:38:30,961 - INFO - Collected 0 elements for Philadelphia parks
+2025-04-03 14:38:35,255 - INFO - Collecting poi data for Philadelphia County
+2025-04-03 14:38:36,079 - INFO - Collected 0 elements for Philadelphia poi
+2025-04-03 14:38:40,256 - INFO - Validating collected data
+2025-04-03 14:38:40,257 - WARNING - No elements found in data/raw/philadelphia_trails_raw.json
+2025-04-03 14:38:40,258 - WARNING - No elements found in data/raw/philadelphia_parks_raw.json
+2025-04-03 14:38:40,258 - WARNING - No elements found in data/raw/philadelphia_poi_raw.json
+2025-04-03 14:38:40,258 - WARNING - Missing data file: data/raw/bucks_trails_raw.json
+2025-04-03 14:38:40,258 - WARNING - Missing data file: data/raw/bucks_parks_raw.json
+2025-04-03 14:38:40,258 - WARNING - Missing data file: data/raw/bucks_poi_raw.json
+2025-04-03 14:38:40,258 - WARNING - Missing data file: data/raw/chester_trails_raw.json
+2025-04-03 14:38:40,258 - WARNING - Missing data file: data/raw/chester_parks_raw.json
+2025-04-03 14:38:40,258 - WARNING - Missing data file: data/raw/chester_poi_raw.json
+2025-04-03 14:38:40,258 - WARNING - Missing data file: data/raw/delaware_trails_raw.json
+2025-04-03 14:38:40,259 - WARNING - Missing data file: data/raw/delaware_parks_raw.json
+2025-04-03 14:38:40,259 - WARNING - Missing data file: data/raw/delaware_poi_raw.json
+2025-04-03 14:38:40,259 - WARNING - Missing data file: data/raw/montgomery_trails_raw.json
+2025-04-03 14:38:40,259 - WARNING - Missing data file: data/raw/montgomery_parks_raw.json
+2025-04-03 14:38:40,259 - WARNING - Missing data file: data/raw/montgomery_poi_raw.json
+2025-04-03 14:38:40,259 - WARNING - Data validation found issues
+2025-04-03 14:38:40,259 - ERROR - Data collection completed with errors

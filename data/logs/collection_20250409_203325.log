@@ -1,0 +1,9 @@
+2025-04-09 20:33:25,507 - INFO - Starting data collection
+2025-04-09 20:33:25,507 - INFO - Using Overpass API endpoint: https://overpass-api.de/api/interpreter
+2025-04-09 20:33:25,507 - INFO - Processing Philadelphia County
+2025-04-09 20:33:25,507 - INFO - Data for Philadelphia trails already exists, skipping collection
+2025-04-09 20:33:25,706 - INFO - Data for Philadelphia parks already exists, skipping collection
+2025-04-09 20:33:25,725 - INFO - Data for Philadelphia poi already exists, skipping collection
+2025-04-09 20:33:25,726 - INFO - Validating collected data
+2025-04-09 20:33:25,947 - INFO - Data validation passed
+2025-04-09 20:33:25,947 - INFO - Data collection completed successfully

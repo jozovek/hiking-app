@@ -1,0 +1,10 @@
+2025-04-09 20:47:24,634 - INFO - Starting database creation
+2025-04-09 20:47:24,636 - INFO - Database schema created successfully
+2025-04-09 20:47:24,636 - INFO - Importing data for Philadelphia County
+2025-04-09 20:47:26,098 - INFO - Imported 73766 trails for Philadelphia
+2025-04-09 20:47:41,142 - INFO - Imported 1086819 trail points for Philadelphia
+2025-04-09 20:47:41,160 - INFO - Added metadata to database
+2025-04-09 20:47:41,167 - INFO - Database validation: 73766 trails, 1086819 trail points
+2025-04-09 20:47:41,167 - INFO - Metadata: [('db_version', '1.0'), ('last_updated', '2025-04-09')]
+2025-04-09 20:47:41,167 - INFO - Database created successfully at assets/trails.db
+2025-04-09 20:47:41,167 - INFO - Database creation completed successfully

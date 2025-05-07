@@ -181,12 +181,13 @@ def create_trail_from_path(G, path):
     return trail
 
 
-def decompose_complex_network(G):
+def decompose_complex_network(G, max_pairs=10000):
     """
     Decompose a complex trail network into individual trails.
     
     Args:
         G (networkx.Graph): Graph representing the trail network
+        max_pairs (int): Maximum number of endpoint pairs to process (default: 10000)
         
     Returns:
         list: List of trails
@@ -208,17 +209,32 @@ def decompose_complex_network(G):
     
     # For more complex networks, find all pairs of endpoints
     total_pairs = len(endpoints) * (len(endpoints) - 1) // 2
-    logging.info(f"Complex network with {len(endpoints)} endpoints - processing {total_pairs} endpoint pairs")
+    actual_pairs_to_process = min(total_pairs, max_pairs)
+    
+    if total_pairs > max_pairs:
+        logging.warning(f"Network has {total_pairs} endpoint pairs, limiting to {max_pairs} pairs")
+        logging.info(f"Processing {actual_pairs_to_process}/{total_pairs} endpoint pairs (limit applied)")
+    else:
+        logging.info(f"Complex network with {len(endpoints)} endpoints - processing {total_pairs} endpoint pairs")
+    
+    # Sort endpoints by some criteria to prioritize important pairs
+    # For simplicity, we'll use node ID as a proxy, but this could be improved
+    sorted_endpoints = sorted(endpoints)
     
     pair_counter = 0
-    for i in range(len(endpoints)):
-        for j in range(i+1, len(endpoints)):
+    for i in range(len(sorted_endpoints)):
+        for j in range(i+1, len(sorted_endpoints)):
+            # Check if we've reached the maximum number of pairs
+            if pair_counter >= max_pairs:
+                logging.info(f"Reached maximum of {max_pairs} endpoint pairs, stopping processing")
+                break
+                
             pair_counter += 1
             if pair_counter % 100 == 0:  # Log every 100 pairs
-                logging.info(f"Processing endpoint pair {pair_counter}/{total_pairs}")
+                logging.info(f"Processing endpoint pair {pair_counter}/{actual_pairs_to_process}")
                 
-            start = endpoints[i]
-            end = endpoints[j]
+            start = sorted_endpoints[i]
+            end = sorted_endpoints[j]
             
             # Find path between endpoints
             path = find_path_between_endpoints(G, start, end)
@@ -226,8 +242,12 @@ def decompose_complex_network(G):
                 trail = create_trail_from_path(G, path)
                 if trail:
                     trails.append(trail)
+        
+        # Check again after the inner loop
+        if pair_counter >= max_pairs:
+            break
     
-    logging.info(f"Completed processing {total_pairs} endpoint pairs, found {len(trails)} trails")
+    logging.info(f"Completed processing {pair_counter}/{total_pairs} endpoint pairs, found {len(trails)} trails")
     return trails
 
 

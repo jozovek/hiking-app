@@ -37,7 +37,8 @@ flowchart TD
 
 #### Phase 1: Data Collection & Processing
 - Collect trail data from OpenStreetMap and public websites
-- Process and validate data using Python scripts
+- Process and validate data using Python scripts with spatial libraries
+- Reconstruct complete trails from fragmented data using graph-based algorithms
 - Create SQLite database to bundle with the app
 
 #### Phase 2: Core App Development
@@ -67,7 +68,7 @@ flowchart TD
 - **Frontend**: React Native with Expo
 - **Local Storage**: SQLite
 - **Maps**: React Native Maps with Apple/Google Maps
-- **Data Processing**: Python with pandas/geopandas
+- **Data Processing**: Python with pandas/geopandas, shapely, and NetworkX
 - **Version Check**: Static JSON hosted on GitHub Pages
 
 ### Architecture Overview
@@ -77,8 +78,10 @@ graph TD
     A[React Native / Expo] --> B[Frontend Components]
     B --> C[SQLite Local Database]
     B --> E[Map Integration]
-    F[Python Scripts] --> G[Data Collection/Processing]
-    G --> H[SQLite Database Creation]
+    F[Python Scripts] --> G[Data Collection]
+    G --> P[Spatial Processing]
+    P --> Q[Graph-Based Trail Reconstruction]
+    Q --> H[SQLite Database Creation]
     H --> I[App Bundle]
     E --> L[React Native Maps]
     L --> M[Device Native Maps]
@@ -112,6 +115,30 @@ sequenceDiagram
     App->>User: Display trail details & map
 ```
 
+### Data Processing Flow
+
+```mermaid
+sequenceDiagram
+    participant OSM as OpenStreetMap
+    participant Collection as Data Collection
+    participant Spatial as Spatial Processing
+    participant Graph as Graph-Based Reconstruction
+    participant DB as SQLite Database
+    participant App
+    
+    OSM->>Collection: Raw trail data
+    Collection->>Spatial: JSON data
+    Spatial->>Spatial: Clean & normalize data
+    Spatial->>Spatial: Calculate distances
+    Spatial->>Graph: Processed elements
+    Graph->>Graph: Build network graph
+    Graph->>Graph: Identify connected components
+    Graph->>Graph: Reconstruct complete trails
+    Graph->>Graph: Resolve attribute conflicts
+    Graph->>DB: Structured trail data
+    DB->>App: Bundled database
+```
+
 ### Directory Structure
 
 ```
@@ -139,8 +166,14 @@ PhillyHikingApp/
 │   └── App.js               # Main app component
 ├── data/                    # Data processing scripts
 │   ├── collect_trails.py    # Data collection script
-│   ├── process_data.py      # Data cleaning script
-│   └── create_database.py   # SQLite database creation
+│   ├── process_data.py      # Data cleaning and spatial processing
+│   ├── reconstruct_trails.py # Graph-based trail reconstruction
+│   ├── create_database.py   # SQLite database creation
+│   ├── validate_data.py     # Data validation and visualization
+│   └── utils/               # Utility functions
+│       ├── spatial_utils.py # Spatial processing utilities
+│       ├── graph_utils.py   # Graph processing utilities
+│       └── osm_utils.py     # OpenStreetMap utilities
 └── app.json                 # Expo configuration
 ```
 
@@ -215,7 +248,7 @@ INSERT INTO app_metadata VALUES ('last_updated', '2025-03-31');
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install pandas geopandas requests beautifulsoup4 sqlite3
+   pip install pandas geopandas numpy shapely requests overpass osmnx networkx matplotlib python-dotenv
    ```
 
 ## Development Workflow
@@ -286,6 +319,57 @@ Once the MVP is validated, consider these enhancements:
    - Premium features
    - Partnerships with local outdoor retailers
    - Sponsored trails or events
+
+## Data Processing Approach
+
+The data processing pipeline uses a combination of spatial libraries and graph-based approaches to transform raw OpenStreetMap data into structured trail information suitable for the app.
+
+### Spatial Libraries
+
+Several spatial libraries work together to handle geographic data processing:
+
+1. **Shapely**: Provides geometric operations for:
+   - Representing trail segments as LineString objects
+   - Calculating intersections between trails
+   - Determining if POIs are near trails
+   - Computing geometric operations like buffering for proximity searches
+
+2. **GeoPandas**: Extends pandas with spatial capabilities for:
+   - Spatial joins between datasets (e.g., finding which trails are within parks)
+   - Reading/writing spatial data formats
+   - Coordinate reference system transformations
+   - Visualization for debugging
+
+3. **OSMnx**: Specialized library for OpenStreetMap data that helps with:
+   - Working with OSM data in a structured way
+   - Simplifying network analysis tasks
+
+### Graph-Based Trail Reconstruction
+
+To handle the fragmented nature of trail data in OpenStreetMap, we use a graph-based approach:
+
+1. **Graph Construction**:
+   - Each node in the OSM data becomes a vertex in the graph
+   - Each way (trail segment) becomes an edge connecting vertices
+   - Edge weights are based on distance, trail type, and other attributes
+
+2. **NetworkX Integration**:
+   - Uses NetworkX for graph operations and algorithms
+   - Identifies connected components to find potential complete trails
+   - Applies path-finding algorithms to reconstruct trail routes
+
+3. **Trail Reconstruction Process**:
+   - Identify connected components in the graph (potential trails)
+   - For simple trails with two endpoints, find the shortest path
+   - For complex networks, use algorithms like Eulerian paths or cycle decomposition
+   - Aggregate trail attributes from constituent segments
+
+4. **Attribute Processing**:
+   - Combine attributes from multiple OSM elements
+   - Resolve conflicts using heuristics (e.g., most common name wins)
+   - Calculate derived metrics like total length and difficulty
+
+This approach allows us to handle the challenges of fragmented and inconsistent trail data while creating a cohesive database for the app.
 
 ## Potential Challenges
 

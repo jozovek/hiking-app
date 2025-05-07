@@ -1,0 +1,54 @@
+2025-04-09 20:33:05,956 - INFO - Starting trail reconstruction
+2025-04-09 20:33:05,956 - INFO - Processing trail data for Philadelphia County
+2025-04-09 20:33:06,344 - INFO - Extracted 152241 nodes and 37681 ways
+2025-04-09 20:33:06,351 - INFO - Filtered to 37664 trail ways
+2025-04-09 20:33:06,930 - INFO - Created graph with 152241 nodes and 159748 edges
+2025-04-09 20:33:06,986 - INFO - Found 2195 connected components
+2025-04-09 20:33:06,986 - INFO - Processing component 1/2195 with 2 nodes
+2025-04-09 20:33:06,986 - INFO - Component 1 has 2 endpoints
+2025-04-09 20:33:06,986 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 20:33:06,986 - INFO - Extracted 1 trails from component 1
+2025-04-09 20:33:06,986 - INFO - Processing component 2/2195 with 3 nodes
+2025-04-09 20:33:06,986 - INFO - Component 2 has 2 endpoints
+2025-04-09 20:33:06,986 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 20:33:06,986 - INFO - Extracted 1 trails from component 2
+2025-04-09 20:33:06,986 - INFO - Processing component 3/2195 with 7 nodes
+2025-04-09 20:33:06,986 - INFO - Component 3 has 2 endpoints
+2025-04-09 20:33:06,986 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 20:33:06,986 - INFO - Extracted 1 trails from component 3
+2025-04-09 20:33:06,986 - INFO - Processing component 4/2195 with 4 nodes
+2025-04-09 20:33:06,987 - INFO - Component 4 has 2 endpoints
+2025-04-09 20:33:06,987 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 20:33:06,987 - INFO - Extracted 1 trails from component 4
+2025-04-09 20:33:06,987 - INFO - Processing component 5/2195 with 166 nodes
+2025-04-09 20:33:06,987 - INFO - Component 5 has 6 endpoints
+2025-04-09 20:33:06,987 - INFO - Complex network with 6 endpoints - processing 15 endpoint pairs
+2025-04-09 20:33:06,992 - INFO - Completed processing 15/15 endpoint pairs, found 15 trails
+2025-04-09 20:33:06,992 - INFO - Extracted 15 trails from component 5
+2025-04-09 20:33:06,992 - INFO - Processing component 6/2195 with 3 nodes
+2025-04-09 20:33:06,992 - INFO - Component 6 has 2 endpoints
+2025-04-09 20:33:06,992 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 20:33:06,992 - INFO - Extracted 1 trails from component 6
+2025-04-09 20:33:06,992 - INFO - Processing component 7/2195 with 813 nodes
+2025-04-09 20:33:06,995 - INFO - Component 7 has 143 endpoints
+2025-04-09 20:33:06,995 - WARNING - Network has 10153 endpoint pairs, limiting to 10000 pairs
+2025-04-09 20:33:06,995 - INFO - Processing 10000/10153 endpoint pairs (limit applied)
+2025-04-09 20:33:07,034 - INFO - Processing endpoint pair 100/10000
+2025-04-09 20:33:07,064 - INFO - Processing endpoint pair 200/10000
+2025-04-09 20:33:07,087 - INFO - Processing endpoint pair 300/10000
+2025-04-09 20:33:07,125 - INFO - Processing endpoint pair 400/10000
+2025-04-09 20:33:07,158 - INFO - Processing endpoint pair 500/10000
+2025-04-09 20:33:07,186 - INFO - Processing endpoint pair 600/10000
+2025-04-09 20:33:07,218 - INFO - Processing endpoint pair 700/10000
+2025-04-09 20:33:07,260 - INFO - Processing endpoint pair 800/10000
+2025-04-09 20:33:07,293 - INFO - Processing endpoint pair 900/10000
+2025-04-09 20:33:07,322 - INFO - Processing endpoint pair 1000/10000
+2025-04-09 20:33:07,358 - INFO - Processing endpoint pair 1100/10000
+2025-04-09 20:33:07,399 - INFO - Processing endpoint pair 1200/10000
+2025-04-09 20:33:07,433 - INFO - Processing endpoint pair 1300/10000
+2025-04-09 20:33:07,463 - INFO - Processing endpoint pair 1400/10000
+2025-04-09 20:33:07,498 - INFO - Processing endpoint pair 1500/10000
+2025-04-09 20:33:07,657 - INFO - Processing endpoint pair 1600/10000
+2025-04-09 20:33:07,691 - INFO - Processing endpoint pair 1700/10000
+2025-04-09 20:33:07,723 - INFO - Processing endpoint pair 1800/10000
+2025-04-09 20:33:07,754 - INFO - Processing endpoint pair 1900/10000

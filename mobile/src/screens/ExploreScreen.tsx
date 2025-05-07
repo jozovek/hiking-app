@@ -11,10 +11,9 @@ import {
   Switch,
   Platform,
 } from 'react-native';
-import MapView, { 
+import { 
   Marker, 
-  Polyline, 
-  PROVIDER_GOOGLE, 
+  Polyline,
   Region,
   MapType,
 } from 'react-native-maps';
@@ -26,6 +25,8 @@ import DatabaseService from '../database/DatabaseService';
 import { Trail } from '../models/types';
 import { useLocation } from '../hooks/useLocation';
 import { calculateDistance } from '../utils/locationUtils';
+import CachedMapView, { CachedMapViewRef } from '../components/CachedMapView';
+import { useNetworkStatus } from '../providers/NetworkStatusProvider';
 
 // Get screen dimensions
 const { width, height } = Dimensions.get('window');
@@ -160,7 +161,11 @@ const ExploreScreen = () => {
   const navigation = useNavigation<StackNavigationProp<RootStackParamList>>();
   
   // Map reference
-  const mapRef = useRef<MapView>(null);
+  const mapRef = useRef<CachedMapViewRef>(null);
+  
+  // Network status
+  const { isConnected, isInternetReachable } = useNetworkStatus();
+  const isOnline = isConnected && isInternetReachable;
   
   // State variables
   const [trails, setTrails] = useState<Trail[]>([]);
@@ -337,6 +342,12 @@ const ExploreScreen = () => {
     }));
   };
   
+  // Handle region change complete
+  const handleRegionChangeComplete = (region: Region) => {
+    // This is where we could implement additional functionality
+    // like loading trails for the visible region
+  };
+  
   // Load trails when component mounts
   useEffect(() => {
     getAllTrails();
@@ -385,18 +396,18 @@ const ExploreScreen = () => {
   
   return (
     <View style={styles.container}>
-      {/* Map */}
-      <MapView
+      {/* Map - Using CachedMapView instead of MapView */}
+      <CachedMapView
         ref={mapRef}
         style={styles.map}
-        provider={PROVIDER_GOOGLE}
-        mapType={mapType}
         initialRegion={{
           latitude: 39.9526,  // Philadelphia coordinates
           longitude: -75.1652,
           latitudeDelta: 0.1,
           longitudeDelta: 0.1,
         }}
+        onRegionChangeComplete={handleRegionChangeComplete}
+        showsUserLocation={true}
       >
         {/* Trail Markers */}
         {filteredTrails.map(trail => (
@@ -454,7 +465,16 @@ const ExploreScreen = () => {
             </View>
           </Marker>
         )}
-      </MapView>
+      </CachedMapView>
+      
+      {/* Offline Mode Banner */}
+      {!isOnline && (
+        <View style={styles.offlineBanner}>
+          <Text style={styles.offlineText}>
+            Offline Mode - Using Cached Maps
+          </Text>
+        </View>
+      )}
       
       {/* Map Controls */}
       <View style={styles.mapControls}>
@@ -827,6 +847,20 @@ const styles = StyleSheet.create({
   applyButtonText: {
     color: '#fff',
     fontWeight: '500',
+  },
+  offlineBanner: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: 'rgba(244, 67, 54, 0.8)',
+    padding: 5,
+    alignItems: 'center',
+    zIndex: 1000,
+  },
+  offlineText: {
+    color: 'white',
+    fontWeight: 'bold',
   },
 });
 

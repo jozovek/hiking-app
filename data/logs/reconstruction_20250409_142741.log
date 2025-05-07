@@ -1,0 +1,2202 @@
+2025-04-09 14:27:41,131 - INFO - Starting trail reconstruction
+2025-04-09 14:27:41,131 - INFO - Processing trail data for Philadelphia County
+2025-04-09 14:27:41,435 - INFO - Extracted 152241 nodes and 37681 ways
+2025-04-09 14:27:41,441 - INFO - Filtered to 37664 trail ways
+2025-04-09 14:27:41,933 - INFO - Created graph with 152241 nodes and 159748 edges
+2025-04-09 14:27:41,976 - INFO - Found 2195 connected components
+2025-04-09 14:27:41,976 - INFO - Processing component 1/2195 with 2 nodes
+2025-04-09 14:27:41,976 - INFO - Component 1 has 2 endpoints
+2025-04-09 14:27:41,976 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:41,976 - INFO - Extracted 1 trails from component 1
+2025-04-09 14:27:41,976 - INFO - Processing component 2/2195 with 3 nodes
+2025-04-09 14:27:41,977 - INFO - Component 2 has 2 endpoints
+2025-04-09 14:27:41,977 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:41,977 - INFO - Extracted 1 trails from component 2
+2025-04-09 14:27:41,977 - INFO - Processing component 3/2195 with 7 nodes
+2025-04-09 14:27:41,977 - INFO - Component 3 has 2 endpoints
+2025-04-09 14:27:41,977 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:41,977 - INFO - Extracted 1 trails from component 3
+2025-04-09 14:27:41,977 - INFO - Processing component 4/2195 with 4 nodes
+2025-04-09 14:27:41,977 - INFO - Component 4 has 2 endpoints
+2025-04-09 14:27:41,977 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:41,977 - INFO - Extracted 1 trails from component 4
+2025-04-09 14:27:41,977 - INFO - Processing component 5/2195 with 166 nodes
+2025-04-09 14:27:41,977 - INFO - Component 5 has 6 endpoints
+2025-04-09 14:27:41,977 - INFO - Complex network with 6 endpoints - processing 15 endpoint pairs
+2025-04-09 14:27:41,981 - INFO - Completed processing 15 endpoint pairs, found 15 trails
+2025-04-09 14:27:41,981 - INFO - Extracted 15 trails from component 5
+2025-04-09 14:27:41,981 - INFO - Processing component 6/2195 with 3 nodes
+2025-04-09 14:27:41,981 - INFO - Component 6 has 2 endpoints
+2025-04-09 14:27:41,981 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:41,981 - INFO - Extracted 1 trails from component 6
+2025-04-09 14:27:41,981 - INFO - Processing component 7/2195 with 813 nodes
+2025-04-09 14:27:41,984 - INFO - Component 7 has 143 endpoints
+2025-04-09 14:27:41,984 - INFO - Complex network with 143 endpoints - processing 10153 endpoint pairs
+2025-04-09 14:27:42,030 - INFO - Processing endpoint pair 100/10153
+2025-04-09 14:27:42,051 - INFO - Processing endpoint pair 200/10153
+2025-04-09 14:27:42,076 - INFO - Processing endpoint pair 300/10153
+2025-04-09 14:27:42,098 - INFO - Processing endpoint pair 400/10153
+2025-04-09 14:27:42,124 - INFO - Processing endpoint pair 500/10153
+2025-04-09 14:27:42,158 - INFO - Processing endpoint pair 600/10153
+2025-04-09 14:27:42,195 - INFO - Processing endpoint pair 700/10153
+2025-04-09 14:27:42,221 - INFO - Processing endpoint pair 800/10153
+2025-04-09 14:27:42,254 - INFO - Processing endpoint pair 900/10153
+2025-04-09 14:27:42,284 - INFO - Processing endpoint pair 1000/10153
+2025-04-09 14:27:42,318 - INFO - Processing endpoint pair 1100/10153
+2025-04-09 14:27:42,343 - INFO - Processing endpoint pair 1200/10153
+2025-04-09 14:27:42,377 - INFO - Processing endpoint pair 1300/10153
+2025-04-09 14:27:42,407 - INFO - Processing endpoint pair 1400/10153
+2025-04-09 14:27:42,439 - INFO - Processing endpoint pair 1500/10153
+2025-04-09 14:27:42,467 - INFO - Processing endpoint pair 1600/10153
+2025-04-09 14:27:42,658 - INFO - Processing endpoint pair 1700/10153
+2025-04-09 14:27:42,693 - INFO - Processing endpoint pair 1800/10153
+2025-04-09 14:27:42,730 - INFO - Processing endpoint pair 1900/10153
+2025-04-09 14:27:42,761 - INFO - Processing endpoint pair 2000/10153
+2025-04-09 14:27:42,794 - INFO - Processing endpoint pair 2100/10153
+2025-04-09 14:27:42,831 - INFO - Processing endpoint pair 2200/10153
+2025-04-09 14:27:42,865 - INFO - Processing endpoint pair 2300/10153
+2025-04-09 14:27:42,903 - INFO - Processing endpoint pair 2400/10153
+2025-04-09 14:27:42,935 - INFO - Processing endpoint pair 2500/10153
+2025-04-09 14:27:42,970 - INFO - Processing endpoint pair 2600/10153
+2025-04-09 14:27:43,008 - INFO - Processing endpoint pair 2700/10153
+2025-04-09 14:27:43,045 - INFO - Processing endpoint pair 2800/10153
+2025-04-09 14:27:43,082 - INFO - Processing endpoint pair 2900/10153
+2025-04-09 14:27:43,118 - INFO - Processing endpoint pair 3000/10153
+2025-04-09 14:27:43,151 - INFO - Processing endpoint pair 3100/10153
+2025-04-09 14:27:43,180 - INFO - Processing endpoint pair 3200/10153
+2025-04-09 14:27:43,204 - INFO - Processing endpoint pair 3300/10153
+2025-04-09 14:27:43,230 - INFO - Processing endpoint pair 3400/10153
+2025-04-09 14:27:43,258 - INFO - Processing endpoint pair 3500/10153
+2025-04-09 14:27:43,286 - INFO - Processing endpoint pair 3600/10153
+2025-04-09 14:27:43,312 - INFO - Processing endpoint pair 3700/10153
+2025-04-09 14:27:43,338 - INFO - Processing endpoint pair 3800/10153
+2025-04-09 14:27:43,363 - INFO - Processing endpoint pair 3900/10153
+2025-04-09 14:27:43,391 - INFO - Processing endpoint pair 4000/10153
+2025-04-09 14:27:43,417 - INFO - Processing endpoint pair 4100/10153
+2025-04-09 14:27:43,445 - INFO - Processing endpoint pair 4200/10153
+2025-04-09 14:27:43,473 - INFO - Processing endpoint pair 4300/10153
+2025-04-09 14:27:43,502 - INFO - Processing endpoint pair 4400/10153
+2025-04-09 14:27:43,547 - INFO - Processing endpoint pair 4500/10153
+2025-04-09 14:27:43,576 - INFO - Processing endpoint pair 4600/10153
+2025-04-09 14:27:43,604 - INFO - Processing endpoint pair 4700/10153
+2025-04-09 14:27:43,632 - INFO - Processing endpoint pair 4800/10153
+2025-04-09 14:27:43,652 - INFO - Processing endpoint pair 4900/10153
+2025-04-09 14:27:43,672 - INFO - Processing endpoint pair 5000/10153
+2025-04-09 14:27:43,693 - INFO - Processing endpoint pair 5100/10153
+2025-04-09 14:27:43,715 - INFO - Processing endpoint pair 5200/10153
+2025-04-09 14:27:43,737 - INFO - Processing endpoint pair 5300/10153
+2025-04-09 14:27:43,760 - INFO - Processing endpoint pair 5400/10153
+2025-04-09 14:27:43,782 - INFO - Processing endpoint pair 5500/10153
+2025-04-09 14:27:43,805 - INFO - Processing endpoint pair 5600/10153
+2025-04-09 14:27:43,827 - INFO - Processing endpoint pair 5700/10153
+2025-04-09 14:27:43,851 - INFO - Processing endpoint pair 5800/10153
+2025-04-09 14:27:43,875 - INFO - Processing endpoint pair 5900/10153
+2025-04-09 14:27:43,900 - INFO - Processing endpoint pair 6000/10153
+2025-04-09 14:27:43,924 - INFO - Processing endpoint pair 6100/10153
+2025-04-09 14:27:43,948 - INFO - Processing endpoint pair 6200/10153
+2025-04-09 14:27:43,970 - INFO - Processing endpoint pair 6300/10153
+2025-04-09 14:27:43,993 - INFO - Processing endpoint pair 6400/10153
+2025-04-09 14:27:44,015 - INFO - Processing endpoint pair 6500/10153
+2025-04-09 14:27:44,039 - INFO - Processing endpoint pair 6600/10153
+2025-04-09 14:27:44,064 - INFO - Processing endpoint pair 6700/10153
+2025-04-09 14:27:44,089 - INFO - Processing endpoint pair 6800/10153
+2025-04-09 14:27:44,116 - INFO - Processing endpoint pair 6900/10153
+2025-04-09 14:27:44,143 - INFO - Processing endpoint pair 7000/10153
+2025-04-09 14:27:44,172 - INFO - Processing endpoint pair 7100/10153
+2025-04-09 14:27:44,199 - INFO - Processing endpoint pair 7200/10153
+2025-04-09 14:27:44,221 - INFO - Processing endpoint pair 7300/10153
+2025-04-09 14:27:44,252 - INFO - Processing endpoint pair 7400/10153
+2025-04-09 14:27:44,287 - INFO - Processing endpoint pair 7500/10153
+2025-04-09 14:27:44,325 - INFO - Processing endpoint pair 7600/10153
+2025-04-09 14:27:44,361 - INFO - Processing endpoint pair 7700/10153
+2025-04-09 14:27:44,403 - INFO - Processing endpoint pair 7800/10153
+2025-04-09 14:27:44,441 - INFO - Processing endpoint pair 7900/10153
+2025-04-09 14:27:44,484 - INFO - Processing endpoint pair 8000/10153
+2025-04-09 14:27:44,524 - INFO - Processing endpoint pair 8100/10153
+2025-04-09 14:27:44,568 - INFO - Processing endpoint pair 8200/10153
+2025-04-09 14:27:44,610 - INFO - Processing endpoint pair 8300/10153
+2025-04-09 14:27:44,653 - INFO - Processing endpoint pair 8400/10153
+2025-04-09 14:27:44,672 - INFO - Processing endpoint pair 8500/10153
+2025-04-09 14:27:44,694 - INFO - Processing endpoint pair 8600/10153
+2025-04-09 14:27:44,716 - INFO - Processing endpoint pair 8700/10153
+2025-04-09 14:27:44,739 - INFO - Processing endpoint pair 8800/10153
+2025-04-09 14:27:44,759 - INFO - Processing endpoint pair 8900/10153
+2025-04-09 14:27:44,794 - INFO - Processing endpoint pair 9000/10153
+2025-04-09 14:27:44,832 - INFO - Processing endpoint pair 9100/10153
+2025-04-09 14:27:44,861 - INFO - Processing endpoint pair 9200/10153
+2025-04-09 14:27:44,889 - INFO - Processing endpoint pair 9300/10153
+2025-04-09 14:27:44,919 - INFO - Processing endpoint pair 9400/10153
+2025-04-09 14:27:44,951 - INFO - Processing endpoint pair 9500/10153
+2025-04-09 14:27:44,969 - INFO - Processing endpoint pair 9600/10153
+2025-04-09 14:27:44,988 - INFO - Processing endpoint pair 9700/10153
+2025-04-09 14:27:45,004 - INFO - Processing endpoint pair 9800/10153
+2025-04-09 14:27:45,024 - INFO - Processing endpoint pair 9900/10153
+2025-04-09 14:27:45,039 - INFO - Processing endpoint pair 10000/10153
+2025-04-09 14:27:45,054 - INFO - Processing endpoint pair 10100/10153
+2025-04-09 14:27:45,064 - INFO - Completed processing 10153 endpoint pairs, found 10153 trails
+2025-04-09 14:27:45,064 - INFO - Extracted 10153 trails from component 7
+2025-04-09 14:27:45,064 - INFO - Processing component 8/2195 with 13 nodes
+2025-04-09 14:27:45,064 - INFO - Component 8 has 2 endpoints
+2025-04-09 14:27:45,064 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,064 - INFO - Extracted 1 trails from component 8
+2025-04-09 14:27:45,064 - INFO - Processing component 9/2195 with 39 nodes
+2025-04-09 14:27:45,065 - INFO - Component 9 has 2 endpoints
+2025-04-09 14:27:45,065 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,065 - INFO - Extracted 1 trails from component 9
+2025-04-09 14:27:45,065 - INFO - Processing component 10/2195 with 3 nodes
+2025-04-09 14:27:45,065 - INFO - Component 10 has 2 endpoints
+2025-04-09 14:27:45,065 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,065 - INFO - Extracted 1 trails from component 10
+2025-04-09 14:27:45,065 - INFO - Processing component 11/2195 with 9 nodes
+2025-04-09 14:27:45,065 - INFO - Component 11 has 2 endpoints
+2025-04-09 14:27:45,065 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,065 - INFO - Extracted 1 trails from component 11
+2025-04-09 14:27:45,065 - INFO - Processing component 12/2195 with 3 nodes
+2025-04-09 14:27:45,065 - INFO - Component 12 has 2 endpoints
+2025-04-09 14:27:45,065 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,065 - INFO - Extracted 1 trails from component 12
+2025-04-09 14:27:45,065 - INFO - Processing component 13/2195 with 204 nodes
+2025-04-09 14:27:45,066 - INFO - Component 13 has 12 endpoints
+2025-04-09 14:27:45,066 - INFO - Complex network with 12 endpoints - processing 66 endpoint pairs
+2025-04-09 14:27:45,074 - INFO - Completed processing 66 endpoint pairs, found 66 trails
+2025-04-09 14:27:45,074 - INFO - Extracted 66 trails from component 13
+2025-04-09 14:27:45,074 - INFO - Processing component 14/2195 with 7 nodes
+2025-04-09 14:27:45,074 - INFO - Component 14 has 2 endpoints
+2025-04-09 14:27:45,074 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,074 - INFO - Extracted 1 trails from component 14
+2025-04-09 14:27:45,074 - INFO - Processing component 15/2195 with 336 nodes
+2025-04-09 14:27:45,075 - INFO - Component 15 has 34 endpoints
+2025-04-09 14:27:45,075 - INFO - Complex network with 34 endpoints - processing 561 endpoint pairs
+2025-04-09 14:27:45,089 - INFO - Processing endpoint pair 100/561
+2025-04-09 14:27:45,103 - INFO - Processing endpoint pair 200/561
+2025-04-09 14:27:45,115 - INFO - Processing endpoint pair 300/561
+2025-04-09 14:27:45,128 - INFO - Processing endpoint pair 400/561
+2025-04-09 14:27:45,141 - INFO - Processing endpoint pair 500/561
+2025-04-09 14:27:45,149 - INFO - Completed processing 561 endpoint pairs, found 561 trails
+2025-04-09 14:27:45,149 - INFO - Extracted 561 trails from component 15
+2025-04-09 14:27:45,149 - INFO - Processing component 16/2195 with 2 nodes
+2025-04-09 14:27:45,149 - INFO - Component 16 has 2 endpoints
+2025-04-09 14:27:45,149 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,149 - INFO - Extracted 1 trails from component 16
+2025-04-09 14:27:45,149 - INFO - Processing component 17/2195 with 3 nodes
+2025-04-09 14:27:45,149 - INFO - Component 17 has 2 endpoints
+2025-04-09 14:27:45,149 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,149 - INFO - Extracted 1 trails from component 17
+2025-04-09 14:27:45,149 - INFO - Processing component 18/2195 with 2 nodes
+2025-04-09 14:27:45,149 - INFO - Component 18 has 2 endpoints
+2025-04-09 14:27:45,149 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,149 - INFO - Extracted 1 trails from component 18
+2025-04-09 14:27:45,149 - INFO - Processing component 19/2195 with 16 nodes
+2025-04-09 14:27:45,149 - INFO - Component 19 has 7 endpoints
+2025-04-09 14:27:45,149 - INFO - Complex network with 7 endpoints - processing 21 endpoint pairs
+2025-04-09 14:27:45,150 - INFO - Completed processing 21 endpoint pairs, found 21 trails
+2025-04-09 14:27:45,150 - INFO - Extracted 21 trails from component 19
+2025-04-09 14:27:45,150 - INFO - Processing component 20/2195 with 3 nodes
+2025-04-09 14:27:45,150 - INFO - Component 20 has 2 endpoints
+2025-04-09 14:27:45,150 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,150 - INFO - Extracted 1 trails from component 20
+2025-04-09 14:27:45,150 - INFO - Processing component 21/2195 with 3 nodes
+2025-04-09 14:27:45,150 - INFO - Component 21 has 2 endpoints
+2025-04-09 14:27:45,150 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,150 - INFO - Extracted 1 trails from component 21
+2025-04-09 14:27:45,150 - INFO - Processing component 22/2195 with 6 nodes
+2025-04-09 14:27:45,150 - INFO - Component 22 has 3 endpoints
+2025-04-09 14:27:45,150 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:45,150 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:45,150 - INFO - Extracted 3 trails from component 22
+2025-04-09 14:27:45,150 - INFO - Processing component 23/2195 with 5 nodes
+2025-04-09 14:27:45,150 - INFO - Component 23 has 2 endpoints
+2025-04-09 14:27:45,150 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,150 - INFO - Extracted 1 trails from component 23
+2025-04-09 14:27:45,150 - INFO - Processing component 24/2195 with 4 nodes
+2025-04-09 14:27:45,150 - INFO - Component 24 has 2 endpoints
+2025-04-09 14:27:45,150 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,150 - INFO - Extracted 1 trails from component 24
+2025-04-09 14:27:45,150 - INFO - Processing component 25/2195 with 5 nodes
+2025-04-09 14:27:45,150 - INFO - Component 25 has 2 endpoints
+2025-04-09 14:27:45,150 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,150 - INFO - Extracted 1 trails from component 25
+2025-04-09 14:27:45,150 - INFO - Processing component 26/2195 with 13 nodes
+2025-04-09 14:27:45,150 - INFO - Component 26 has 2 endpoints
+2025-04-09 14:27:45,150 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:45,150 - INFO - Extracted 1 trails from component 26
+2025-04-09 14:27:45,150 - INFO - Processing component 27/2195 with 8 nodes
+2025-04-09 14:27:45,150 - INFO - Component 27 has 4 endpoints
+2025-04-09 14:27:45,150 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:45,151 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:45,151 - INFO - Extracted 6 trails from component 27
+2025-04-09 14:27:45,151 - INFO - Processing component 28/2195 with 61 nodes
+2025-04-09 14:27:45,151 - INFO - Component 28 has 4 endpoints
+2025-04-09 14:27:45,151 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:45,151 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:45,151 - INFO - Extracted 6 trails from component 28
+2025-04-09 14:27:45,151 - INFO - Processing component 29/2195 with 1017 nodes
+2025-04-09 14:27:45,156 - INFO - Component 29 has 74 endpoints
+2025-04-09 14:27:45,156 - INFO - Complex network with 74 endpoints - processing 2701 endpoint pairs
+2025-04-09 14:27:45,217 - INFO - Processing endpoint pair 100/2701
+2025-04-09 14:27:45,270 - INFO - Processing endpoint pair 200/2701
+2025-04-09 14:27:45,316 - INFO - Processing endpoint pair 300/2701
+2025-04-09 14:27:45,395 - INFO - Processing endpoint pair 400/2701
+2025-04-09 14:27:45,609 - INFO - Processing endpoint pair 500/2701
+2025-04-09 14:27:45,702 - INFO - Processing endpoint pair 600/2701
+2025-04-09 14:27:45,756 - INFO - Processing endpoint pair 700/2701
+2025-04-09 14:27:45,826 - INFO - Processing endpoint pair 800/2701
+2025-04-09 14:27:45,874 - INFO - Processing endpoint pair 900/2701
+2025-04-09 14:27:45,926 - INFO - Processing endpoint pair 1000/2701
+2025-04-09 14:27:45,955 - INFO - Processing endpoint pair 1100/2701
+2025-04-09 14:27:46,001 - INFO - Processing endpoint pair 1200/2701
+2025-04-09 14:27:46,031 - INFO - Processing endpoint pair 1300/2701
+2025-04-09 14:27:46,064 - INFO - Processing endpoint pair 1400/2701
+2025-04-09 14:27:46,101 - INFO - Processing endpoint pair 1500/2701
+2025-04-09 14:27:46,164 - INFO - Processing endpoint pair 1600/2701
+2025-04-09 14:27:46,212 - INFO - Processing endpoint pair 1700/2701
+2025-04-09 14:27:46,248 - INFO - Processing endpoint pair 1800/2701
+2025-04-09 14:27:46,278 - INFO - Processing endpoint pair 1900/2701
+2025-04-09 14:27:46,328 - INFO - Processing endpoint pair 2000/2701
+2025-04-09 14:27:46,389 - INFO - Processing endpoint pair 2100/2701
+2025-04-09 14:27:46,420 - INFO - Processing endpoint pair 2200/2701
+2025-04-09 14:27:46,454 - INFO - Processing endpoint pair 2300/2701
+2025-04-09 14:27:46,485 - INFO - Processing endpoint pair 2400/2701
+2025-04-09 14:27:46,519 - INFO - Processing endpoint pair 2500/2701
+2025-04-09 14:27:46,561 - INFO - Processing endpoint pair 2600/2701
+2025-04-09 14:27:46,615 - INFO - Processing endpoint pair 2700/2701
+2025-04-09 14:27:46,616 - INFO - Completed processing 2701 endpoint pairs, found 2701 trails
+2025-04-09 14:27:46,616 - INFO - Extracted 2701 trails from component 29
+2025-04-09 14:27:46,616 - INFO - Processing component 30/2195 with 7 nodes
+2025-04-09 14:27:46,616 - INFO - Component 30 has 3 endpoints
+2025-04-09 14:27:46,616 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:46,616 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:46,616 - INFO - Extracted 3 trails from component 30
+2025-04-09 14:27:46,616 - INFO - Processing component 31/2195 with 99 nodes
+2025-04-09 14:27:46,616 - INFO - Component 31 has 8 endpoints
+2025-04-09 14:27:46,616 - INFO - Complex network with 8 endpoints - processing 28 endpoint pairs
+2025-04-09 14:27:46,618 - INFO - Completed processing 28 endpoint pairs, found 28 trails
+2025-04-09 14:27:46,618 - INFO - Extracted 28 trails from component 31
+2025-04-09 14:27:46,618 - INFO - Processing component 32/2195 with 37 nodes
+2025-04-09 14:27:46,618 - INFO - Component 32 has 3 endpoints
+2025-04-09 14:27:46,618 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:46,619 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:46,619 - INFO - Extracted 3 trails from component 32
+2025-04-09 14:27:46,619 - INFO - Processing component 33/2195 with 4 nodes
+2025-04-09 14:27:46,619 - INFO - Component 33 has 2 endpoints
+2025-04-09 14:27:46,619 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,619 - INFO - Extracted 1 trails from component 33
+2025-04-09 14:27:46,619 - INFO - Processing component 34/2195 with 3 nodes
+2025-04-09 14:27:46,619 - INFO - Component 34 has 2 endpoints
+2025-04-09 14:27:46,619 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,619 - INFO - Extracted 1 trails from component 34
+2025-04-09 14:27:46,619 - INFO - Processing component 35/2195 with 14 nodes
+2025-04-09 14:27:46,619 - INFO - Component 35 has 3 endpoints
+2025-04-09 14:27:46,619 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:46,619 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:46,619 - INFO - Extracted 3 trails from component 35
+2025-04-09 14:27:46,619 - INFO - Processing component 36/2195 with 40 nodes
+2025-04-09 14:27:46,619 - INFO - Component 36 has 4 endpoints
+2025-04-09 14:27:46,620 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:46,620 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:46,620 - INFO - Extracted 6 trails from component 36
+2025-04-09 14:27:46,620 - INFO - Processing component 37/2195 with 6 nodes
+2025-04-09 14:27:46,620 - INFO - Component 37 has 3 endpoints
+2025-04-09 14:27:46,620 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:46,620 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:46,620 - INFO - Extracted 3 trails from component 37
+2025-04-09 14:27:46,620 - INFO - Processing component 38/2195 with 10 nodes
+2025-04-09 14:27:46,620 - INFO - Component 38 has 4 endpoints
+2025-04-09 14:27:46,620 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:46,621 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:46,621 - INFO - Extracted 6 trails from component 38
+2025-04-09 14:27:46,621 - INFO - Processing component 39/2195 with 4 nodes
+2025-04-09 14:27:46,621 - INFO - Component 39 has 2 endpoints
+2025-04-09 14:27:46,621 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,621 - INFO - Extracted 1 trails from component 39
+2025-04-09 14:27:46,621 - INFO - Processing component 40/2195 with 5 nodes
+2025-04-09 14:27:46,621 - INFO - Component 40 has 3 endpoints
+2025-04-09 14:27:46,621 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:46,621 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:46,621 - INFO - Extracted 3 trails from component 40
+2025-04-09 14:27:46,621 - INFO - Processing component 41/2195 with 9 nodes
+2025-04-09 14:27:46,621 - INFO - Component 41 has 2 endpoints
+2025-04-09 14:27:46,621 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,621 - INFO - Extracted 1 trails from component 41
+2025-04-09 14:27:46,621 - INFO - Processing component 42/2195 with 2 nodes
+2025-04-09 14:27:46,621 - INFO - Component 42 has 2 endpoints
+2025-04-09 14:27:46,621 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,621 - INFO - Extracted 1 trails from component 42
+2025-04-09 14:27:46,621 - INFO - Processing component 43/2195 with 18 nodes
+2025-04-09 14:27:46,621 - INFO - Component 43 has 8 endpoints
+2025-04-09 14:27:46,621 - INFO - Complex network with 8 endpoints - processing 28 endpoint pairs
+2025-04-09 14:27:46,622 - INFO - Completed processing 28 endpoint pairs, found 28 trails
+2025-04-09 14:27:46,622 - INFO - Extracted 28 trails from component 43
+2025-04-09 14:27:46,622 - INFO - Processing component 44/2195 with 2 nodes
+2025-04-09 14:27:46,622 - INFO - Component 44 has 2 endpoints
+2025-04-09 14:27:46,622 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,622 - INFO - Extracted 1 trails from component 44
+2025-04-09 14:27:46,622 - INFO - Processing component 45/2195 with 2 nodes
+2025-04-09 14:27:46,622 - INFO - Component 45 has 2 endpoints
+2025-04-09 14:27:46,622 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,622 - INFO - Extracted 1 trails from component 45
+2025-04-09 14:27:46,622 - INFO - Processing component 46/2195 with 42 nodes
+2025-04-09 14:27:46,622 - INFO - Component 46 has 6 endpoints
+2025-04-09 14:27:46,622 - INFO - Complex network with 6 endpoints - processing 15 endpoint pairs
+2025-04-09 14:27:46,623 - INFO - Completed processing 15 endpoint pairs, found 15 trails
+2025-04-09 14:27:46,623 - INFO - Extracted 15 trails from component 46
+2025-04-09 14:27:46,623 - INFO - Processing component 47/2195 with 16 nodes
+2025-04-09 14:27:46,623 - INFO - Component 47 has 3 endpoints
+2025-04-09 14:27:46,623 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:46,623 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:46,623 - INFO - Extracted 3 trails from component 47
+2025-04-09 14:27:46,623 - INFO - Processing component 48/2195 with 2 nodes
+2025-04-09 14:27:46,623 - INFO - Component 48 has 2 endpoints
+2025-04-09 14:27:46,623 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,623 - INFO - Extracted 1 trails from component 48
+2025-04-09 14:27:46,623 - INFO - Processing component 49/2195 with 3 nodes
+2025-04-09 14:27:46,623 - INFO - Component 49 has 2 endpoints
+2025-04-09 14:27:46,623 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,623 - INFO - Extracted 1 trails from component 49
+2025-04-09 14:27:46,623 - INFO - Processing component 50/2195 with 2 nodes
+2025-04-09 14:27:46,623 - INFO - Component 50 has 2 endpoints
+2025-04-09 14:27:46,623 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,623 - INFO - Extracted 1 trails from component 50
+2025-04-09 14:27:46,623 - INFO - Processing component 51/2195 with 5 nodes
+2025-04-09 14:27:46,623 - INFO - Component 51 has 2 endpoints
+2025-04-09 14:27:46,623 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,623 - INFO - Extracted 1 trails from component 51
+2025-04-09 14:27:46,623 - INFO - Processing component 52/2195 with 3 nodes
+2025-04-09 14:27:46,623 - INFO - Component 52 has 2 endpoints
+2025-04-09 14:27:46,623 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,623 - INFO - Extracted 1 trails from component 52
+2025-04-09 14:27:46,623 - INFO - Processing component 53/2195 with 2 nodes
+2025-04-09 14:27:46,623 - INFO - Component 53 has 2 endpoints
+2025-04-09 14:27:46,623 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,623 - INFO - Extracted 1 trails from component 53
+2025-04-09 14:27:46,623 - INFO - Processing component 54/2195 with 7 nodes
+2025-04-09 14:27:46,623 - INFO - Component 54 has 2 endpoints
+2025-04-09 14:27:46,623 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,623 - INFO - Extracted 1 trails from component 54
+2025-04-09 14:27:46,623 - INFO - Processing component 55/2195 with 5 nodes
+2025-04-09 14:27:46,623 - INFO - Component 55 has 2 endpoints
+2025-04-09 14:27:46,623 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,623 - INFO - Extracted 1 trails from component 55
+2025-04-09 14:27:46,623 - INFO - Processing component 56/2195 with 181 nodes
+2025-04-09 14:27:46,624 - INFO - Component 56 has 6 endpoints
+2025-04-09 14:27:46,624 - INFO - Complex network with 6 endpoints - processing 15 endpoint pairs
+2025-04-09 14:27:46,627 - INFO - Completed processing 15 endpoint pairs, found 15 trails
+2025-04-09 14:27:46,627 - INFO - Extracted 15 trails from component 56
+2025-04-09 14:27:46,627 - INFO - Processing component 57/2195 with 2 nodes
+2025-04-09 14:27:46,627 - INFO - Component 57 has 2 endpoints
+2025-04-09 14:27:46,627 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,627 - INFO - Extracted 1 trails from component 57
+2025-04-09 14:27:46,627 - INFO - Processing component 58/2195 with 2 nodes
+2025-04-09 14:27:46,627 - INFO - Component 58 has 2 endpoints
+2025-04-09 14:27:46,627 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,627 - INFO - Extracted 1 trails from component 58
+2025-04-09 14:27:46,627 - INFO - Processing component 59/2195 with 2 nodes
+2025-04-09 14:27:46,627 - INFO - Component 59 has 2 endpoints
+2025-04-09 14:27:46,627 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,627 - INFO - Extracted 1 trails from component 59
+2025-04-09 14:27:46,627 - INFO - Processing component 60/2195 with 40 nodes
+2025-04-09 14:27:46,627 - INFO - Component 60 has 4 endpoints
+2025-04-09 14:27:46,627 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:46,627 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:46,627 - INFO - Extracted 6 trails from component 60
+2025-04-09 14:27:46,627 - INFO - Processing component 61/2195 with 16 nodes
+2025-04-09 14:27:46,628 - INFO - Component 61 has 2 endpoints
+2025-04-09 14:27:46,628 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,628 - INFO - Extracted 1 trails from component 61
+2025-04-09 14:27:46,628 - INFO - Processing component 62/2195 with 2 nodes
+2025-04-09 14:27:46,628 - INFO - Component 62 has 2 endpoints
+2025-04-09 14:27:46,628 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,628 - INFO - Extracted 1 trails from component 62
+2025-04-09 14:27:46,628 - INFO - Processing component 63/2195 with 6 nodes
+2025-04-09 14:27:46,629 - INFO - Component 63 has 2 endpoints
+2025-04-09 14:27:46,629 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,629 - INFO - Extracted 1 trails from component 63
+2025-04-09 14:27:46,629 - INFO - Processing component 64/2195 with 6 nodes
+2025-04-09 14:27:46,629 - INFO - Component 64 has 3 endpoints
+2025-04-09 14:27:46,629 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:46,629 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:46,629 - INFO - Extracted 3 trails from component 64
+2025-04-09 14:27:46,629 - INFO - Processing component 65/2195 with 9 nodes
+2025-04-09 14:27:46,630 - INFO - Component 65 has 3 endpoints
+2025-04-09 14:27:46,630 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:46,630 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:46,630 - INFO - Extracted 3 trails from component 65
+2025-04-09 14:27:46,630 - INFO - Processing component 66/2195 with 10 nodes
+2025-04-09 14:27:46,630 - INFO - Component 66 has 2 endpoints
+2025-04-09 14:27:46,630 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,630 - INFO - Extracted 1 trails from component 66
+2025-04-09 14:27:46,630 - INFO - Processing component 67/2195 with 7 nodes
+2025-04-09 14:27:46,630 - INFO - Component 67 has 4 endpoints
+2025-04-09 14:27:46,630 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:46,630 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:46,630 - INFO - Extracted 6 trails from component 67
+2025-04-09 14:27:46,630 - INFO - Processing component 68/2195 with 18 nodes
+2025-04-09 14:27:46,630 - INFO - Component 68 has 6 endpoints
+2025-04-09 14:27:46,630 - INFO - Complex network with 6 endpoints - processing 15 endpoint pairs
+2025-04-09 14:27:46,630 - INFO - Completed processing 15 endpoint pairs, found 15 trails
+2025-04-09 14:27:46,630 - INFO - Extracted 15 trails from component 68
+2025-04-09 14:27:46,630 - INFO - Processing component 69/2195 with 2 nodes
+2025-04-09 14:27:46,630 - INFO - Component 69 has 2 endpoints
+2025-04-09 14:27:46,630 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,630 - INFO - Extracted 1 trails from component 69
+2025-04-09 14:27:46,631 - INFO - Processing component 70/2195 with 2 nodes
+2025-04-09 14:27:46,631 - INFO - Component 70 has 2 endpoints
+2025-04-09 14:27:46,631 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,631 - INFO - Extracted 1 trails from component 70
+2025-04-09 14:27:46,631 - INFO - Processing component 71/2195 with 2 nodes
+2025-04-09 14:27:46,631 - INFO - Component 71 has 2 endpoints
+2025-04-09 14:27:46,631 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,631 - INFO - Extracted 1 trails from component 71
+2025-04-09 14:27:46,631 - INFO - Processing component 72/2195 with 18 nodes
+2025-04-09 14:27:46,631 - INFO - Component 72 has 3 endpoints
+2025-04-09 14:27:46,631 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:46,631 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:46,631 - INFO - Extracted 3 trails from component 72
+2025-04-09 14:27:46,631 - INFO - Processing component 73/2195 with 4 nodes
+2025-04-09 14:27:46,631 - INFO - Component 73 has 2 endpoints
+2025-04-09 14:27:46,631 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,631 - INFO - Extracted 1 trails from component 73
+2025-04-09 14:27:46,631 - INFO - Processing component 74/2195 with 15 nodes
+2025-04-09 14:27:46,631 - INFO - Component 74 has 4 endpoints
+2025-04-09 14:27:46,631 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:46,631 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:46,631 - INFO - Extracted 6 trails from component 74
+2025-04-09 14:27:46,631 - INFO - Processing component 75/2195 with 3 nodes
+2025-04-09 14:27:46,631 - INFO - Component 75 has 2 endpoints
+2025-04-09 14:27:46,631 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,631 - INFO - Extracted 1 trails from component 75
+2025-04-09 14:27:46,631 - INFO - Processing component 76/2195 with 3 nodes
+2025-04-09 14:27:46,631 - INFO - Component 76 has 2 endpoints
+2025-04-09 14:27:46,631 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:46,631 - INFO - Extracted 1 trails from component 76
+2025-04-09 14:27:46,631 - INFO - Processing component 77/2195 with 301 nodes
+2025-04-09 14:27:46,633 - INFO - Component 77 has 4 endpoints
+2025-04-09 14:27:46,633 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:46,634 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:46,634 - INFO - Extracted 6 trails from component 77
+2025-04-09 14:27:46,634 - INFO - Processing component 78/2195 with 1901 nodes
+2025-04-09 14:27:46,661 - INFO - Component 78 has 119 endpoints
+2025-04-09 14:27:46,662 - INFO - Complex network with 119 endpoints - processing 7021 endpoint pairs
+2025-04-09 14:27:46,767 - INFO - Processing endpoint pair 100/7021
+2025-04-09 14:27:46,876 - INFO - Processing endpoint pair 200/7021
+2025-04-09 14:27:47,098 - INFO - Processing endpoint pair 300/7021
+2025-04-09 14:27:47,290 - INFO - Processing endpoint pair 400/7021
+2025-04-09 14:27:47,416 - INFO - Processing endpoint pair 500/7021
+2025-04-09 14:27:47,515 - INFO - Processing endpoint pair 600/7021
+2025-04-09 14:27:47,609 - INFO - Processing endpoint pair 700/7021
+2025-04-09 14:27:47,708 - INFO - Processing endpoint pair 800/7021
+2025-04-09 14:27:47,767 - INFO - Processing endpoint pair 900/7021
+2025-04-09 14:27:47,844 - INFO - Processing endpoint pair 1000/7021
+2025-04-09 14:27:47,920 - INFO - Processing endpoint pair 1100/7021
+2025-04-09 14:27:48,016 - INFO - Processing endpoint pair 1200/7021
+2025-04-09 14:27:48,110 - INFO - Processing endpoint pair 1300/7021
+2025-04-09 14:27:48,164 - INFO - Processing endpoint pair 1400/7021
+2025-04-09 14:27:48,222 - INFO - Processing endpoint pair 1500/7021
+2025-04-09 14:27:48,284 - INFO - Processing endpoint pair 1600/7021
+2025-04-09 14:27:48,343 - INFO - Processing endpoint pair 1700/7021
+2025-04-09 14:27:48,425 - INFO - Processing endpoint pair 1800/7021
+2025-04-09 14:27:48,487 - INFO - Processing endpoint pair 1900/7021
+2025-04-09 14:27:48,571 - INFO - Processing endpoint pair 2000/7021
+2025-04-09 14:27:48,665 - INFO - Processing endpoint pair 2100/7021
+2025-04-09 14:27:48,726 - INFO - Processing endpoint pair 2200/7021
+2025-04-09 14:27:48,791 - INFO - Processing endpoint pair 2300/7021
+2025-04-09 14:27:48,849 - INFO - Processing endpoint pair 2400/7021
+2025-04-09 14:27:48,907 - INFO - Processing endpoint pair 2500/7021
+2025-04-09 14:27:48,976 - INFO - Processing endpoint pair 2600/7021
+2025-04-09 14:27:49,059 - INFO - Processing endpoint pair 2700/7021
+2025-04-09 14:27:49,130 - INFO - Processing endpoint pair 2800/7021
+2025-04-09 14:27:49,201 - INFO - Processing endpoint pair 2900/7021
+2025-04-09 14:27:49,268 - INFO - Processing endpoint pair 3000/7021
+2025-04-09 14:27:49,340 - INFO - Processing endpoint pair 3100/7021
+2025-04-09 14:27:49,420 - INFO - Processing endpoint pair 3200/7021
+2025-04-09 14:27:49,489 - INFO - Processing endpoint pair 3300/7021
+2025-04-09 14:27:49,572 - INFO - Processing endpoint pair 3400/7021
+2025-04-09 14:27:49,655 - INFO - Processing endpoint pair 3500/7021
+2025-04-09 14:27:49,714 - INFO - Processing endpoint pair 3600/7021
+2025-04-09 14:27:49,801 - INFO - Processing endpoint pair 3700/7021
+2025-04-09 14:27:49,865 - INFO - Processing endpoint pair 3800/7021
+2025-04-09 14:27:49,933 - INFO - Processing endpoint pair 3900/7021
+2025-04-09 14:27:50,000 - INFO - Processing endpoint pair 4000/7021
+2025-04-09 14:27:50,076 - INFO - Processing endpoint pair 4100/7021
+2025-04-09 14:27:50,141 - INFO - Processing endpoint pair 4200/7021
+2025-04-09 14:27:50,227 - INFO - Processing endpoint pair 4300/7021
+2025-04-09 14:27:50,295 - INFO - Processing endpoint pair 4400/7021
+2025-04-09 14:27:50,360 - INFO - Processing endpoint pair 4500/7021
+2025-04-09 14:27:50,446 - INFO - Processing endpoint pair 4600/7021
+2025-04-09 14:27:50,544 - INFO - Processing endpoint pair 4700/7021
+2025-04-09 14:27:50,615 - INFO - Processing endpoint pair 4800/7021
+2025-04-09 14:27:50,678 - INFO - Processing endpoint pair 4900/7021
+2025-04-09 14:27:50,757 - INFO - Processing endpoint pair 5000/7021
+2025-04-09 14:27:50,827 - INFO - Processing endpoint pair 5100/7021
+2025-04-09 14:27:50,895 - INFO - Processing endpoint pair 5200/7021
+2025-04-09 14:27:50,981 - INFO - Processing endpoint pair 5300/7021
+2025-04-09 14:27:51,050 - INFO - Processing endpoint pair 5400/7021
+2025-04-09 14:27:51,124 - INFO - Processing endpoint pair 5500/7021
+2025-04-09 14:27:51,197 - INFO - Processing endpoint pair 5600/7021
+2025-04-09 14:27:51,265 - INFO - Processing endpoint pair 5700/7021
+2025-04-09 14:27:51,363 - INFO - Processing endpoint pair 5800/7021
+2025-04-09 14:27:51,436 - INFO - Processing endpoint pair 5900/7021
+2025-04-09 14:27:51,510 - INFO - Processing endpoint pair 6000/7021
+2025-04-09 14:27:51,589 - INFO - Processing endpoint pair 6100/7021
+2025-04-09 14:27:51,673 - INFO - Processing endpoint pair 6200/7021
+2025-04-09 14:27:51,765 - INFO - Processing endpoint pair 6300/7021
+2025-04-09 14:27:51,843 - INFO - Processing endpoint pair 6400/7021
+2025-04-09 14:27:51,921 - INFO - Processing endpoint pair 6500/7021
+2025-04-09 14:27:51,997 - INFO - Processing endpoint pair 6600/7021
+2025-04-09 14:27:52,093 - INFO - Processing endpoint pair 6700/7021
+2025-04-09 14:27:52,168 - INFO - Processing endpoint pair 6800/7021
+2025-04-09 14:27:52,256 - INFO - Processing endpoint pair 6900/7021
+2025-04-09 14:27:52,334 - INFO - Processing endpoint pair 7000/7021
+2025-04-09 14:27:52,353 - INFO - Completed processing 7021 endpoint pairs, found 7021 trails
+2025-04-09 14:27:52,353 - INFO - Extracted 7021 trails from component 78
+2025-04-09 14:27:52,353 - INFO - Processing component 79/2195 with 93 nodes
+2025-04-09 14:27:52,353 - INFO - Component 79 has 4 endpoints
+2025-04-09 14:27:52,353 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:52,354 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:52,354 - INFO - Extracted 6 trails from component 79
+2025-04-09 14:27:52,354 - INFO - Processing component 80/2195 with 17 nodes
+2025-04-09 14:27:52,354 - INFO - Component 80 has 2 endpoints
+2025-04-09 14:27:52,354 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,354 - INFO - Extracted 1 trails from component 80
+2025-04-09 14:27:52,354 - INFO - Processing component 81/2195 with 74 nodes
+2025-04-09 14:27:52,354 - INFO - Component 81 has 2 endpoints
+2025-04-09 14:27:52,354 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,355 - INFO - Extracted 1 trails from component 81
+2025-04-09 14:27:52,355 - INFO - Processing component 82/2195 with 49 nodes
+2025-04-09 14:27:52,355 - INFO - Component 82 has 0 endpoints
+2025-04-09 14:27:52,355 - INFO - Complex network with 0 endpoints - processing 0 endpoint pairs
+2025-04-09 14:27:52,355 - INFO - Completed processing 0 endpoint pairs, found 0 trails
+2025-04-09 14:27:52,355 - INFO - Extracted 0 trails from component 82
+2025-04-09 14:27:52,355 - INFO - Processing component 83/2195 with 34 nodes
+2025-04-09 14:27:52,355 - INFO - Component 83 has 5 endpoints
+2025-04-09 14:27:52,355 - INFO - Complex network with 5 endpoints - processing 10 endpoint pairs
+2025-04-09 14:27:52,355 - INFO - Completed processing 10 endpoint pairs, found 10 trails
+2025-04-09 14:27:52,355 - INFO - Extracted 10 trails from component 83
+2025-04-09 14:27:52,355 - INFO - Processing component 84/2195 with 19 nodes
+2025-04-09 14:27:52,356 - INFO - Component 84 has 4 endpoints
+2025-04-09 14:27:52,356 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:52,356 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:52,356 - INFO - Extracted 6 trails from component 84
+2025-04-09 14:27:52,356 - INFO - Processing component 85/2195 with 55 nodes
+2025-04-09 14:27:52,356 - INFO - Component 85 has 6 endpoints
+2025-04-09 14:27:52,356 - INFO - Complex network with 6 endpoints - processing 15 endpoint pairs
+2025-04-09 14:27:52,357 - INFO - Completed processing 15 endpoint pairs, found 15 trails
+2025-04-09 14:27:52,357 - INFO - Extracted 15 trails from component 85
+2025-04-09 14:27:52,357 - INFO - Processing component 86/2195 with 334 nodes
+2025-04-09 14:27:52,358 - INFO - Component 86 has 31 endpoints
+2025-04-09 14:27:52,358 - INFO - Complex network with 31 endpoints - processing 465 endpoint pairs
+2025-04-09 14:27:52,376 - INFO - Processing endpoint pair 100/465
+2025-04-09 14:27:52,393 - INFO - Processing endpoint pair 200/465
+2025-04-09 14:27:52,405 - INFO - Processing endpoint pair 300/465
+2025-04-09 14:27:52,420 - INFO - Processing endpoint pair 400/465
+2025-04-09 14:27:52,428 - INFO - Completed processing 465 endpoint pairs, found 465 trails
+2025-04-09 14:27:52,428 - INFO - Extracted 465 trails from component 86
+2025-04-09 14:27:52,428 - INFO - Processing component 87/2195 with 5 nodes
+2025-04-09 14:27:52,428 - INFO - Component 87 has 2 endpoints
+2025-04-09 14:27:52,428 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,428 - INFO - Extracted 1 trails from component 87
+2025-04-09 14:27:52,428 - INFO - Processing component 88/2195 with 9 nodes
+2025-04-09 14:27:52,428 - INFO - Component 88 has 2 endpoints
+2025-04-09 14:27:52,428 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,428 - INFO - Extracted 1 trails from component 88
+2025-04-09 14:27:52,428 - INFO - Processing component 89/2195 with 3 nodes
+2025-04-09 14:27:52,428 - INFO - Component 89 has 2 endpoints
+2025-04-09 14:27:52,428 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,428 - INFO - Extracted 1 trails from component 89
+2025-04-09 14:27:52,428 - INFO - Processing component 90/2195 with 3 nodes
+2025-04-09 14:27:52,428 - INFO - Component 90 has 2 endpoints
+2025-04-09 14:27:52,428 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,428 - INFO - Extracted 1 trails from component 90
+2025-04-09 14:27:52,428 - INFO - Processing component 91/2195 with 2 nodes
+2025-04-09 14:27:52,428 - INFO - Component 91 has 2 endpoints
+2025-04-09 14:27:52,428 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,428 - INFO - Extracted 1 trails from component 91
+2025-04-09 14:27:52,428 - INFO - Processing component 92/2195 with 3 nodes
+2025-04-09 14:27:52,428 - INFO - Component 92 has 2 endpoints
+2025-04-09 14:27:52,428 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,429 - INFO - Extracted 1 trails from component 92
+2025-04-09 14:27:52,429 - INFO - Processing component 93/2195 with 3 nodes
+2025-04-09 14:27:52,429 - INFO - Component 93 has 2 endpoints
+2025-04-09 14:27:52,429 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,429 - INFO - Extracted 1 trails from component 93
+2025-04-09 14:27:52,429 - INFO - Processing component 94/2195 with 2 nodes
+2025-04-09 14:27:52,429 - INFO - Component 94 has 2 endpoints
+2025-04-09 14:27:52,429 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,429 - INFO - Extracted 1 trails from component 94
+2025-04-09 14:27:52,429 - INFO - Processing component 95/2195 with 118 nodes
+2025-04-09 14:27:52,429 - INFO - Component 95 has 7 endpoints
+2025-04-09 14:27:52,429 - INFO - Complex network with 7 endpoints - processing 21 endpoint pairs
+2025-04-09 14:27:52,431 - INFO - Completed processing 21 endpoint pairs, found 21 trails
+2025-04-09 14:27:52,431 - INFO - Extracted 21 trails from component 95
+2025-04-09 14:27:52,431 - INFO - Processing component 96/2195 with 20 nodes
+2025-04-09 14:27:52,431 - INFO - Component 96 has 2 endpoints
+2025-04-09 14:27:52,431 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,431 - INFO - Extracted 1 trails from component 96
+2025-04-09 14:27:52,431 - INFO - Processing component 97/2195 with 25 nodes
+2025-04-09 14:27:52,431 - INFO - Component 97 has 2 endpoints
+2025-04-09 14:27:52,431 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,431 - INFO - Extracted 1 trails from component 97
+2025-04-09 14:27:52,431 - INFO - Processing component 98/2195 with 2 nodes
+2025-04-09 14:27:52,431 - INFO - Component 98 has 2 endpoints
+2025-04-09 14:27:52,431 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,431 - INFO - Extracted 1 trails from component 98
+2025-04-09 14:27:52,431 - INFO - Processing component 99/2195 with 61 nodes
+2025-04-09 14:27:52,431 - INFO - Component 99 has 7 endpoints
+2025-04-09 14:27:52,431 - INFO - Complex network with 7 endpoints - processing 21 endpoint pairs
+2025-04-09 14:27:52,432 - INFO - Completed processing 21 endpoint pairs, found 21 trails
+2025-04-09 14:27:52,432 - INFO - Extracted 21 trails from component 99
+2025-04-09 14:27:52,432 - INFO - Processing component 100/2195 with 2 nodes
+2025-04-09 14:27:52,432 - INFO - Component 100 has 2 endpoints
+2025-04-09 14:27:52,432 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,432 - INFO - Extracted 1 trails from component 100
+2025-04-09 14:27:52,432 - INFO - Processing component 101/2195 with 66 nodes
+2025-04-09 14:27:52,433 - INFO - Component 101 has 7 endpoints
+2025-04-09 14:27:52,433 - INFO - Complex network with 7 endpoints - processing 21 endpoint pairs
+2025-04-09 14:27:52,433 - INFO - Completed processing 21 endpoint pairs, found 21 trails
+2025-04-09 14:27:52,433 - INFO - Extracted 21 trails from component 101
+2025-04-09 14:27:52,433 - INFO - Processing component 102/2195 with 3 nodes
+2025-04-09 14:27:52,434 - INFO - Component 102 has 2 endpoints
+2025-04-09 14:27:52,434 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,434 - INFO - Extracted 1 trails from component 102
+2025-04-09 14:27:52,434 - INFO - Processing component 103/2195 with 2 nodes
+2025-04-09 14:27:52,434 - INFO - Component 103 has 2 endpoints
+2025-04-09 14:27:52,434 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,434 - INFO - Extracted 1 trails from component 103
+2025-04-09 14:27:52,434 - INFO - Processing component 104/2195 with 10 nodes
+2025-04-09 14:27:52,434 - INFO - Component 104 has 3 endpoints
+2025-04-09 14:27:52,434 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:52,434 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:52,434 - INFO - Extracted 3 trails from component 104
+2025-04-09 14:27:52,434 - INFO - Processing component 105/2195 with 12 nodes
+2025-04-09 14:27:52,434 - INFO - Component 105 has 3 endpoints
+2025-04-09 14:27:52,434 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:52,434 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:52,434 - INFO - Extracted 3 trails from component 105
+2025-04-09 14:27:52,434 - INFO - Processing component 106/2195 with 2 nodes
+2025-04-09 14:27:52,434 - INFO - Component 106 has 2 endpoints
+2025-04-09 14:27:52,434 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,434 - INFO - Extracted 1 trails from component 106
+2025-04-09 14:27:52,434 - INFO - Processing component 107/2195 with 2 nodes
+2025-04-09 14:27:52,434 - INFO - Component 107 has 2 endpoints
+2025-04-09 14:27:52,434 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,434 - INFO - Extracted 1 trails from component 107
+2025-04-09 14:27:52,434 - INFO - Processing component 108/2195 with 3 nodes
+2025-04-09 14:27:52,434 - INFO - Component 108 has 2 endpoints
+2025-04-09 14:27:52,434 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,434 - INFO - Extracted 1 trails from component 108
+2025-04-09 14:27:52,434 - INFO - Processing component 109/2195 with 2 nodes
+2025-04-09 14:27:52,434 - INFO - Component 109 has 2 endpoints
+2025-04-09 14:27:52,434 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,434 - INFO - Extracted 1 trails from component 109
+2025-04-09 14:27:52,434 - INFO - Processing component 110/2195 with 2 nodes
+2025-04-09 14:27:52,434 - INFO - Component 110 has 2 endpoints
+2025-04-09 14:27:52,434 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,434 - INFO - Extracted 1 trails from component 110
+2025-04-09 14:27:52,434 - INFO - Processing component 111/2195 with 3 nodes
+2025-04-09 14:27:52,434 - INFO - Component 111 has 2 endpoints
+2025-04-09 14:27:52,434 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,434 - INFO - Extracted 1 trails from component 111
+2025-04-09 14:27:52,434 - INFO - Processing component 112/2195 with 28 nodes
+2025-04-09 14:27:52,435 - INFO - Component 112 has 2 endpoints
+2025-04-09 14:27:52,435 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:52,435 - INFO - Extracted 1 trails from component 112
+2025-04-09 14:27:52,435 - INFO - Processing component 113/2195 with 262 nodes
+2025-04-09 14:27:52,436 - INFO - Component 113 has 19 endpoints
+2025-04-09 14:27:52,436 - INFO - Complex network with 19 endpoints - processing 171 endpoint pairs
+2025-04-09 14:27:52,450 - INFO - Processing endpoint pair 100/171
+2025-04-09 14:27:52,459 - INFO - Completed processing 171 endpoint pairs, found 171 trails
+2025-04-09 14:27:52,459 - INFO - Extracted 171 trails from component 113
+2025-04-09 14:27:52,459 - INFO - Processing component 114/2195 with 760 nodes
+2025-04-09 14:27:52,462 - INFO - Component 114 has 60 endpoints
+2025-04-09 14:27:52,462 - INFO - Complex network with 60 endpoints - processing 1770 endpoint pairs
+2025-04-09 14:27:52,496 - INFO - Processing endpoint pair 100/1770
+2025-04-09 14:27:52,533 - INFO - Processing endpoint pair 200/1770
+2025-04-09 14:27:52,566 - INFO - Processing endpoint pair 300/1770
+2025-04-09 14:27:52,609 - INFO - Processing endpoint pair 400/1770
+2025-04-09 14:27:52,656 - INFO - Processing endpoint pair 500/1770
+2025-04-09 14:27:52,700 - INFO - Processing endpoint pair 600/1770
+2025-04-09 14:27:52,749 - INFO - Processing endpoint pair 700/1770
+2025-04-09 14:27:52,782 - INFO - Processing endpoint pair 800/1770
+2025-04-09 14:27:52,818 - INFO - Processing endpoint pair 900/1770
+2025-04-09 14:27:52,859 - INFO - Processing endpoint pair 1000/1770
+2025-04-09 14:27:52,909 - INFO - Processing endpoint pair 1100/1770
+2025-04-09 14:27:52,960 - INFO - Processing endpoint pair 1200/1770
+2025-04-09 14:27:52,992 - INFO - Processing endpoint pair 1300/1770
+2025-04-09 14:27:53,027 - INFO - Processing endpoint pair 1400/1770
+2025-04-09 14:27:53,063 - INFO - Processing endpoint pair 1500/1770
+2025-04-09 14:27:53,103 - INFO - Processing endpoint pair 1600/1770
+2025-04-09 14:27:53,238 - INFO - Processing endpoint pair 1700/1770
+2025-04-09 14:27:53,317 - INFO - Completed processing 1770 endpoint pairs, found 1770 trails
+2025-04-09 14:27:53,317 - INFO - Extracted 1770 trails from component 114
+2025-04-09 14:27:53,317 - INFO - Processing component 115/2195 with 219 nodes
+2025-04-09 14:27:53,318 - INFO - Component 115 has 7 endpoints
+2025-04-09 14:27:53,318 - INFO - Complex network with 7 endpoints - processing 21 endpoint pairs
+2025-04-09 14:27:53,324 - INFO - Completed processing 21 endpoint pairs, found 21 trails
+2025-04-09 14:27:53,324 - INFO - Extracted 21 trails from component 115
+2025-04-09 14:27:53,324 - INFO - Processing component 116/2195 with 10 nodes
+2025-04-09 14:27:53,324 - INFO - Component 116 has 4 endpoints
+2025-04-09 14:27:53,324 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:53,324 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:53,324 - INFO - Extracted 6 trails from component 116
+2025-04-09 14:27:53,324 - INFO - Processing component 117/2195 with 20 nodes
+2025-04-09 14:27:53,324 - INFO - Component 117 has 4 endpoints
+2025-04-09 14:27:53,325 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:53,325 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:53,325 - INFO - Extracted 6 trails from component 117
+2025-04-09 14:27:53,325 - INFO - Processing component 118/2195 with 5 nodes
+2025-04-09 14:27:53,325 - INFO - Component 118 has 2 endpoints
+2025-04-09 14:27:53,325 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,325 - INFO - Extracted 1 trails from component 118
+2025-04-09 14:27:53,326 - INFO - Processing component 119/2195 with 2 nodes
+2025-04-09 14:27:53,326 - INFO - Component 119 has 2 endpoints
+2025-04-09 14:27:53,326 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,326 - INFO - Extracted 1 trails from component 119
+2025-04-09 14:27:53,326 - INFO - Processing component 120/2195 with 3 nodes
+2025-04-09 14:27:53,326 - INFO - Component 120 has 2 endpoints
+2025-04-09 14:27:53,326 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,326 - INFO - Extracted 1 trails from component 120
+2025-04-09 14:27:53,327 - INFO - Processing component 121/2195 with 3 nodes
+2025-04-09 14:27:53,327 - INFO - Component 121 has 2 endpoints
+2025-04-09 14:27:53,327 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,327 - INFO - Extracted 1 trails from component 121
+2025-04-09 14:27:53,327 - INFO - Processing component 122/2195 with 2 nodes
+2025-04-09 14:27:53,327 - INFO - Component 122 has 2 endpoints
+2025-04-09 14:27:53,327 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,327 - INFO - Extracted 1 trails from component 122
+2025-04-09 14:27:53,327 - INFO - Processing component 123/2195 with 17 nodes
+2025-04-09 14:27:53,327 - INFO - Component 123 has 2 endpoints
+2025-04-09 14:27:53,327 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,328 - INFO - Extracted 1 trails from component 123
+2025-04-09 14:27:53,328 - INFO - Processing component 124/2195 with 16 nodes
+2025-04-09 14:27:53,328 - INFO - Component 124 has 2 endpoints
+2025-04-09 14:27:53,328 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,329 - INFO - Extracted 1 trails from component 124
+2025-04-09 14:27:53,329 - INFO - Processing component 125/2195 with 17 nodes
+2025-04-09 14:27:53,329 - INFO - Component 125 has 6 endpoints
+2025-04-09 14:27:53,329 - INFO - Complex network with 6 endpoints - processing 15 endpoint pairs
+2025-04-09 14:27:53,329 - INFO - Completed processing 15 endpoint pairs, found 15 trails
+2025-04-09 14:27:53,329 - INFO - Extracted 15 trails from component 125
+2025-04-09 14:27:53,329 - INFO - Processing component 126/2195 with 2 nodes
+2025-04-09 14:27:53,329 - INFO - Component 126 has 2 endpoints
+2025-04-09 14:27:53,329 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,330 - INFO - Extracted 1 trails from component 126
+2025-04-09 14:27:53,330 - INFO - Processing component 127/2195 with 8 nodes
+2025-04-09 14:27:53,330 - INFO - Component 127 has 4 endpoints
+2025-04-09 14:27:53,330 - INFO - Complex network with 4 endpoints - processing 6 endpoint pairs
+2025-04-09 14:27:53,330 - INFO - Completed processing 6 endpoint pairs, found 6 trails
+2025-04-09 14:27:53,330 - INFO - Extracted 6 trails from component 127
+2025-04-09 14:27:53,330 - INFO - Processing component 128/2195 with 6 nodes
+2025-04-09 14:27:53,330 - INFO - Component 128 has 2 endpoints
+2025-04-09 14:27:53,330 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,330 - INFO - Extracted 1 trails from component 128
+2025-04-09 14:27:53,330 - INFO - Processing component 129/2195 with 3 nodes
+2025-04-09 14:27:53,330 - INFO - Component 129 has 2 endpoints
+2025-04-09 14:27:53,330 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,330 - INFO - Extracted 1 trails from component 129
+2025-04-09 14:27:53,330 - INFO - Processing component 130/2195 with 2 nodes
+2025-04-09 14:27:53,330 - INFO - Component 130 has 2 endpoints
+2025-04-09 14:27:53,330 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,331 - INFO - Extracted 1 trails from component 130
+2025-04-09 14:27:53,331 - INFO - Processing component 131/2195 with 2 nodes
+2025-04-09 14:27:53,331 - INFO - Component 131 has 2 endpoints
+2025-04-09 14:27:53,331 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,331 - INFO - Extracted 1 trails from component 131
+2025-04-09 14:27:53,331 - INFO - Processing component 132/2195 with 2 nodes
+2025-04-09 14:27:53,331 - INFO - Component 132 has 2 endpoints
+2025-04-09 14:27:53,331 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,331 - INFO - Extracted 1 trails from component 132
+2025-04-09 14:27:53,331 - INFO - Processing component 133/2195 with 5 nodes
+2025-04-09 14:27:53,331 - INFO - Component 133 has 2 endpoints
+2025-04-09 14:27:53,331 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,331 - INFO - Extracted 1 trails from component 133
+2025-04-09 14:27:53,331 - INFO - Processing component 134/2195 with 7 nodes
+2025-04-09 14:27:53,332 - INFO - Component 134 has 3 endpoints
+2025-04-09 14:27:53,332 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:53,332 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:53,332 - INFO - Extracted 3 trails from component 134
+2025-04-09 14:27:53,332 - INFO - Processing component 135/2195 with 10 nodes
+2025-04-09 14:27:53,332 - INFO - Component 135 has 3 endpoints
+2025-04-09 14:27:53,332 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:53,332 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:53,332 - INFO - Extracted 3 trails from component 135
+2025-04-09 14:27:53,332 - INFO - Processing component 136/2195 with 2 nodes
+2025-04-09 14:27:53,332 - INFO - Component 136 has 2 endpoints
+2025-04-09 14:27:53,333 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,333 - INFO - Extracted 1 trails from component 136
+2025-04-09 14:27:53,333 - INFO - Processing component 137/2195 with 2 nodes
+2025-04-09 14:27:53,333 - INFO - Component 137 has 2 endpoints
+2025-04-09 14:27:53,333 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,333 - INFO - Extracted 1 trails from component 137
+2025-04-09 14:27:53,333 - INFO - Processing component 138/2195 with 4 nodes
+2025-04-09 14:27:53,333 - INFO - Component 138 has 2 endpoints
+2025-04-09 14:27:53,333 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,333 - INFO - Extracted 1 trails from component 138
+2025-04-09 14:27:53,333 - INFO - Processing component 139/2195 with 2 nodes
+2025-04-09 14:27:53,333 - INFO - Component 139 has 2 endpoints
+2025-04-09 14:27:53,333 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,333 - INFO - Extracted 1 trails from component 139
+2025-04-09 14:27:53,333 - INFO - Processing component 140/2195 with 15 nodes
+2025-04-09 14:27:53,333 - INFO - Component 140 has 6 endpoints
+2025-04-09 14:27:53,333 - INFO - Complex network with 6 endpoints - processing 15 endpoint pairs
+2025-04-09 14:27:53,333 - INFO - Completed processing 15 endpoint pairs, found 15 trails
+2025-04-09 14:27:53,333 - INFO - Extracted 15 trails from component 140
+2025-04-09 14:27:53,333 - INFO - Processing component 141/2195 with 5 nodes
+2025-04-09 14:27:53,333 - INFO - Component 141 has 2 endpoints
+2025-04-09 14:27:53,333 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,334 - INFO - Extracted 1 trails from component 141
+2025-04-09 14:27:53,334 - INFO - Processing component 142/2195 with 5 nodes
+2025-04-09 14:27:53,334 - INFO - Component 142 has 2 endpoints
+2025-04-09 14:27:53,334 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,334 - INFO - Extracted 1 trails from component 142
+2025-04-09 14:27:53,334 - INFO - Processing component 143/2195 with 2 nodes
+2025-04-09 14:27:53,334 - INFO - Component 143 has 2 endpoints
+2025-04-09 14:27:53,334 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:53,334 - INFO - Extracted 1 trails from component 143
+2025-04-09 14:27:53,334 - INFO - Processing component 144/2195 with 809 nodes
+2025-04-09 14:27:53,338 - INFO - Component 144 has 82 endpoints
+2025-04-09 14:27:53,338 - INFO - Complex network with 82 endpoints - processing 3321 endpoint pairs
+2025-04-09 14:27:53,389 - INFO - Processing endpoint pair 100/3321
+2025-04-09 14:27:53,440 - INFO - Processing endpoint pair 200/3321
+2025-04-09 14:27:53,477 - INFO - Processing endpoint pair 300/3321
+2025-04-09 14:27:53,572 - INFO - Processing endpoint pair 400/3321
+2025-04-09 14:27:53,628 - INFO - Processing endpoint pair 500/3321
+2025-04-09 14:27:53,682 - INFO - Processing endpoint pair 600/3321
+2025-04-09 14:27:53,737 - INFO - Processing endpoint pair 700/3321
+2025-04-09 14:27:53,814 - INFO - Processing endpoint pair 800/3321
+2025-04-09 14:27:53,855 - INFO - Processing endpoint pair 900/3321
+2025-04-09 14:27:53,905 - INFO - Processing endpoint pair 1000/3321
+2025-04-09 14:27:54,001 - INFO - Processing endpoint pair 1100/3321
+2025-04-09 14:27:54,043 - INFO - Processing endpoint pair 1200/3321
+2025-04-09 14:27:54,103 - INFO - Processing endpoint pair 1300/3321
+2025-04-09 14:27:54,129 - INFO - Processing endpoint pair 1400/3321
+2025-04-09 14:27:54,155 - INFO - Processing endpoint pair 1500/3321
+2025-04-09 14:27:54,177 - INFO - Processing endpoint pair 1600/3321
+2025-04-09 14:27:54,201 - INFO - Processing endpoint pair 1700/3321
+2025-04-09 14:27:54,229 - INFO - Processing endpoint pair 1800/3321
+2025-04-09 14:27:54,257 - INFO - Processing endpoint pair 1900/3321
+2025-04-09 14:27:54,282 - INFO - Processing endpoint pair 2000/3321
+2025-04-09 14:27:54,311 - INFO - Processing endpoint pair 2100/3321
+2025-04-09 14:27:54,337 - INFO - Processing endpoint pair 2200/3321
+2025-04-09 14:27:54,362 - INFO - Processing endpoint pair 2300/3321
+2025-04-09 14:27:54,390 - INFO - Processing endpoint pair 2400/3321
+2025-04-09 14:27:54,421 - INFO - Processing endpoint pair 2500/3321
+2025-04-09 14:27:54,450 - INFO - Processing endpoint pair 2600/3321
+2025-04-09 14:27:54,480 - INFO - Processing endpoint pair 2700/3321
+2025-04-09 14:27:54,512 - INFO - Processing endpoint pair 2800/3321
+2025-04-09 14:27:54,706 - INFO - Processing endpoint pair 2900/3321
+2025-04-09 14:27:54,743 - INFO - Processing endpoint pair 3000/3321
+2025-04-09 14:27:54,781 - INFO - Processing endpoint pair 3100/3321
+2025-04-09 14:27:54,823 - INFO - Processing endpoint pair 3200/3321
+2025-04-09 14:27:54,861 - INFO - Processing endpoint pair 3300/3321
+2025-04-09 14:27:54,871 - INFO - Completed processing 3321 endpoint pairs, found 3321 trails
+2025-04-09 14:27:54,871 - INFO - Extracted 3321 trails from component 144
+2025-04-09 14:27:54,871 - INFO - Processing component 145/2195 with 6 nodes
+2025-04-09 14:27:54,871 - INFO - Component 145 has 2 endpoints
+2025-04-09 14:27:54,871 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,871 - INFO - Extracted 1 trails from component 145
+2025-04-09 14:27:54,871 - INFO - Processing component 146/2195 with 8 nodes
+2025-04-09 14:27:54,871 - INFO - Component 146 has 0 endpoints
+2025-04-09 14:27:54,871 - INFO - Complex network with 0 endpoints - processing 0 endpoint pairs
+2025-04-09 14:27:54,871 - INFO - Completed processing 0 endpoint pairs, found 0 trails
+2025-04-09 14:27:54,871 - INFO - Extracted 0 trails from component 146
+2025-04-09 14:27:54,871 - INFO - Processing component 147/2195 with 19 nodes
+2025-04-09 14:27:54,871 - INFO - Component 147 has 0 endpoints
+2025-04-09 14:27:54,871 - INFO - Complex network with 0 endpoints - processing 0 endpoint pairs
+2025-04-09 14:27:54,871 - INFO - Completed processing 0 endpoint pairs, found 0 trails
+2025-04-09 14:27:54,871 - INFO - Extracted 0 trails from component 147
+2025-04-09 14:27:54,871 - INFO - Processing component 148/2195 with 15 nodes
+2025-04-09 14:27:54,871 - INFO - Component 148 has 6 endpoints
+2025-04-09 14:27:54,871 - INFO - Complex network with 6 endpoints - processing 15 endpoint pairs
+2025-04-09 14:27:54,872 - INFO - Completed processing 15 endpoint pairs, found 15 trails
+2025-04-09 14:27:54,872 - INFO - Extracted 15 trails from component 148
+2025-04-09 14:27:54,872 - INFO - Processing component 149/2195 with 10 nodes
+2025-04-09 14:27:54,872 - INFO - Component 149 has 2 endpoints
+2025-04-09 14:27:54,872 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,872 - INFO - Extracted 1 trails from component 149
+2025-04-09 14:27:54,872 - INFO - Processing component 150/2195 with 10 nodes
+2025-04-09 14:27:54,872 - INFO - Component 150 has 3 endpoints
+2025-04-09 14:27:54,872 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:54,872 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:54,872 - INFO - Extracted 3 trails from component 150
+2025-04-09 14:27:54,872 - INFO - Processing component 151/2195 with 78 nodes
+2025-04-09 14:27:54,872 - INFO - Component 151 has 7 endpoints
+2025-04-09 14:27:54,872 - INFO - Complex network with 7 endpoints - processing 21 endpoint pairs
+2025-04-09 14:27:54,874 - INFO - Completed processing 21 endpoint pairs, found 21 trails
+2025-04-09 14:27:54,874 - INFO - Extracted 21 trails from component 151
+2025-04-09 14:27:54,874 - INFO - Processing component 152/2195 with 6 nodes
+2025-04-09 14:27:54,874 - INFO - Component 152 has 2 endpoints
+2025-04-09 14:27:54,874 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,874 - INFO - Extracted 1 trails from component 152
+2025-04-09 14:27:54,874 - INFO - Processing component 153/2195 with 6 nodes
+2025-04-09 14:27:54,874 - INFO - Component 153 has 3 endpoints
+2025-04-09 14:27:54,874 - INFO - Complex network with 3 endpoints - processing 3 endpoint pairs
+2025-04-09 14:27:54,874 - INFO - Completed processing 3 endpoint pairs, found 3 trails
+2025-04-09 14:27:54,874 - INFO - Extracted 3 trails from component 153
+2025-04-09 14:27:54,874 - INFO - Processing component 154/2195 with 11 nodes
+2025-04-09 14:27:54,874 - INFO - Component 154 has 2 endpoints
+2025-04-09 14:27:54,874 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,874 - INFO - Extracted 1 trails from component 154
+2025-04-09 14:27:54,874 - INFO - Processing component 155/2195 with 13 nodes
+2025-04-09 14:27:54,874 - INFO - Component 155 has 2 endpoints
+2025-04-09 14:27:54,874 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,874 - INFO - Extracted 1 trails from component 155
+2025-04-09 14:27:54,874 - INFO - Processing component 156/2195 with 40 nodes
+2025-04-09 14:27:54,874 - INFO - Component 156 has 5 endpoints
+2025-04-09 14:27:54,874 - INFO - Complex network with 5 endpoints - processing 10 endpoint pairs
+2025-04-09 14:27:54,875 - INFO - Completed processing 10 endpoint pairs, found 10 trails
+2025-04-09 14:27:54,875 - INFO - Extracted 10 trails from component 156
+2025-04-09 14:27:54,875 - INFO - Processing component 157/2195 with 6 nodes
+2025-04-09 14:27:54,875 - INFO - Component 157 has 2 endpoints
+2025-04-09 14:27:54,875 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,875 - INFO - Extracted 1 trails from component 157
+2025-04-09 14:27:54,875 - INFO - Processing component 158/2195 with 8 nodes
+2025-04-09 14:27:54,875 - INFO - Component 158 has 0 endpoints
+2025-04-09 14:27:54,875 - INFO - Complex network with 0 endpoints - processing 0 endpoint pairs
+2025-04-09 14:27:54,875 - INFO - Completed processing 0 endpoint pairs, found 0 trails
+2025-04-09 14:27:54,875 - INFO - Extracted 0 trails from component 158
+2025-04-09 14:27:54,875 - INFO - Processing component 159/2195 with 197 nodes
+2025-04-09 14:27:54,876 - INFO - Component 159 has 16 endpoints
+2025-04-09 14:27:54,876 - INFO - Complex network with 16 endpoints - processing 120 endpoint pairs
+2025-04-09 14:27:54,887 - INFO - Processing endpoint pair 100/120
+2025-04-09 14:27:54,889 - INFO - Completed processing 120 endpoint pairs, found 120 trails
+2025-04-09 14:27:54,889 - INFO - Extracted 120 trails from component 159
+2025-04-09 14:27:54,889 - INFO - Processing component 160/2195 with 2 nodes
+2025-04-09 14:27:54,889 - INFO - Component 160 has 2 endpoints
+2025-04-09 14:27:54,889 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,889 - INFO - Extracted 1 trails from component 160
+2025-04-09 14:27:54,889 - INFO - Processing component 161/2195 with 2 nodes
+2025-04-09 14:27:54,890 - INFO - Component 161 has 2 endpoints
+2025-04-09 14:27:54,890 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,890 - INFO - Extracted 1 trails from component 161
+2025-04-09 14:27:54,890 - INFO - Processing component 162/2195 with 2 nodes
+2025-04-09 14:27:54,890 - INFO - Component 162 has 2 endpoints
+2025-04-09 14:27:54,890 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,890 - INFO - Extracted 1 trails from component 162
+2025-04-09 14:27:54,890 - INFO - Processing component 163/2195 with 8 nodes
+2025-04-09 14:27:54,890 - INFO - Component 163 has 2 endpoints
+2025-04-09 14:27:54,890 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,890 - INFO - Extracted 1 trails from component 163
+2025-04-09 14:27:54,890 - INFO - Processing component 164/2195 with 14 nodes
+2025-04-09 14:27:54,890 - INFO - Component 164 has 6 endpoints
+2025-04-09 14:27:54,890 - INFO - Complex network with 6 endpoints - processing 15 endpoint pairs
+2025-04-09 14:27:54,890 - INFO - Completed processing 15 endpoint pairs, found 15 trails
+2025-04-09 14:27:54,890 - INFO - Extracted 15 trails from component 164
+2025-04-09 14:27:54,890 - INFO - Processing component 165/2195 with 2 nodes
+2025-04-09 14:27:54,890 - INFO - Component 165 has 2 endpoints
+2025-04-09 14:27:54,890 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,890 - INFO - Extracted 1 trails from component 165
+2025-04-09 14:27:54,890 - INFO - Processing component 166/2195 with 2 nodes
+2025-04-09 14:27:54,890 - INFO - Component 166 has 2 endpoints
+2025-04-09 14:27:54,890 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,890 - INFO - Extracted 1 trails from component 166
+2025-04-09 14:27:54,890 - INFO - Processing component 167/2195 with 2 nodes
+2025-04-09 14:27:54,890 - INFO - Component 167 has 2 endpoints
+2025-04-09 14:27:54,890 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,890 - INFO - Extracted 1 trails from component 167
+2025-04-09 14:27:54,890 - INFO - Processing component 168/2195 with 6 nodes
+2025-04-09 14:27:54,890 - INFO - Component 168 has 2 endpoints
+2025-04-09 14:27:54,890 - INFO - Simple trail with 2 endpoints - finding path
+2025-04-09 14:27:54,890 - INFO - Extracted 1 trails from component 168
+2025-04-09 14:27:54,891 - INFO - Processing component 169/2195 with 59108 nodes
+2025-04-09 14:27:55,144 - INFO - Component 169 has 3064 endpoints
+2025-04-09 14:27:55,168 - INFO - Complex network with 3064 endpoints - processing 4692516 endpoint pairs
+2025-04-09 14:27:59,471 - INFO - Processing endpoint pair 100/4692516
+2025-04-09 14:28:03,310 - INFO - Processing endpoint pair 200/4692516
+2025-04-09 14:28:07,541 - INFO - Processing endpoint pair 300/4692516
+2025-04-09 14:28:11,952 - INFO - Processing endpoint pair 400/4692516
+2025-04-09 14:28:16,267 - INFO - Processing endpoint pair 500/4692516
+2025-04-09 14:28:19,011 - INFO - Processing endpoint pair 600/4692516
+2025-04-09 14:28:22,815 - INFO - Processing endpoint pair 700/4692516
+2025-04-09 14:28:27,034 - INFO - Processing endpoint pair 800/4692516
+2025-04-09 14:28:30,448 - INFO - Processing endpoint pair 900/4692516
+2025-04-09 14:28:33,931 - INFO - Processing endpoint pair 1000/4692516
+2025-04-09 14:28:37,735 - INFO - Processing endpoint pair 1100/4692516
+2025-04-09 14:28:41,763 - INFO - Processing endpoint pair 1200/4692516
+2025-04-09 14:28:45,504 - INFO - Processing endpoint pair 1300/4692516
+2025-04-09 14:28:49,442 - INFO - Processing endpoint pair 1400/4692516
+2025-04-09 14:28:53,052 - INFO - Processing endpoint pair 1500/4692516
+2025-04-09 14:28:57,791 - INFO - Processing endpoint pair 1600/4692516
+2025-04-09 14:29:02,702 - INFO - Processing endpoint pair 1700/4692516
+2025-04-09 14:29:05,950 - INFO - Processing endpoint pair 1800/4692516
+2025-04-09 14:29:09,603 - INFO - Processing endpoint pair 1900/4692516
+2025-04-09 14:29:13,858 - INFO - Processing endpoint pair 2000/4692516
+2025-04-09 14:29:18,501 - INFO - Processing endpoint pair 2100/4692516
+2025-04-09 14:29:23,021 - INFO - Processing endpoint pair 2200/4692516
+2025-04-09 14:29:26,822 - INFO - Processing endpoint pair 2300/4692516
+2025-04-09 14:29:31,087 - INFO - Processing endpoint pair 2400/4692516
+2025-04-09 14:29:35,409 - INFO - Processing endpoint pair 2500/4692516
+2025-04-09 14:29:38,444 - INFO - Processing endpoint pair 2600/4692516
+2025-04-09 14:29:42,619 - INFO - Processing endpoint pair 2700/4692516
+2025-04-09 14:29:47,384 - INFO - Processing endpoint pair 2800/4692516
+2025-04-09 14:29:51,030 - INFO - Processing endpoint pair 2900/4692516
+2025-04-09 14:29:55,231 - INFO - Processing endpoint pair 3000/4692516
+2025-04-09 14:29:57,984 - INFO - Processing endpoint pair 3100/4692516
+2025-04-09 14:30:02,495 - INFO - Processing endpoint pair 3200/4692516
+2025-04-09 14:30:07,102 - INFO - Processing endpoint pair 3300/4692516
+2025-04-09 14:30:10,888 - INFO - Processing endpoint pair 3400/4692516
+2025-04-09 14:30:15,746 - INFO - Processing endpoint pair 3500/4692516
+2025-04-09 14:30:19,528 - INFO - Processing endpoint pair 3600/4692516
+2025-04-09 14:30:22,676 - INFO - Processing endpoint pair 3700/4692516
+2025-04-09 14:30:26,818 - INFO - Processing endpoint pair 3800/4692516
+2025-04-09 14:30:30,925 - INFO - Processing endpoint pair 3900/4692516
+2025-04-09 14:30:34,560 - INFO - Processing endpoint pair 4000/4692516
+2025-04-09 14:30:37,963 - INFO - Processing endpoint pair 4100/4692516
+2025-04-09 14:30:41,709 - INFO - Processing endpoint pair 4200/4692516
+2025-04-09 14:30:46,062 - INFO - Processing endpoint pair 4300/4692516
+2025-04-09 14:30:49,566 - INFO - Processing endpoint pair 4400/4692516
+2025-04-09 14:30:53,632 - INFO - Processing endpoint pair 4500/4692516
+2025-04-09 14:30:58,213 - INFO - Processing endpoint pair 4600/4692516
+2025-04-09 14:31:02,609 - INFO - Processing endpoint pair 4700/4692516
+2025-04-09 14:31:07,095 - INFO - Processing endpoint pair 4800/4692516
+2025-04-09 14:31:10,625 - INFO - Processing endpoint pair 4900/4692516
+2025-04-09 14:31:14,231 - INFO - Processing endpoint pair 5000/4692516
+2025-04-09 14:31:19,117 - INFO - Processing endpoint pair 5100/4692516
+2025-04-09 14:31:23,871 - INFO - Processing endpoint pair 5200/4692516
+2025-04-09 14:31:27,459 - INFO - Processing endpoint pair 5300/4692516
+2025-04-09 14:31:31,699 - INFO - Processing endpoint pair 5400/4692516
+2025-04-09 14:31:36,373 - INFO - Processing endpoint pair 5500/4692516
+2025-04-09 14:31:39,776 - INFO - Processing endpoint pair 5600/4692516
+2025-04-09 14:31:43,597 - INFO - Processing endpoint pair 5700/4692516
+2025-04-09 14:31:47,400 - INFO - Processing endpoint pair 5800/4692516
+2025-04-09 14:31:52,372 - INFO - Processing endpoint pair 5900/4692516
+2025-04-09 14:31:55,704 - INFO - Processing endpoint pair 6000/4692516
+2025-04-09 14:31:59,714 - INFO - Processing endpoint pair 6100/4692516
+2025-04-09 14:32:03,985 - INFO - Processing endpoint pair 6200/4692516
+2025-04-09 14:32:08,251 - INFO - Processing endpoint pair 6300/4692516
+2025-04-09 14:32:12,693 - INFO - Processing endpoint pair 6400/4692516
+2025-04-09 14:32:16,942 - INFO - Processing endpoint pair 6500/4692516
+2025-04-09 14:32:21,650 - INFO - Processing endpoint pair 6600/4692516
+2025-04-09 14:32:24,428 - INFO - Processing endpoint pair 6700/4692516
+2025-04-09 14:32:28,459 - INFO - Processing endpoint pair 6800/4692516
+2025-04-09 14:32:32,910 - INFO - Processing endpoint pair 6900/4692516
+2025-04-09 14:32:36,302 - INFO - Processing endpoint pair 7000/4692516
+2025-04-09 14:32:39,895 - INFO - Processing endpoint pair 7100/4692516
+2025-04-09 14:32:43,775 - INFO - Processing endpoint pair 7200/4692516
+2025-04-09 14:32:47,848 - INFO - Processing endpoint pair 7300/4692516
+2025-04-09 14:32:51,832 - INFO - Processing endpoint pair 7400/4692516
+2025-04-09 14:32:56,091 - INFO - Processing endpoint pair 7500/4692516
+2025-04-09 14:33:00,049 - INFO - Processing endpoint pair 7600/4692516
+2025-04-09 14:33:04,518 - INFO - Processing endpoint pair 7700/4692516
+2025-04-09 14:33:09,122 - INFO - Processing endpoint pair 7800/4692516
+2025-04-09 14:33:12,692 - INFO - Processing endpoint pair 7900/4692516
+2025-04-09 14:33:16,229 - INFO - Processing endpoint pair 8000/4692516
+2025-04-09 14:33:20,877 - INFO - Processing endpoint pair 8100/4692516
+2025-04-09 14:33:25,309 - INFO - Processing endpoint pair 8200/4692516
+2025-04-09 14:33:29,704 - INFO - Processing endpoint pair 8300/4692516
+2025-04-09 14:33:33,204 - INFO - Processing endpoint pair 8400/4692516
+2025-04-09 14:33:37,692 - INFO - Processing endpoint pair 8500/4692516
+2025-04-09 14:33:42,171 - INFO - Processing endpoint pair 8600/4692516
+2025-04-09 14:33:45,202 - INFO - Processing endpoint pair 8700/4692516
+2025-04-09 14:33:49,309 - INFO - Processing endpoint pair 8800/4692516
+2025-04-09 14:33:54,398 - INFO - Processing endpoint pair 8900/4692516
+2025-04-09 14:33:58,576 - INFO - Processing endpoint pair 9000/4692516
+2025-04-09 14:34:02,940 - INFO - Processing endpoint pair 9100/4692516
+2025-04-09 14:34:05,736 - INFO - Processing endpoint pair 9200/4692516
+2025-04-09 14:34:10,492 - INFO - Processing endpoint pair 9300/4692516
+2025-04-09 14:34:14,513 - INFO - Processing endpoint pair 9400/4692516
+2025-04-09 14:34:19,168 - INFO - Processing endpoint pair 9500/4692516
+2025-04-09 14:34:23,687 - INFO - Processing endpoint pair 9600/4692516
+2025-04-09 14:34:28,172 - INFO - Processing endpoint pair 9700/4692516
+2025-04-09 14:34:30,992 - INFO - Processing endpoint pair 9800/4692516
+2025-04-09 14:34:35,258 - INFO - Processing endpoint pair 9900/4692516
+2025-04-09 14:34:39,240 - INFO - Processing endpoint pair 10000/4692516
+2025-04-09 14:34:43,485 - INFO - Processing endpoint pair 10100/4692516
+2025-04-09 14:34:47,053 - INFO - Processing endpoint pair 10200/4692516
+2025-04-09 14:34:51,116 - INFO - Processing endpoint pair 10300/4692516
+2025-04-09 14:34:55,605 - INFO - Processing endpoint pair 10400/4692516
+2025-04-09 14:34:59,283 - INFO - Processing endpoint pair 10500/4692516
+2025-04-09 14:35:03,302 - INFO - Processing endpoint pair 10600/4692516
+2025-04-09 14:35:07,500 - INFO - Processing endpoint pair 10700/4692516
+2025-04-09 14:35:12,635 - INFO - Processing endpoint pair 10800/4692516
+2025-04-09 14:35:17,355 - INFO - Processing endpoint pair 10900/4692516
+2025-04-09 14:35:20,503 - INFO - Processing endpoint pair 11000/4692516
+2025-04-09 14:35:24,157 - INFO - Processing endpoint pair 11100/4692516
+2025-04-09 14:35:29,038 - INFO - Processing endpoint pair 11200/4692516
+2025-04-09 14:35:33,645 - INFO - Processing endpoint pair 11300/4692516
+2025-04-09 14:35:37,759 - INFO - Processing endpoint pair 11400/4692516
+2025-04-09 14:35:42,114 - INFO - Processing endpoint pair 11500/4692516
+2025-04-09 14:35:46,369 - INFO - Processing endpoint pair 11600/4692516
+2025-04-09 14:35:50,977 - INFO - Processing endpoint pair 11700/4692516
+2025-04-09 14:35:54,337 - INFO - Processing endpoint pair 11800/4692516
+2025-04-09 14:35:58,249 - INFO - Processing endpoint pair 11900/4692516
+2025-04-09 14:36:02,739 - INFO - Processing endpoint pair 12000/4692516
+2025-04-09 14:36:06,946 - INFO - Processing endpoint pair 12100/4692516
+2025-04-09 14:36:10,958 - INFO - Processing endpoint pair 12200/4692516
+2025-04-09 14:36:14,495 - INFO - Processing endpoint pair 12300/4692516
+2025-04-09 14:36:19,308 - INFO - Processing endpoint pair 12400/4692516
+2025-04-09 14:36:23,924 - INFO - Processing endpoint pair 12500/4692516
+2025-04-09 14:36:27,799 - INFO - Processing endpoint pair 12600/4692516
+2025-04-09 14:36:32,812 - INFO - Processing endpoint pair 12700/4692516
+2025-04-09 14:36:35,948 - INFO - Processing endpoint pair 12800/4692516
+2025-04-09 14:36:39,984 - INFO - Processing endpoint pair 12900/4692516
+2025-04-09 14:36:44,082 - INFO - Processing endpoint pair 13000/4692516
+2025-04-09 14:36:47,987 - INFO - Processing endpoint pair 13100/4692516
+2025-04-09 14:36:51,872 - INFO - Processing endpoint pair 13200/4692516
+2025-04-09 14:36:55,345 - INFO - Processing endpoint pair 13300/4692516
+2025-04-09 14:36:59,110 - INFO - Processing endpoint pair 13400/4692516
+2025-04-09 14:37:03,735 - INFO - Processing endpoint pair 13500/4692516
+2025-04-09 14:37:07,339 - INFO - Processing endpoint pair 13600/4692516
+2025-04-09 14:37:11,852 - INFO - Processing endpoint pair 13700/4692516
+2025-04-09 14:37:16,217 - INFO - Processing endpoint pair 13800/4692516
+2025-04-09 14:37:20,824 - INFO - Processing endpoint pair 13900/4692516
+2025-04-09 14:37:25,031 - INFO - Processing endpoint pair 14000/4692516
+2025-04-09 14:37:28,393 - INFO - Processing endpoint pair 14100/4692516
+2025-04-09 14:37:32,652 - INFO - Processing endpoint pair 14200/4692516
+2025-04-09 14:37:37,109 - INFO - Processing endpoint pair 14300/4692516
+2025-04-09 14:37:41,756 - INFO - Processing endpoint pair 14400/4692516
+2025-04-09 14:37:45,195 - INFO - Processing endpoint pair 14500/4692516
+2025-04-09 14:37:49,275 - INFO - Processing endpoint pair 14600/4692516
+2025-04-09 14:37:53,490 - INFO - Processing endpoint pair 14700/4692516
+2025-04-09 14:37:56,811 - INFO - Processing endpoint pair 14800/4692516
+2025-04-09 14:38:00,936 - INFO - Processing endpoint pair 14900/4692516
+2025-04-09 14:38:05,285 - INFO - Processing endpoint pair 15000/4692516
+2025-04-09 14:38:09,836 - INFO - Processing endpoint pair 15100/4692516
+2025-04-09 14:38:14,072 - INFO - Processing endpoint pair 15200/4692516
+2025-04-09 14:38:17,326 - INFO - Processing endpoint pair 15300/4692516
+2025-04-09 14:38:21,468 - INFO - Processing endpoint pair 15400/4692516
+2025-04-09 14:38:25,585 - INFO - Processing endpoint pair 15500/4692516
+2025-04-09 14:38:29,020 - INFO - Processing endpoint pair 15600/4692516
+2025-04-09 14:38:33,134 - INFO - Processing endpoint pair 15700/4692516
+2025-04-09 14:38:37,234 - INFO - Processing endpoint pair 15800/4692516
+2025-04-09 14:38:42,122 - INFO - Processing endpoint pair 15900/4692516
+2025-04-09 14:38:46,287 - INFO - Processing endpoint pair 16000/4692516
+2025-04-09 14:38:49,975 - INFO - Processing endpoint pair 16100/4692516
+2025-04-09 14:38:53,274 - INFO - Processing endpoint pair 16200/4692516
+2025-04-09 14:38:58,200 - INFO - Processing endpoint pair 16300/4692516
+2025-04-09 14:39:01,076 - INFO - Processing endpoint pair 16400/4692516
+2025-04-09 14:39:04,997 - INFO - Processing endpoint pair 16500/4692516
+2025-04-09 14:39:09,283 - INFO - Processing endpoint pair 16600/4692516
+2025-04-09 14:39:13,714 - INFO - Processing endpoint pair 16700/4692516
+2025-04-09 14:39:16,870 - INFO - Processing endpoint pair 16800/4692516
+2025-04-09 14:39:22,228 - INFO - Processing endpoint pair 16900/4692516
+2025-04-09 14:39:26,170 - INFO - Processing endpoint pair 17000/4692516
+2025-04-09 14:39:30,733 - INFO - Processing endpoint pair 17100/4692516
+2025-04-09 14:39:37,133 - INFO - Processing endpoint pair 17200/4692516
+2025-04-09 14:39:41,796 - INFO - Processing endpoint pair 17300/4692516
+2025-04-09 14:39:47,767 - INFO - Processing endpoint pair 17400/4692516
+2025-04-09 14:39:52,710 - INFO - Processing endpoint pair 17500/4692516
+2025-04-09 14:39:57,035 - INFO - Processing endpoint pair 17600/4692516
+2025-04-09 14:40:01,191 - INFO - Processing endpoint pair 17700/4692516
+2025-04-09 14:40:05,647 - INFO - Processing endpoint pair 17800/4692516
+2025-04-09 14:40:09,111 - INFO - Processing endpoint pair 17900/4692516
+2025-04-09 14:40:13,223 - INFO - Processing endpoint pair 18000/4692516
+2025-04-09 14:40:18,109 - INFO - Processing endpoint pair 18100/4692516
+2025-04-09 14:40:22,139 - INFO - Processing endpoint pair 18200/4692516
+2025-04-09 14:40:26,524 - INFO - Processing endpoint pair 18300/4692516
+2025-04-09 14:40:29,782 - INFO - Processing endpoint pair 18400/4692516
+2025-04-09 14:40:34,517 - INFO - Processing endpoint pair 18500/4692516
+2025-04-09 14:40:38,465 - INFO - Processing endpoint pair 18600/4692516
+2025-04-09 14:40:42,131 - INFO - Processing endpoint pair 18700/4692516
+2025-04-09 14:40:45,786 - INFO - Processing endpoint pair 18800/4692516
+2025-04-09 14:40:51,172 - INFO - Processing endpoint pair 18900/4692516
+2025-04-09 14:40:54,276 - INFO - Processing endpoint pair 19000/4692516
+2025-04-09 14:40:58,184 - INFO - Processing endpoint pair 19100/4692516
+2025-04-09 14:41:01,356 - INFO - Processing endpoint pair 19200/4692516
+2025-04-09 14:41:05,086 - INFO - Processing endpoint pair 19300/4692516
+2025-04-09 14:41:10,057 - INFO - Processing endpoint pair 19400/4692516
+2025-04-09 14:41:12,114 - INFO - Processing endpoint pair 19500/4692516
+2025-04-09 14:41:16,381 - INFO - Processing endpoint pair 19600/4692516
+2025-04-09 14:41:19,909 - INFO - Processing endpoint pair 19700/4692516
+2025-04-09 14:41:25,092 - INFO - Processing endpoint pair 19800/4692516
+2025-04-09 14:41:28,865 - INFO - Processing endpoint pair 19900/4692516
+2025-04-09 14:41:33,158 - INFO - Processing endpoint pair 20000/4692516
+2025-04-09 14:41:37,323 - INFO - Processing endpoint pair 20100/4692516
+2025-04-09 14:41:43,217 - INFO - Processing endpoint pair 20200/4692516
+2025-04-09 14:41:48,566 - INFO - Processing endpoint pair 20300/4692516
+2025-04-09 14:41:53,267 - INFO - Processing endpoint pair 20400/4692516
+2025-04-09 14:41:58,640 - INFO - Processing endpoint pair 20500/4692516
+2025-04-09 14:45:28,703 - INFO - Processing endpoint pair 20600/4692516
+2025-04-09 14:46:13,599 - INFO - Processing endpoint pair 20700/4692516
+2025-04-09 14:46:18,474 - INFO - Processing endpoint pair 20800/4692516
+2025-04-09 15:02:20,032 - INFO - Processing endpoint pair 20900/4692516
+2025-04-09 15:02:22,837 - INFO - Processing endpoint pair 21000/4692516
+2025-04-09 15:02:28,343 - INFO - Processing endpoint pair 21100/4692516
+2025-04-09 15:02:32,895 - INFO - Processing endpoint pair 21200/4692516
+2025-04-09 15:02:36,854 - INFO - Processing endpoint pair 21300/4692516
+2025-04-09 15:02:40,691 - INFO - Processing endpoint pair 21400/4692516
+2025-04-09 15:02:49,567 - INFO - Processing endpoint pair 21500/4692516
+2025-04-09 15:02:57,693 - INFO - Processing endpoint pair 21600/4692516
+2025-04-09 15:03:07,992 - INFO - Processing endpoint pair 21700/4692516
+2025-04-09 15:03:17,619 - INFO - Processing endpoint pair 21800/4692516
+2025-04-09 15:03:27,172 - INFO - Processing endpoint pair 21900/4692516
+2025-04-09 15:03:33,746 - INFO - Processing endpoint pair 22000/4692516
+2025-04-09 15:03:42,351 - INFO - Processing endpoint pair 22100/4692516
+2025-04-09 15:03:52,459 - INFO - Processing endpoint pair 22200/4692516
+2025-04-09 15:04:00,521 - INFO - Processing endpoint pair 22300/4692516
+2025-04-09 15:04:09,624 - INFO - Processing endpoint pair 22400/4692516
+2025-04-09 15:04:18,626 - INFO - Processing endpoint pair 22500/4692516
+2025-04-09 15:04:28,502 - INFO - Processing endpoint pair 22600/4692516
+2025-04-09 15:04:37,090 - INFO - Processing endpoint pair 22700/4692516
+2025-04-09 15:04:45,414 - INFO - Processing endpoint pair 22800/4692516
+2025-04-09 15:04:53,909 - INFO - Processing endpoint pair 22900/4692516
+2025-04-09 15:05:02,191 - INFO - Processing endpoint pair 23000/4692516
+2025-04-09 15:05:12,820 - INFO - Processing endpoint pair 23100/4692516
+2025-04-09 15:05:21,033 - INFO - Processing endpoint pair 23200/4692516
+2025-04-09 15:05:26,052 - INFO - Processing endpoint pair 23300/4692516
+2025-04-09 15:05:34,577 - INFO - Processing endpoint pair 23400/4692516
+2025-04-09 15:05:41,691 - INFO - Processing endpoint pair 23500/4692516
+2025-04-09 15:05:50,327 - INFO - Processing endpoint pair 23600/4692516
+2025-04-09 15:05:58,171 - INFO - Processing endpoint pair 23700/4692516
+2025-04-09 15:06:06,965 - INFO - Processing endpoint pair 23800/4692516
+2025-04-09 15:06:17,179 - INFO - Processing endpoint pair 23900/4692516
+2025-04-09 15:06:23,952 - INFO - Processing endpoint pair 24000/4692516
+2025-04-09 15:06:32,270 - INFO - Processing endpoint pair 24100/4692516
+2025-04-09 15:06:40,980 - INFO - Processing endpoint pair 24200/4692516
+2025-04-09 15:06:49,760 - INFO - Processing endpoint pair 24300/4692516
+2025-04-09 15:22:07,673 - INFO - Processing endpoint pair 24400/4692516
+2025-04-09 15:23:12,254 - INFO - Processing endpoint pair 24500/4692516
+2025-04-09 15:23:16,707 - INFO - Processing endpoint pair 24600/4692516
+2025-04-09 15:39:42,065 - INFO - Processing endpoint pair 24700/4692516
+2025-04-09 15:46:53,145 - INFO - Processing endpoint pair 24800/4692516
+2025-04-09 15:52:58,018 - INFO - Processing endpoint pair 24900/4692516
+2025-04-09 15:53:04,373 - INFO - Processing endpoint pair 25000/4692516
+2025-04-09 15:53:18,988 - INFO - Processing endpoint pair 25100/4692516
+2025-04-09 15:53:25,211 - INFO - Processing endpoint pair 25200/4692516
+2025-04-09 15:53:28,740 - INFO - Processing endpoint pair 25300/4692516
+2025-04-09 15:53:48,163 - INFO - Processing endpoint pair 25400/4692516
+2025-04-09 15:53:52,161 - INFO - Processing endpoint pair 25500/4692516
+2025-04-09 16:00:56,459 - INFO - Processing endpoint pair 25600/4692516
+2025-04-09 16:01:00,408 - INFO - Processing endpoint pair 25700/4692516
+2025-04-09 16:02:02,572 - INFO - Processing endpoint pair 25800/4692516
+2025-04-09 16:02:14,715 - INFO - Processing endpoint pair 25900/4692516
+2025-04-09 16:02:18,855 - INFO - Processing endpoint pair 26000/4692516
+2025-04-09 16:02:52,357 - INFO - Processing endpoint pair 26100/4692516
+2025-04-09 16:03:00,333 - INFO - Processing endpoint pair 26200/4692516
+2025-04-09 16:03:06,383 - INFO - Processing endpoint pair 26300/4692516
+2025-04-09 16:03:21,667 - INFO - Processing endpoint pair 26400/4692516
+2025-04-09 16:03:33,449 - INFO - Processing endpoint pair 26500/4692516
+2025-04-09 16:04:04,294 - INFO - Processing endpoint pair 26600/4692516
+2025-04-09 16:04:10,126 - INFO - Processing endpoint pair 26700/4692516
+2025-04-09 16:04:14,387 - INFO - Processing endpoint pair 26800/4692516
+2025-04-09 16:04:30,083 - INFO - Processing endpoint pair 26900/4692516
+2025-04-09 16:04:34,119 - INFO - Processing endpoint pair 27000/4692516
+2025-04-09 16:04:39,033 - INFO - Processing endpoint pair 27100/4692516
+2025-04-09 16:04:49,347 - INFO - Processing endpoint pair 27200/4692516
+2025-04-09 16:04:55,247 - INFO - Processing endpoint pair 27300/4692516
+2025-04-09 16:05:00,761 - INFO - Processing endpoint pair 27400/4692516
+2025-04-09 16:05:09,825 - INFO - Processing endpoint pair 27500/4692516
+2025-04-09 16:05:14,542 - INFO - Processing endpoint pair 27600/4692516
+2025-04-09 16:06:31,844 - INFO - Processing endpoint pair 27700/4692516
+2025-04-09 16:06:36,043 - INFO - Processing endpoint pair 27800/4692516
+2025-04-09 16:06:42,448 - INFO - Processing endpoint pair 27900/4692516
+2025-04-09 16:06:51,060 - INFO - Processing endpoint pair 28000/4692516
+2025-04-09 16:06:56,820 - INFO - Processing endpoint pair 28100/4692516
+2025-04-09 16:08:44,562 - INFO - Processing endpoint pair 28200/4692516
+2025-04-09 16:08:49,445 - INFO - Processing endpoint pair 28300/4692516
+2025-04-09 16:10:06,870 - INFO - Processing endpoint pair 28400/4692516
+2025-04-09 16:10:11,335 - INFO - Processing endpoint pair 28500/4692516
+2025-04-09 16:10:36,648 - INFO - Processing endpoint pair 28600/4692516
+2025-04-09 16:10:40,271 - INFO - Processing endpoint pair 28700/4692516
+2025-04-09 16:11:02,754 - INFO - Processing endpoint pair 28800/4692516
+2025-04-09 16:12:33,082 - INFO - Processing endpoint pair 28900/4692516
+2025-04-09 16:12:36,789 - INFO - Processing endpoint pair 29000/4692516
+2025-04-09 16:13:19,947 - INFO - Processing endpoint pair 29100/4692516
+2025-04-09 16:14:02,943 - INFO - Processing endpoint pair 29200/4692516
+2025-04-09 16:14:06,966 - INFO - Processing endpoint pair 29300/4692516
+2025-04-09 16:14:26,206 - INFO - Processing endpoint pair 29400/4692516
+2025-04-09 16:14:39,428 - INFO - Processing endpoint pair 29500/4692516
+2025-04-09 16:15:23,377 - INFO - Processing endpoint pair 29600/4692516
+2025-04-09 16:15:29,410 - INFO - Processing endpoint pair 29700/4692516
+2025-04-09 16:16:16,160 - INFO - Processing endpoint pair 29800/4692516
+2025-04-09 16:33:12,258 - INFO - Processing endpoint pair 29900/4692516
+2025-04-09 16:37:44,381 - INFO - Processing endpoint pair 30000/4692516
+2025-04-09 16:53:29,182 - INFO - Processing endpoint pair 30100/4692516
+2025-04-09 16:53:33,898 - INFO - Processing endpoint pair 30200/4692516
+2025-04-09 16:54:14,746 - INFO - Processing endpoint pair 30300/4692516
+2025-04-09 16:54:46,354 - INFO - Processing endpoint pair 30400/4692516
+2025-04-09 16:54:50,299 - INFO - Processing endpoint pair 30500/4692516
+2025-04-09 16:57:40,826 - INFO - Processing endpoint pair 30600/4692516
+2025-04-09 16:57:45,776 - INFO - Processing endpoint pair 30700/4692516
+2025-04-09 16:58:53,345 - INFO - Processing endpoint pair 30800/4692516
+2025-04-09 17:06:22,561 - INFO - Processing endpoint pair 30900/4692516
+2025-04-09 17:06:26,230 - INFO - Processing endpoint pair 31000/4692516
+2025-04-09 17:06:34,230 - INFO - Processing endpoint pair 31100/4692516
+2025-04-09 17:09:13,560 - INFO - Processing endpoint pair 31200/4692516
+2025-04-09 17:09:19,122 - INFO - Processing endpoint pair 31300/4692516
+2025-04-09 17:11:21,118 - INFO - Processing endpoint pair 31400/4692516
+2025-04-09 17:11:27,477 - INFO - Processing endpoint pair 31500/4692516
+2025-04-09 17:11:31,591 - INFO - Processing endpoint pair 31600/4692516
+2025-04-09 17:17:12,063 - INFO - Processing endpoint pair 31700/4692516
+2025-04-09 17:17:17,178 - INFO - Processing endpoint pair 31800/4692516
+2025-04-09 17:17:35,672 - INFO - Processing endpoint pair 31900/4692516
+2025-04-09 17:28:07,802 - INFO - Processing endpoint pair 32000/4692516
+2025-04-09 17:28:29,128 - INFO - Processing endpoint pair 32100/4692516
+2025-04-09 17:28:35,719 - INFO - Processing endpoint pair 32200/4692516
+2025-04-09 17:29:04,171 - INFO - Processing endpoint pair 32300/4692516
+2025-04-09 17:31:44,981 - INFO - Processing endpoint pair 32400/4692516
+2025-04-09 17:32:22,780 - INFO - Processing endpoint pair 32500/4692516
+2025-04-09 17:37:01,295 - INFO - Processing endpoint pair 32600/4692516
+2025-04-09 17:50:00,454 - INFO - Processing endpoint pair 32700/4692516
+2025-04-09 17:55:07,193 - INFO - Processing endpoint pair 32800/4692516
+2025-04-09 17:55:12,311 - INFO - Processing endpoint pair 32900/4692516
+2025-04-09 17:55:44,290 - INFO - Processing endpoint pair 33000/4692516
+2025-04-09 17:57:07,619 - INFO - Processing endpoint pair 33100/4692516
+2025-04-09 17:57:11,657 - INFO - Processing endpoint pair 33200/4692516
+2025-04-09 18:03:18,321 - INFO - Processing endpoint pair 33300/4692516
+2025-04-09 18:06:34,662 - INFO - Processing endpoint pair 33400/4692516
+2025-04-09 18:17:38,948 - INFO - Processing endpoint pair 33500/4692516
+2025-04-09 18:17:43,351 - INFO - Processing endpoint pair 33600/4692516
+2025-04-09 18:17:49,587 - INFO - Processing endpoint pair 33700/4692516
+2025-04-09 18:18:02,434 - INFO - Processing endpoint pair 33800/4692516
+2025-04-09 18:18:05,730 - INFO - Processing endpoint pair 33900/4692516
+2025-04-09 18:33:57,963 - INFO - Processing endpoint pair 34000/4692516
+2025-04-09 18:42:16,742 - INFO - Processing endpoint pair 34100/4692516
+2025-04-09 18:55:45,883 - INFO - Processing endpoint pair 34200/4692516
+2025-04-09 18:58:22,284 - INFO - Processing endpoint pair 34300/4692516
+2025-04-09 18:58:25,924 - INFO - Processing endpoint pair 34400/4692516
+2025-04-09 18:58:32,674 - INFO - Processing endpoint pair 34500/4692516
+2025-04-09 18:58:36,071 - INFO - Processing endpoint pair 34600/4692516
+2025-04-09 19:15:37,610 - INFO - Processing endpoint pair 34700/4692516
+2025-04-09 19:33:31,950 - INFO - Processing endpoint pair 34800/4692516
+2025-04-09 19:37:27,150 - INFO - Processing endpoint pair 34900/4692516
+2025-04-09 19:37:31,971 - INFO - Processing endpoint pair 35000/4692516
+2025-04-09 19:37:35,423 - INFO - Processing endpoint pair 35100/4692516
+2025-04-09 19:37:40,131 - INFO - Processing endpoint pair 35200/4692516
+2025-04-09 19:37:43,895 - INFO - Processing endpoint pair 35300/4692516
+2025-04-09 19:37:46,974 - INFO - Processing endpoint pair 35400/4692516
+2025-04-09 19:37:54,348 - INFO - Processing endpoint pair 35500/4692516
+2025-04-09 19:37:59,070 - INFO - Processing endpoint pair 35600/4692516
+2025-04-09 19:38:04,313 - INFO - Processing endpoint pair 35700/4692516
+2025-04-09 19:38:09,136 - INFO - Processing endpoint pair 35800/4692516
+2025-04-09 19:38:13,340 - INFO - Processing endpoint pair 35900/4692516
+2025-04-09 19:38:16,695 - INFO - Processing endpoint pair 36000/4692516
+2025-04-09 19:38:20,034 - INFO - Processing endpoint pair 36100/4692516
+2025-04-09 19:38:25,059 - INFO - Processing endpoint pair 36200/4692516
+2025-04-09 19:38:28,875 - INFO - Processing endpoint pair 36300/4692516
+2025-04-09 19:38:33,355 - INFO - Processing endpoint pair 36400/4692516
+2025-04-09 19:38:37,238 - INFO - Processing endpoint pair 36500/4692516
+2025-04-09 19:38:41,089 - INFO - Processing endpoint pair 36600/4692516
+2025-04-09 19:38:48,805 - INFO - Processing endpoint pair 36700/4692516
+2025-04-09 19:38:52,337 - INFO - Processing endpoint pair 36800/4692516
+2025-04-09 19:38:56,419 - INFO - Processing endpoint pair 36900/4692516
+2025-04-09 19:39:00,299 - INFO - Processing endpoint pair 37000/4692516
+2025-04-09 19:39:03,380 - INFO - Processing endpoint pair 37100/4692516
+2025-04-09 19:39:08,685 - INFO - Processing endpoint pair 37200/4692516
+2025-04-09 19:39:15,187 - INFO - Processing endpoint pair 37300/4692516
+2025-04-09 19:39:19,577 - INFO - Processing endpoint pair 37400/4692516
+2025-04-09 19:39:22,953 - INFO - Processing endpoint pair 37500/4692516
+2025-04-09 19:39:28,252 - INFO - Processing endpoint pair 37600/4692516
+2025-04-09 19:39:34,641 - INFO - Processing endpoint pair 37700/4692516
+2025-04-09 19:39:38,972 - INFO - Processing endpoint pair 37800/4692516
+2025-04-09 19:39:42,960 - INFO - Processing endpoint pair 37900/4692516
+2025-04-09 19:39:48,622 - INFO - Processing endpoint pair 38000/4692516
+2025-04-09 19:39:54,564 - INFO - Processing endpoint pair 38100/4692516
+2025-04-09 19:39:58,650 - INFO - Processing endpoint pair 38200/4692516
+2025-04-09 19:40:03,183 - INFO - Processing endpoint pair 38300/4692516
+2025-04-09 19:40:07,340 - INFO - Processing endpoint pair 38400/4692516
+2025-04-09 19:40:14,206 - INFO - Processing endpoint pair 38500/4692516
+2025-04-09 19:40:21,203 - INFO - Processing endpoint pair 38600/4692516
+2025-04-09 19:40:26,138 - INFO - Processing endpoint pair 38700/4692516
+2025-04-09 19:40:32,647 - INFO - Processing endpoint pair 38800/4692516
+2025-04-09 19:40:38,486 - INFO - Processing endpoint pair 38900/4692516
+2025-04-09 19:40:43,510 - INFO - Processing endpoint pair 39000/4692516
+2025-04-09 19:40:49,603 - INFO - Processing endpoint pair 39100/4692516
+2025-04-09 19:40:53,472 - INFO - Processing endpoint pair 39200/4692516
+2025-04-09 19:40:58,858 - INFO - Processing endpoint pair 39300/4692516
+2025-04-09 19:41:04,701 - INFO - Processing endpoint pair 39400/4692516
+2025-04-09 19:41:09,396 - INFO - Processing endpoint pair 39500/4692516
+2025-04-09 19:41:15,188 - INFO - Processing endpoint pair 39600/4692516
+2025-04-09 19:41:20,010 - INFO - Processing endpoint pair 39700/4692516
+2025-04-09 19:41:25,395 - INFO - Processing endpoint pair 39800/4692516
+2025-04-09 19:41:31,147 - INFO - Processing endpoint pair 39900/4692516
+2025-04-09 19:41:35,658 - INFO - Processing endpoint pair 40000/4692516
+2025-04-09 19:41:41,167 - INFO - Processing endpoint pair 40100/4692516
+2025-04-09 19:41:45,924 - INFO - Processing endpoint pair 40200/4692516
+2025-04-09 19:41:52,239 - INFO - Processing endpoint pair 40300/4692516
+2025-04-09 19:41:57,753 - INFO - Processing endpoint pair 40400/4692516
+2025-04-09 19:42:01,899 - INFO - Processing endpoint pair 40500/4692516
+2025-04-09 19:42:06,740 - INFO - Processing endpoint pair 40600/4692516
+2025-04-09 19:42:11,393 - INFO - Processing endpoint pair 40700/4692516
+2025-04-09 19:42:16,108 - INFO - Processing endpoint pair 40800/4692516
+2025-04-09 19:42:19,808 - INFO - Processing endpoint pair 40900/4692516
+2025-04-09 19:42:24,839 - INFO - Processing endpoint pair 41000/4692516
+2025-04-09 19:42:30,831 - INFO - Processing endpoint pair 41100/4692516
+2025-04-09 19:42:35,285 - INFO - Processing endpoint pair 41200/4692516
+2025-04-09 19:42:41,007 - INFO - Processing endpoint pair 41300/4692516
+2025-04-09 19:42:45,865 - INFO - Processing endpoint pair 41400/4692516
+2025-04-09 19:42:49,921 - INFO - Processing endpoint pair 41500/4692516
+2025-04-09 19:42:57,973 - INFO - Processing endpoint pair 41600/4692516
+2025-04-09 19:43:03,707 - INFO - Processing endpoint pair 41700/4692516
+2025-04-09 19:43:10,397 - INFO - Processing endpoint pair 41800/4692516
+2025-04-09 19:43:16,562 - INFO - Processing endpoint pair 41900/4692516
+2025-04-09 19:43:22,220 - INFO - Processing endpoint pair 42000/4692516
+2025-04-09 19:43:26,848 - INFO - Processing endpoint pair 42100/4692516
+2025-04-09 19:43:31,852 - INFO - Processing endpoint pair 42200/4692516
+2025-04-09 19:43:38,656 - INFO - Processing endpoint pair 42300/4692516
+2025-04-09 19:43:42,351 - INFO - Processing endpoint pair 42400/4692516
+2025-04-09 19:43:48,917 - INFO - Processing endpoint pair 42500/4692516
+2025-04-09 19:43:54,437 - INFO - Processing endpoint pair 42600/4692516
+2025-04-09 19:43:59,528 - INFO - Processing endpoint pair 42700/4692516
+2025-04-09 19:44:04,341 - INFO - Processing endpoint pair 42800/4692516
+2025-04-09 19:44:10,568 - INFO - Processing endpoint pair 42900/4692516
+2025-04-09 19:44:15,669 - INFO - Processing endpoint pair 43000/4692516
+2025-04-09 19:44:21,521 - INFO - Processing endpoint pair 43100/4692516
+2025-04-09 19:44:27,599 - INFO - Processing endpoint pair 43200/4692516
+2025-04-09 19:44:32,953 - INFO - Processing endpoint pair 43300/4692516
+2025-04-09 19:44:36,691 - INFO - Processing endpoint pair 43400/4692516
+2025-04-09 19:44:42,033 - INFO - Processing endpoint pair 43500/4692516
+2025-04-09 19:44:47,109 - INFO - Processing endpoint pair 43600/4692516
+2025-04-09 19:44:52,262 - INFO - Processing endpoint pair 43700/4692516
+2025-04-09 19:44:57,521 - INFO - Processing endpoint pair 43800/4692516
+2025-04-09 19:45:03,126 - INFO - Processing endpoint pair 43900/4692516
+2025-04-09 19:45:09,099 - INFO - Processing endpoint pair 44000/4692516
+2025-04-09 19:45:13,909 - INFO - Processing endpoint pair 44100/4692516
+2025-04-09 19:45:18,620 - INFO - Processing endpoint pair 44200/4692516
+2025-04-09 19:45:24,562 - INFO - Processing endpoint pair 44300/4692516
+2025-04-09 19:45:30,123 - INFO - Processing endpoint pair 44400/4692516
+2025-04-09 19:45:36,748 - INFO - Processing endpoint pair 44500/4692516
+2025-04-09 19:45:40,393 - INFO - Processing endpoint pair 44600/4692516
+2025-04-09 19:45:44,248 - INFO - Processing endpoint pair 44700/4692516
+2025-04-09 19:45:50,263 - INFO - Processing endpoint pair 44800/4692516
+2025-04-09 19:45:55,532 - INFO - Processing endpoint pair 44900/4692516
+2025-04-09 19:46:00,210 - INFO - Processing endpoint pair 45000/4692516
+2025-04-09 19:46:06,027 - INFO - Processing endpoint pair 45100/4692516
+2025-04-09 19:46:11,423 - INFO - Processing endpoint pair 45200/4692516
+2025-04-09 19:46:17,072 - INFO - Processing endpoint pair 45300/4692516
+2025-04-09 19:46:21,572 - INFO - Processing endpoint pair 45400/4692516
+2025-04-09 19:46:26,359 - INFO - Processing endpoint pair 45500/4692516
+2025-04-09 19:46:32,213 - INFO - Processing endpoint pair 45600/4692516
+2025-04-09 19:46:36,883 - INFO - Processing endpoint pair 45700/4692516
+2025-04-09 19:46:41,996 - INFO - Processing endpoint pair 45800/4692516
+2025-04-09 19:46:47,531 - INFO - Processing endpoint pair 45900/4692516
+2025-04-09 19:46:52,556 - INFO - Processing endpoint pair 46000/4692516
+2025-04-09 19:46:59,209 - INFO - Processing endpoint pair 46100/4692516
+2025-04-09 19:47:04,440 - INFO - Processing endpoint pair 46200/4692516
+2025-04-09 19:47:11,298 - INFO - Processing endpoint pair 46300/4692516
+2025-04-09 19:47:14,790 - INFO - Processing endpoint pair 46400/4692516
+2025-04-09 19:47:19,686 - INFO - Processing endpoint pair 46500/4692516
+2025-04-09 19:47:25,655 - INFO - Processing endpoint pair 46600/4692516
+2025-04-09 19:47:30,302 - INFO - Processing endpoint pair 46700/4692516
+2025-04-09 19:47:35,526 - INFO - Processing endpoint pair 46800/4692516
+2025-04-09 19:47:40,606 - INFO - Processing endpoint pair 46900/4692516
+2025-04-09 19:47:46,674 - INFO - Processing endpoint pair 47000/4692516
+2025-04-09 19:47:52,413 - INFO - Processing endpoint pair 47100/4692516
+2025-04-09 19:47:57,519 - INFO - Processing endpoint pair 47200/4692516
+2025-04-09 19:48:02,417 - INFO - Processing endpoint pair 47300/4692516
+2025-04-09 19:48:08,543 - INFO - Processing endpoint pair 47400/4692516
+2025-04-09 19:48:15,005 - INFO - Processing endpoint pair 47500/4692516
+2025-04-09 19:48:20,520 - INFO - Processing endpoint pair 47600/4692516
+2025-04-09 19:48:24,039 - INFO - Processing endpoint pair 47700/4692516
+2025-04-09 19:48:29,618 - INFO - Processing endpoint pair 47800/4692516
+2025-04-09 19:48:34,685 - INFO - Processing endpoint pair 47900/4692516
+2025-04-09 19:48:40,515 - INFO - Processing endpoint pair 48000/4692516
+2025-04-09 19:48:45,237 - INFO - Processing endpoint pair 48100/4692516
+2025-04-09 19:48:51,295 - INFO - Processing endpoint pair 48200/4692516
+2025-04-09 19:48:57,611 - INFO - Processing endpoint pair 48300/4692516
+2025-04-09 19:49:01,239 - INFO - Processing endpoint pair 48400/4692516
+2025-04-09 19:49:06,314 - INFO - Processing endpoint pair 48500/4692516
+2025-04-09 19:49:12,263 - INFO - Processing endpoint pair 48600/4692516
+2025-04-09 19:49:17,382 - INFO - Processing endpoint pair 48700/4692516
+2025-04-09 19:49:22,752 - INFO - Processing endpoint pair 48800/4692516
+2025-04-09 19:49:27,430 - INFO - Processing endpoint pair 48900/4692516
+2025-04-09 19:49:33,224 - INFO - Processing endpoint pair 49000/4692516
+2025-04-09 19:49:38,635 - INFO - Processing endpoint pair 49100/4692516
+2025-04-09 19:49:43,788 - INFO - Processing endpoint pair 49200/4692516
+2025-04-09 19:49:48,784 - INFO - Processing endpoint pair 49300/4692516
+2025-04-09 19:49:55,584 - INFO - Processing endpoint pair 49400/4692516
+2025-04-09 19:50:01,660 - INFO - Processing endpoint pair 49500/4692516
+2025-04-09 19:50:07,612 - INFO - Processing endpoint pair 49600/4692516
+2025-04-09 19:50:12,432 - INFO - Processing endpoint pair 49700/4692516
+2025-04-09 19:50:17,644 - INFO - Processing endpoint pair 49800/4692516
+2025-04-09 19:50:23,004 - INFO - Processing endpoint pair 49900/4692516
+2025-04-09 19:50:27,247 - INFO - Processing endpoint pair 50000/4692516
+2025-04-09 19:50:33,197 - INFO - Processing endpoint pair 50100/4692516
+2025-04-09 19:50:38,678 - INFO - Processing endpoint pair 50200/4692516
+2025-04-09 19:50:45,613 - INFO - Processing endpoint pair 50300/4692516
+2025-04-09 19:50:49,499 - INFO - Processing endpoint pair 50400/4692516
+2025-04-09 19:50:55,698 - INFO - Processing endpoint pair 50500/4692516
+2025-04-09 19:51:00,891 - INFO - Processing endpoint pair 50600/4692516
+2025-04-09 19:51:07,414 - INFO - Processing endpoint pair 50700/4692516
+2025-04-09 19:51:14,524 - INFO - Processing endpoint pair 50800/4692516
+2025-04-09 19:51:20,779 - INFO - Processing endpoint pair 50900/4692516
+2025-04-09 19:51:28,518 - INFO - Processing endpoint pair 51000/4692516
+2025-04-09 19:51:34,456 - INFO - Processing endpoint pair 51100/4692516
+2025-04-09 19:51:40,448 - INFO - Processing endpoint pair 51200/4692516
+2025-04-09 19:51:45,892 - INFO - Processing endpoint pair 51300/4692516
+2025-04-09 19:51:51,341 - INFO - Processing endpoint pair 51400/4692516
+2025-04-09 19:51:55,968 - INFO - Processing endpoint pair 51500/4692516
+2025-04-09 19:52:02,088 - INFO - Processing endpoint pair 51600/4692516
+2025-04-09 19:52:08,101 - INFO - Processing endpoint pair 51700/4692516
+2025-04-09 19:52:13,407 - INFO - Processing endpoint pair 51800/4692516
+2025-04-09 19:52:19,076 - INFO - Processing endpoint pair 51900/4692516
+2025-04-09 19:52:24,490 - INFO - Processing endpoint pair 52000/4692516
+2025-04-09 19:52:30,722 - INFO - Processing endpoint pair 52100/4692516
+2025-04-09 19:52:35,611 - INFO - Processing endpoint pair 52200/4692516
+2025-04-09 19:52:40,897 - INFO - Processing endpoint pair 52300/4692516
+2025-04-09 19:52:45,715 - INFO - Processing endpoint pair 52400/4692516
+2025-04-09 19:52:52,609 - INFO - Processing endpoint pair 52500/4692516
+2025-04-09 19:52:58,283 - INFO - Processing endpoint pair 52600/4692516
+2025-04-09 19:53:03,960 - INFO - Processing endpoint pair 52700/4692516
+2025-04-09 19:53:08,479 - INFO - Processing endpoint pair 52800/4692516
+2025-04-09 19:53:13,564 - INFO - Processing endpoint pair 52900/4692516
+2025-04-09 19:53:18,596 - INFO - Processing endpoint pair 53000/4692516
+2025-04-09 19:53:22,775 - INFO - Processing endpoint pair 53100/4692516
+2025-04-09 19:53:28,804 - INFO - Processing endpoint pair 53200/4692516
+2025-04-09 19:53:34,887 - INFO - Processing endpoint pair 53300/4692516
+2025-04-09 19:53:39,722 - INFO - Processing endpoint pair 53400/4692516
+2025-04-09 19:53:46,028 - INFO - Processing endpoint pair 53500/4692516
+2025-04-09 19:53:51,099 - INFO - Processing endpoint pair 53600/4692516
+2025-04-09 19:53:55,734 - INFO - Processing endpoint pair 53700/4692516
+2025-04-09 19:54:04,148 - INFO - Processing endpoint pair 53800/4692516
+2025-04-09 19:54:10,785 - INFO - Processing endpoint pair 53900/4692516
+2025-04-09 19:54:18,000 - INFO - Processing endpoint pair 54000/4692516
+2025-04-09 19:54:24,381 - INFO - Processing endpoint pair 54100/4692516
+2025-04-09 19:54:30,697 - INFO - Processing endpoint pair 54200/4692516
+2025-04-09 19:54:36,099 - INFO - Processing endpoint pair 54300/4692516
+2025-04-09 19:54:41,056 - INFO - Processing endpoint pair 54400/4692516
+2025-04-09 19:54:47,582 - INFO - Processing endpoint pair 54500/4692516
+2025-04-09 19:54:52,542 - INFO - Processing endpoint pair 54600/4692516
+2025-04-09 19:54:58,943 - INFO - Processing endpoint pair 54700/4692516
+2025-04-09 19:55:04,139 - INFO - Processing endpoint pair 54800/4692516
+2025-04-09 19:55:09,756 - INFO - Processing endpoint pair 54900/4692516
+2025-04-09 19:55:14,345 - INFO - Processing endpoint pair 55000/4692516
+2025-04-09 19:55:19,485 - INFO - Processing endpoint pair 55100/4692516
+2025-04-09 19:55:22,693 - INFO - Processing endpoint pair 55200/4692516
+2025-04-09 19:55:27,797 - INFO - Processing endpoint pair 55300/4692516
+2025-04-09 19:55:31,131 - INFO - Processing endpoint pair 55400/4692516
+2025-04-09 19:55:38,756 - INFO - Processing endpoint pair 55500/4692516
+2025-04-09 19:55:44,974 - INFO - Processing endpoint pair 55600/4692516
+2025-04-09 19:55:49,383 - INFO - Processing endpoint pair 55700/4692516
+2025-04-09 19:55:54,166 - INFO - Processing endpoint pair 55800/4692516
+2025-04-09 19:56:00,371 - INFO - Processing endpoint pair 55900/4692516
+2025-04-09 19:56:07,072 - INFO - Processing endpoint pair 56000/4692516
+2025-04-09 19:56:12,213 - INFO - Processing endpoint pair 56100/4692516
+2025-04-09 19:56:16,110 - INFO - Processing endpoint pair 56200/4692516
+2025-04-09 19:56:22,263 - INFO - Processing endpoint pair 56300/4692516
+2025-04-09 19:56:29,018 - INFO - Processing endpoint pair 56400/4692516
+2025-04-09 19:56:33,072 - INFO - Processing endpoint pair 56500/4692516
+2025-04-09 19:56:38,991 - INFO - Processing endpoint pair 56600/4692516
+2025-04-09 19:56:44,548 - INFO - Processing endpoint pair 56700/4692516
+2025-04-09 19:56:53,052 - INFO - Processing endpoint pair 56800/4692516
+2025-04-09 19:57:00,755 - INFO - Processing endpoint pair 56900/4692516
+2025-04-09 19:57:07,278 - INFO - Processing endpoint pair 57000/4692516
+2025-04-09 19:57:14,312 - INFO - Processing endpoint pair 57100/4692516
+2025-04-09 19:57:20,985 - INFO - Processing endpoint pair 57200/4692516
+2025-04-09 19:57:26,779 - INFO - Processing endpoint pair 57300/4692516
+2025-04-09 19:57:32,977 - INFO - Processing endpoint pair 57400/4692516
+2025-04-09 19:57:39,248 - INFO - Processing endpoint pair 57500/4692516
+2025-04-09 19:57:44,776 - INFO - Processing endpoint pair 57600/4692516
+2025-04-09 19:57:52,072 - INFO - Processing endpoint pair 57700/4692516
+2025-04-09 19:57:57,232 - INFO - Processing endpoint pair 57800/4692516
+2025-04-09 19:58:03,462 - INFO - Processing endpoint pair 57900/4692516
+2025-04-09 19:58:10,368 - INFO - Processing endpoint pair 58000/4692516
+2025-04-09 19:58:14,211 - INFO - Processing endpoint pair 58100/4692516
+2025-04-09 19:58:18,986 - INFO - Processing endpoint pair 58200/4692516
+2025-04-09 19:58:22,228 - INFO - Processing endpoint pair 58300/4692516
+2025-04-09 19:58:26,683 - INFO - Processing endpoint pair 58400/4692516
+2025-04-09 19:58:30,605 - INFO - Processing endpoint pair 58500/4692516
+2025-04-09 19:58:38,028 - INFO - Processing endpoint pair 58600/4692516
+2025-04-09 19:58:43,087 - INFO - Processing endpoint pair 58700/4692516
+2025-04-09 19:58:46,553 - INFO - Processing endpoint pair 58800/4692516
+2025-04-09 19:58:51,502 - INFO - Processing endpoint pair 58900/4692516
+2025-04-09 19:58:57,799 - INFO - Processing endpoint pair 59000/4692516
+2025-04-09 19:59:02,676 - INFO - Processing endpoint pair 59100/4692516
+2025-04-09 19:59:06,878 - INFO - Processing endpoint pair 59200/4692516
+2025-04-09 19:59:12,124 - INFO - Processing endpoint pair 59300/4692516
+2025-04-09 19:59:17,275 - INFO - Processing endpoint pair 59400/4692516
+2025-04-09 19:59:22,663 - INFO - Processing endpoint pair 59500/4692516
+2025-04-09 19:59:28,032 - INFO - Processing endpoint pair 59600/4692516
+2025-04-09 19:59:31,216 - INFO - Processing endpoint pair 59700/4692516
+2025-04-09 19:59:37,074 - INFO - Processing endpoint pair 59800/4692516
+2025-04-09 19:59:44,825 - INFO - Processing endpoint pair 59900/4692516
+2025-04-09 19:59:50,553 - INFO - Processing endpoint pair 60000/4692516
+2025-04-09 19:59:57,867 - INFO - Processing endpoint pair 60100/4692516
+2025-04-09 20:00:03,556 - INFO - Processing endpoint pair 60200/4692516
+2025-04-09 20:00:09,805 - INFO - Processing endpoint pair 60300/4692516
+2025-04-09 20:00:16,058 - INFO - Processing endpoint pair 60400/4692516
+2025-04-09 20:00:19,648 - INFO - Processing endpoint pair 60500/4692516
+2025-04-09 20:00:26,045 - INFO - Processing endpoint pair 60600/4692516
+2025-04-09 20:00:31,506 - INFO - Processing endpoint pair 60700/4692516
+2025-04-09 20:00:36,773 - INFO - Processing endpoint pair 60800/4692516
+2025-04-09 20:00:41,926 - INFO - Processing endpoint pair 60900/4692516
+2025-04-09 20:00:47,601 - INFO - Processing endpoint pair 61000/4692516
+2025-04-09 20:00:52,475 - INFO - Processing endpoint pair 61100/4692516
+2025-04-09 20:00:56,892 - INFO - Processing endpoint pair 61200/4692516
+2025-04-09 20:01:00,223 - INFO - Processing endpoint pair 61300/4692516
+2025-04-09 20:01:04,955 - INFO - Processing endpoint pair 61400/4692516
+2025-04-09 20:01:08,246 - INFO - Processing endpoint pair 61500/4692516
+2025-04-09 20:01:16,029 - INFO - Processing endpoint pair 61600/4692516
+2025-04-09 20:01:20,310 - INFO - Processing endpoint pair 61700/4692516
+2025-04-09 20:01:25,139 - INFO - Processing endpoint pair 61800/4692516
+2025-04-09 20:01:29,623 - INFO - Processing endpoint pair 61900/4692516
+2025-04-09 20:01:34,435 - INFO - Processing endpoint pair 62000/4692516
+2025-04-09 20:01:40,888 - INFO - Processing endpoint pair 62100/4692516
+2025-04-09 20:01:44,688 - INFO - Processing endpoint pair 62200/4692516
+2025-04-09 20:01:49,225 - INFO - Processing endpoint pair 62300/4692516
+2025-04-09 20:01:54,445 - INFO - Processing endpoint pair 62400/4692516
+2025-04-09 20:01:59,598 - INFO - Processing endpoint pair 62500/4692516
+2025-04-09 20:02:04,124 - INFO - Processing endpoint pair 62600/4692516
+2025-04-09 20:02:08,563 - INFO - Processing endpoint pair 62700/4692516
+2025-04-09 20:02:13,665 - INFO - Processing endpoint pair 62800/4692516
+2025-04-09 20:02:22,348 - INFO - Processing endpoint pair 62900/4692516
+2025-04-09 20:02:28,444 - INFO - Processing endpoint pair 63000/4692516
+2025-04-09 20:02:34,891 - INFO - Processing endpoint pair 63100/4692516
+2025-04-09 20:02:40,514 - INFO - Processing endpoint pair 63200/4692516
+2025-04-09 20:02:47,536 - INFO - Processing endpoint pair 63300/4692516
+2025-04-09 20:02:52,362 - INFO - Processing endpoint pair 63400/4692516
+2025-04-09 20:02:57,699 - INFO - Processing endpoint pair 63500/4692516
+2025-04-09 20:03:04,118 - INFO - Processing endpoint pair 63600/4692516
+2025-04-09 20:03:08,712 - INFO - Processing endpoint pair 63700/4692516
+2025-04-09 20:03:15,557 - INFO - Processing endpoint pair 63800/4692516
+2025-04-09 20:03:20,309 - INFO - Processing endpoint pair 63900/4692516
+2025-04-09 20:03:26,512 - INFO - Processing endpoint pair 64000/4692516
+2025-04-09 20:03:31,633 - INFO - Processing endpoint pair 64100/4692516
+2025-04-09 20:03:36,480 - INFO - Processing endpoint pair 64200/4692516
+2025-04-09 20:03:41,354 - INFO - Processing endpoint pair 64300/4692516
+2025-04-09 20:03:45,974 - INFO - Processing endpoint pair 64400/4692516
+2025-04-09 20:03:50,865 - INFO - Processing endpoint pair 64500/4692516
+2025-04-09 20:03:56,500 - INFO - Processing endpoint pair 64600/4692516
+2025-04-09 20:04:03,607 - INFO - Processing endpoint pair 64700/4692516
+2025-04-09 20:04:08,935 - INFO - Processing endpoint pair 64800/4692516
+2025-04-09 20:04:13,082 - INFO - Processing endpoint pair 64900/4692516
+2025-04-09 20:04:19,464 - INFO - Processing endpoint pair 65000/4692516
+2025-04-09 20:04:26,743 - INFO - Processing endpoint pair 65100/4692516
+2025-04-09 20:04:32,170 - INFO - Processing endpoint pair 65200/4692516
+2025-04-09 20:04:36,883 - INFO - Processing endpoint pair 65300/4692516
+2025-04-09 20:04:42,764 - INFO - Processing endpoint pair 65400/4692516
+2025-04-09 20:04:48,719 - INFO - Processing endpoint pair 65500/4692516
+2025-04-09 20:04:55,243 - INFO - Processing endpoint pair 65600/4692516
+2025-04-09 20:05:00,652 - INFO - Processing endpoint pair 65700/4692516
+2025-04-09 20:05:05,183 - INFO - Processing endpoint pair 65800/4692516
+2025-04-09 20:05:12,672 - INFO - Processing endpoint pair 65900/4692516
+2025-04-09 20:05:21,937 - INFO - Processing endpoint pair 66000/4692516
+2025-04-09 20:05:27,679 - INFO - Processing endpoint pair 66100/4692516
+2025-04-09 20:05:36,117 - INFO - Processing endpoint pair 66200/4692516
+2025-04-09 20:05:42,851 - INFO - Processing endpoint pair 66300/4692516
+2025-04-09 20:05:48,743 - INFO - Processing endpoint pair 66400/4692516
+2025-04-09 20:05:56,492 - INFO - Processing endpoint pair 66500/4692516
+2025-04-09 20:06:00,623 - INFO - Processing endpoint pair 66600/4692516
+2025-04-09 20:06:07,606 - INFO - Processing endpoint pair 66700/4692516
+2025-04-09 20:06:14,189 - INFO - Processing endpoint pair 66800/4692516
+2025-04-09 20:06:20,019 - INFO - Processing endpoint pair 66900/4692516
+2025-04-09 20:06:26,282 - INFO - Processing endpoint pair 67000/4692516
+2025-04-09 20:06:32,700 - INFO - Processing endpoint pair 67100/4692516
+2025-04-09 20:06:42,073 - INFO - Processing endpoint pair 67200/4692516
+2025-04-09 20:06:51,590 - INFO - Processing endpoint pair 67300/4692516
+2025-04-09 20:07:03,013 - INFO - Processing endpoint pair 67400/4692516
+2025-04-09 20:07:12,819 - INFO - Processing endpoint pair 67500/4692516
+2025-04-09 20:07:24,592 - INFO - Processing endpoint pair 67600/4692516
+2025-04-09 20:07:31,537 - INFO - Processing endpoint pair 67700/4692516
+2025-04-09 20:07:41,100 - INFO - Processing endpoint pair 67800/4692516
+2025-04-09 20:07:51,075 - INFO - Processing endpoint pair 67900/4692516
+2025-04-09 20:08:00,574 - INFO - Processing endpoint pair 68000/4692516
+2025-04-09 20:08:10,879 - INFO - Processing endpoint pair 68100/4692516
+2025-04-09 20:08:20,104 - INFO - Processing endpoint pair 68200/4692516
+2025-04-09 20:08:31,429 - INFO - Processing endpoint pair 68300/4692516
+2025-04-09 20:08:41,591 - INFO - Processing endpoint pair 68400/4692516
+2025-04-09 20:08:50,055 - INFO - Processing endpoint pair 68500/4692516
+2025-04-09 20:08:59,467 - INFO - Processing endpoint pair 68600/4692516
+2025-04-09 20:09:08,945 - INFO - Processing endpoint pair 68700/4692516
+2025-04-09 20:09:20,261 - INFO - Processing endpoint pair 68800/4692516
+2025-04-09 20:09:30,396 - INFO - Processing endpoint pair 68900/4692516
+2025-04-09 20:09:35,577 - INFO - Processing endpoint pair 69000/4692516
+2025-04-09 20:09:44,345 - INFO - Processing endpoint pair 69100/4692516
+2025-04-09 20:09:52,976 - INFO - Processing endpoint pair 69200/4692516
+2025-04-09 20:10:02,068 - INFO - Processing endpoint pair 69300/4692516
+2025-04-09 20:10:10,299 - INFO - Processing endpoint pair 69400/4692516
+2025-04-09 20:10:20,844 - INFO - Processing endpoint pair 69500/4692516
+2025-04-09 20:10:31,806 - INFO - Processing endpoint pair 69600/4692516
+2025-04-09 20:10:38,835 - INFO - Processing endpoint pair 69700/4692516
+2025-04-09 20:10:49,022 - INFO - Processing endpoint pair 69800/4692516
+2025-04-09 20:10:58,113 - INFO - Processing endpoint pair 69900/4692516
+2025-04-09 20:11:07,834 - INFO - Processing endpoint pair 70000/4692516
+2025-04-09 20:11:17,072 - INFO - Processing endpoint pair 70100/4692516
+2025-04-09 20:11:25,879 - INFO - Processing endpoint pair 70200/4692516
+2025-04-09 20:11:31,039 - INFO - Processing endpoint pair 70300/4692516
+2025-04-09 20:11:35,391 - INFO - Processing endpoint pair 70400/4692516
+2025-04-09 20:11:39,794 - INFO - Processing endpoint pair 70500/4692516
+2025-04-09 20:11:43,469 - INFO - Processing endpoint pair 70600/4692516
+2025-04-09 20:11:49,811 - INFO - Processing endpoint pair 70700/4692516
+2025-04-09 20:11:56,633 - INFO - Processing endpoint pair 70800/4692516
+2025-04-09 20:12:01,456 - INFO - Processing endpoint pair 70900/4692516
+2025-04-09 20:12:06,153 - INFO - Processing endpoint pair 71000/4692516
+2025-04-09 20:12:11,711 - INFO - Processing endpoint pair 71100/4692516
+2025-04-09 20:12:18,389 - INFO - Processing endpoint pair 71200/4692516
+2025-04-09 20:12:23,425 - INFO - Processing endpoint pair 71300/4692516
+2025-04-09 20:12:27,679 - INFO - Processing endpoint pair 71400/4692516
+2025-04-09 20:12:33,866 - INFO - Processing endpoint pair 71500/4692516
+2025-04-09 20:12:40,669 - INFO - Processing endpoint pair 71600/4692516
+2025-04-09 20:12:44,761 - INFO - Processing endpoint pair 71700/4692516
+2025-04-09 20:12:49,994 - INFO - Processing endpoint pair 71800/4692516
+2025-04-09 20:12:55,087 - INFO - Processing endpoint pair 71900/4692516
+2025-04-09 20:13:03,003 - INFO - Processing endpoint pair 72000/4692516
+2025-04-09 20:13:10,925 - INFO - Processing endpoint pair 72100/4692516
+2025-04-09 20:13:16,730 - INFO - Processing endpoint pair 72200/4692516
+2025-04-09 20:13:24,566 - INFO - Processing endpoint pair 72300/4692516
+2025-04-09 20:13:31,638 - INFO - Processing endpoint pair 72400/4692516
+2025-04-09 20:13:37,452 - INFO - Processing endpoint pair 72500/4692516
+2025-04-09 20:13:44,185 - INFO - Processing endpoint pair 72600/4692516
+2025-04-09 20:13:49,309 - INFO - Processing endpoint pair 72700/4692516
+2025-04-09 20:13:55,506 - INFO - Processing endpoint pair 72800/4692516
+2025-04-09 20:14:02,356 - INFO - Processing endpoint pair 72900/4692516
+2025-04-09 20:14:07,715 - INFO - Processing endpoint pair 73000/4692516
+2025-04-09 20:14:14,863 - INFO - Processing endpoint pair 73100/4692516
+2025-04-09 20:14:20,493 - INFO - Processing endpoint pair 73200/4692516
+2025-04-09 20:14:24,649 - INFO - Processing endpoint pair 73300/4692516
+2025-04-09 20:14:29,677 - INFO - Processing endpoint pair 73400/4692516
+2025-04-09 20:14:33,298 - INFO - Processing endpoint pair 73500/4692516
+2025-04-09 20:14:38,372 - INFO - Processing endpoint pair 73600/4692516
+2025-04-09 20:14:43,465 - INFO - Processing endpoint pair 73700/4692516
+2025-04-09 20:14:53,469 - INFO - Processing endpoint pair 73800/4692516
+2025-04-09 20:14:59,774 - INFO - Processing endpoint pair 73900/4692516
+2025-04-09 20:15:03,586 - INFO - Processing endpoint pair 74000/4692516
+2025-04-09 20:15:09,145 - INFO - Processing endpoint pair 74100/4692516
+2025-04-09 20:15:15,787 - INFO - Processing endpoint pair 74200/4692516
+2025-04-09 20:15:21,452 - INFO - Processing endpoint pair 74300/4692516
+2025-04-09 20:15:26,258 - INFO - Processing endpoint pair 74400/4692516
+2025-04-09 20:15:31,912 - INFO - Processing endpoint pair 74500/4692516
+2025-04-09 20:15:38,012 - INFO - Processing endpoint pair 74600/4692516
+2025-04-09 20:15:43,482 - INFO - Processing endpoint pair 74700/4692516
+2025-04-09 20:15:49,108 - INFO - Processing endpoint pair 74800/4692516
+2025-04-09 20:15:52,974 - INFO - Processing endpoint pair 74900/4692516
+2025-04-09 20:15:58,484 - INFO - Processing endpoint pair 75000/4692516
+2025-04-09 20:16:07,667 - INFO - Processing endpoint pair 75100/4692516
+2025-04-09 20:16:14,183 - INFO - Processing endpoint pair 75200/4692516
+2025-04-09 20:16:21,517 - INFO - Processing endpoint pair 75300/4692516
+2025-04-09 20:16:27,163 - INFO - Processing endpoint pair 75400/4692516
+2025-04-09 20:16:34,826 - INFO - Processing endpoint pair 75500/4692516
+2025-04-09 20:16:40,714 - INFO - Processing endpoint pair 75600/4692516
+2025-04-09 20:16:44,479 - INFO - Processing endpoint pair 75700/4692516
+2025-04-09 20:16:51,614 - INFO - Processing endpoint pair 75800/4692516
+2025-04-09 20:16:57,185 - INFO - Processing endpoint pair 75900/4692516
+2025-04-09 20:17:03,449 - INFO - Processing endpoint pair 76000/4692516
+2025-04-09 20:17:08,998 - INFO - Processing endpoint pair 76100/4692516
+2025-04-09 20:17:14,002 - INFO - Processing endpoint pair 76200/4692516
+2025-04-09 20:17:19,202 - INFO - Processing endpoint pair 76300/4692516
+2025-04-09 20:17:23,093 - INFO - Processing endpoint pair 76400/4692516
+2025-04-09 20:17:26,127 - INFO - Processing endpoint pair 76500/4692516
+2025-04-09 20:17:29,616 - INFO - Processing endpoint pair 76600/4692516
+2025-04-09 20:17:31,932 - INFO - Processing endpoint pair 76700/4692516
+2025-04-09 20:17:37,815 - INFO - Processing endpoint pair 76800/4692516
+2025-04-09 20:17:41,098 - INFO - Processing endpoint pair 76900/4692516
+2025-04-09 20:17:45,564 - INFO - Processing endpoint pair 77000/4692516
+2025-04-09 20:17:48,394 - INFO - Processing endpoint pair 77100/4692516
+2025-04-09 20:17:52,009 - INFO - Processing endpoint pair 77200/4692516
+2025-04-09 20:17:57,179 - INFO - Processing endpoint pair 77300/4692516
+2025-04-09 20:17:59,429 - INFO - Processing endpoint pair 77400/4692516
+2025-04-09 20:18:03,568 - INFO - Processing endpoint pair 77500/4692516
+2025-04-09 20:18:07,629 - INFO - Processing endpoint pair 77600/4692516
+2025-04-09 20:18:11,935 - INFO - Processing endpoint pair 77700/4692516
+2025-04-09 20:18:15,534 - INFO - Processing endpoint pair 77800/4692516
+2025-04-09 20:18:19,046 - INFO - Processing endpoint pair 77900/4692516
+2025-04-09 20:18:22,933 - INFO - Processing endpoint pair 78000/4692516
+2025-04-09 20:18:30,797 - INFO - Processing endpoint pair 78100/4692516
+2025-04-09 20:18:36,160 - INFO - Processing endpoint pair 78200/4692516
+2025-04-09 20:18:41,509 - INFO - Processing endpoint pair 78300/4692516
+2025-04-09 20:18:46,656 - INFO - Processing endpoint pair 78400/4692516
+2025-04-09 20:18:52,281 - INFO - Processing endpoint pair 78500/4692516
+2025-04-09 20:18:55,896 - INFO - Processing endpoint pair 78600/4692516
+2025-04-09 20:18:59,973 - INFO - Processing endpoint pair 78700/4692516
+2025-04-09 20:19:05,413 - INFO - Processing endpoint pair 78800/4692516
+2025-04-09 20:19:08,129 - INFO - Processing endpoint pair 78900/4692516
+2025-04-09 20:19:14,479 - INFO - Processing endpoint pair 79000/4692516
+2025-04-09 20:19:18,349 - INFO - Processing endpoint pair 79100/4692516
+2025-04-09 20:19:23,163 - INFO - Processing endpoint pair 79200/4692516
+2025-04-09 20:19:26,900 - INFO - Processing endpoint pair 79300/4692516
+2025-04-09 20:19:29,797 - INFO - Processing endpoint pair 79400/4692516
+2025-04-09 20:19:33,280 - INFO - Processing endpoint pair 79500/4692516
+2025-04-09 20:19:35,851 - INFO - Processing endpoint pair 79600/4692516
+2025-04-09 20:19:39,210 - INFO - Processing endpoint pair 79700/4692516
+2025-04-09 20:19:44,367 - INFO - Processing endpoint pair 79800/4692516
+2025-04-09 20:19:48,751 - INFO - Processing endpoint pair 79900/4692516
+2025-04-09 20:19:52,459 - INFO - Processing endpoint pair 80000/4692516
+2025-04-09 20:19:55,516 - INFO - Processing endpoint pair 80100/4692516
+2025-04-09 20:19:59,369 - INFO - Processing endpoint pair 80200/4692516
+2025-04-09 20:20:04,632 - INFO - Processing endpoint pair 80300/4692516
+2025-04-09 20:20:07,976 - INFO - Processing endpoint pair 80400/4692516
+2025-04-09 20:20:11,343 - INFO - Processing endpoint pair 80500/4692516
+2025-04-09 20:20:15,551 - INFO - Processing endpoint pair 80600/4692516
+2025-04-09 20:20:19,944 - INFO - Processing endpoint pair 80700/4692516
+2025-04-09 20:20:23,595 - INFO - Processing endpoint pair 80800/4692516
+2025-04-09 20:20:27,807 - INFO - Processing endpoint pair 80900/4692516
+2025-04-09 20:20:31,008 - INFO - Processing endpoint pair 81000/4692516
+2025-04-09 20:20:36,723 - INFO - Processing endpoint pair 81100/4692516
+2025-04-09 20:20:43,762 - INFO - Processing endpoint pair 81200/4692516
+2025-04-09 20:20:48,639 - INFO - Processing endpoint pair 81300/4692516
+2025-04-09 20:20:54,589 - INFO - Processing endpoint pair 81400/4692516
+2025-04-09 20:21:00,558 - INFO - Processing endpoint pair 81500/4692516
+2025-04-09 20:21:04,573 - INFO - Processing endpoint pair 81600/4692516
+2025-04-09 20:21:09,136 - INFO - Processing endpoint pair 81700/4692516
+2025-04-09 20:21:12,694 - INFO - Processing endpoint pair 81800/4692516
+2025-04-09 20:21:16,895 - INFO - Processing endpoint pair 81900/4692516
+2025-04-09 20:21:21,729 - INFO - Processing endpoint pair 82000/4692516
+2025-04-09 20:21:26,046 - INFO - Processing endpoint pair 82100/4692516
+2025-04-09 20:21:31,248 - INFO - Processing endpoint pair 82200/4692516
+2025-04-09 20:21:35,121 - INFO - Processing endpoint pair 82300/4692516
+2025-04-09 20:21:38,555 - INFO - Processing endpoint pair 82400/4692516
+2025-04-09 20:21:42,782 - INFO - Processing endpoint pair 82500/4692516
+2025-04-09 20:21:44,990 - INFO - Processing endpoint pair 82600/4692516
+2025-04-09 20:21:48,699 - INFO - Processing endpoint pair 82700/4692516
+2025-04-09 20:21:51,928 - INFO - Processing endpoint pair 82800/4692516
+2025-04-09 20:21:57,934 - INFO - Processing endpoint pair 82900/4692516
+2025-04-09 20:22:02,739 - INFO - Processing endpoint pair 83000/4692516
+2025-04-09 20:22:05,443 - INFO - Processing endpoint pair 83100/4692516
+2025-04-09 20:22:09,081 - INFO - Processing endpoint pair 83200/4692516
+2025-04-09 20:22:13,202 - INFO - Processing endpoint pair 83300/4692516
+2025-04-09 20:22:17,910 - INFO - Processing endpoint pair 83400/4692516
+2025-04-09 20:22:20,493 - INFO - Processing endpoint pair 83500/4692516
+2025-04-09 20:22:23,743 - INFO - Processing endpoint pair 83600/4692516
+2025-04-09 20:22:29,002 - INFO - Processing endpoint pair 83700/4692516
+2025-04-09 20:22:32,616 - INFO - Processing endpoint pair 83800/4692516
+2025-04-09 20:22:37,638 - INFO - Processing endpoint pair 83900/4692516
+2025-04-09 20:22:40,998 - INFO - Processing endpoint pair 84000/4692516
+2025-04-09 20:22:43,794 - INFO - Processing endpoint pair 84100/4692516
+2025-04-09 20:22:52,454 - INFO - Processing endpoint pair 84200/4692516
+2025-04-09 20:22:57,749 - INFO - Processing endpoint pair 84300/4692516
+2025-04-09 20:23:03,637 - INFO - Processing endpoint pair 84400/4692516
+2025-04-09 20:23:08,898 - INFO - Processing endpoint pair 84500/4692516
+2025-04-09 20:23:14,300 - INFO - Processing endpoint pair 84600/4692516
+2025-04-09 20:23:18,241 - INFO - Processing endpoint pair 84700/4692516
+2025-04-09 20:23:20,941 - INFO - Processing endpoint pair 84800/4692516
+2025-04-09 20:23:27,564 - INFO - Processing endpoint pair 84900/4692516
+2025-04-09 20:23:31,649 - INFO - Processing endpoint pair 85000/4692516
+2025-04-09 20:23:36,187 - INFO - Processing endpoint pair 85100/4692516
+2025-04-09 20:23:40,832 - INFO - Processing endpoint pair 85200/4692516
+2025-04-09 20:23:44,898 - INFO - Processing endpoint pair 85300/4692516
+2025-04-09 20:23:48,809 - INFO - Processing endpoint pair 85400/4692516
+2025-04-09 20:23:52,829 - INFO - Processing endpoint pair 85500/4692516
+2025-04-09 20:23:55,937 - INFO - Processing endpoint pair 85600/4692516
+2025-04-09 20:23:59,645 - INFO - Processing endpoint pair 85700/4692516
+2025-04-09 20:24:01,155 - INFO - Processing endpoint pair 85800/4692516
+2025-04-09 20:24:07,892 - INFO - Processing endpoint pair 85900/4692516
+2025-04-09 20:24:11,640 - INFO - Processing endpoint pair 86000/4692516
+2025-04-09 20:24:15,456 - INFO - Processing endpoint pair 86100/4692516
+2025-04-09 20:24:18,115 - INFO - Processing endpoint pair 86200/4692516
+2025-04-09 20:24:21,954 - INFO - Processing endpoint pair 86300/4692516
+2025-04-09 20:24:27,465 - INFO - Processing endpoint pair 86400/4692516
+2025-04-09 20:24:29,819 - INFO - Processing endpoint pair 86500/4692516
+2025-04-09 20:24:33,281 - INFO - Processing endpoint pair 86600/4692516
+2025-04-09 20:24:37,238 - INFO - Processing endpoint pair 86700/4692516
+2025-04-09 20:24:42,666 - INFO - Processing endpoint pair 86800/4692516
+2025-04-09 20:24:45,427 - INFO - Processing endpoint pair 86900/4692516
+2025-04-09 20:24:49,935 - INFO - Processing endpoint pair 87000/4692516
+2025-04-09 20:24:53,942 - INFO - Processing endpoint pair 87100/4692516
+2025-04-09 20:25:01,058 - INFO - Processing endpoint pair 87200/4692516
+2025-04-09 20:25:06,947 - INFO - Processing endpoint pair 87300/4692516
+2025-04-09 20:25:12,004 - INFO - Processing endpoint pair 87400/4692516
+2025-04-09 20:25:17,775 - INFO - Processing endpoint pair 87500/4692516
+2025-04-09 20:25:23,063 - INFO - Processing endpoint pair 87600/4692516
+2025-04-09 20:25:27,109 - INFO - Processing endpoint pair 87700/4692516
+2025-04-09 20:25:31,932 - INFO - Processing endpoint pair 87800/4692516
+2025-04-09 20:25:36,619 - INFO - Processing endpoint pair 87900/4692516
+2025-04-09 20:25:39,962 - INFO - Processing endpoint pair 88000/4692516
+2025-04-09 20:25:46,132 - INFO - Processing endpoint pair 88100/4692516
+2025-04-09 20:25:49,271 - INFO - Processing endpoint pair 88200/4692516
+2025-04-09 20:25:54,431 - INFO - Processing endpoint pair 88300/4692516
+2025-04-09 20:25:58,474 - INFO - Processing endpoint pair 88400/4692516
+2025-04-09 20:26:04,002 - INFO - Processing endpoint pair 88500/4692516
+2025-04-09 20:26:09,560 - INFO - Processing endpoint pair 88600/4692516
+2025-04-09 20:26:14,914 - INFO - Processing endpoint pair 88700/4692516
+2025-04-09 20:26:20,542 - INFO - Processing endpoint pair 88800/4692516
+2025-04-09 20:26:27,691 - INFO - Processing endpoint pair 88900/4692516
+2025-04-09 20:26:35,749 - INFO - Processing endpoint pair 89000/4692516
+2025-04-09 20:26:42,488 - INFO - Processing endpoint pair 89100/4692516
+2025-04-09 20:26:48,134 - INFO - Processing endpoint pair 89200/4692516
+2025-04-09 20:26:54,756 - INFO - Processing endpoint pair 89300/4692516
+2025-04-09 20:27:03,426 - INFO - Processing endpoint pair 89400/4692516
+2025-04-09 20:27:10,783 - INFO - Processing endpoint pair 89500/4692516
+2025-04-09 20:27:16,349 - INFO - Processing endpoint pair 89600/4692516
+2025-04-09 20:27:23,207 - INFO - Processing endpoint pair 89700/4692516
+2025-04-09 20:27:30,539 - INFO - Processing endpoint pair 89800/4692516
+2025-04-09 20:27:37,970 - INFO - Processing endpoint pair 89900/4692516
+2025-04-09 20:27:44,136 - INFO - Processing endpoint pair 90000/4692516
+2025-04-09 20:27:49,557 - INFO - Processing endpoint pair 90100/4692516
+2025-04-09 20:27:58,214 - INFO - Processing endpoint pair 90200/4692516
+2025-04-09 20:28:07,782 - INFO - Processing endpoint pair 90300/4692516
+2025-04-09 20:28:14,149 - INFO - Processing endpoint pair 90400/4692516
+2025-04-09 20:28:23,465 - INFO - Processing endpoint pair 90500/4692516
+2025-04-09 20:28:30,853 - INFO - Processing endpoint pair 90600/4692516
+2025-04-09 20:28:38,037 - INFO - Processing endpoint pair 90700/4692516
+2025-04-09 20:28:46,255 - INFO - Processing endpoint pair 90800/4692516
+2025-04-09 20:28:51,822 - INFO - Processing endpoint pair 90900/4692516
+2025-04-09 20:28:59,715 - INFO - Processing endpoint pair 91000/4692516
+2025-04-09 20:29:07,198 - INFO - Processing endpoint pair 91100/4692516
+2025-04-09 20:29:14,478 - INFO - Processing endpoint pair 91200/4692516
+2025-04-09 20:29:22,261 - INFO - Processing endpoint pair 91300/4692516
+2025-04-09 20:29:29,491 - INFO - Processing endpoint pair 91400/4692516
+2025-04-09 20:29:35,209 - INFO - Processing endpoint pair 91500/4692516
+2025-04-09 20:29:39,736 - INFO - Processing endpoint pair 91600/4692516
+2025-04-09 20:29:42,030 - INFO - Processing endpoint pair 91700/4692516
+2025-04-09 20:29:46,142 - INFO - Processing endpoint pair 91800/4692516
+2025-04-09 20:29:49,747 - INFO - Processing endpoint pair 91900/4692516
+2025-04-09 20:29:56,221 - INFO - Processing endpoint pair 92000/4692516
+2025-04-09 20:30:00,729 - INFO - Processing endpoint pair 92100/4692516
+2025-04-09 20:30:03,629 - INFO - Processing endpoint pair 92200/4692516
+2025-04-09 20:30:07,501 - INFO - Processing endpoint pair 92300/4692516
+2025-04-09 20:30:11,827 - INFO - Processing endpoint pair 92400/4692516
+2025-04-09 20:30:16,460 - INFO - Processing endpoint pair 92500/4692516
+2025-04-09 20:30:20,114 - INFO - Processing endpoint pair 92600/4692516
+2025-04-09 20:30:24,214 - INFO - Processing endpoint pair 92700/4692516
+2025-04-09 20:30:29,175 - INFO - Processing endpoint pair 92800/4692516
+2025-04-09 20:30:33,270 - INFO - Processing endpoint pair 92900/4692516
+2025-04-09 20:30:38,003 - INFO - Processing endpoint pair 93000/4692516
+2025-04-09 20:30:41,677 - INFO - Processing endpoint pair 93100/4692516
+2025-04-09 20:30:44,809 - INFO - Processing endpoint pair 93200/4692516
+2025-04-09 20:30:54,185 - INFO - Processing endpoint pair 93300/4692516
+2025-04-09 20:30:59,864 - INFO - Processing endpoint pair 93400/4692516
+2025-04-09 20:31:05,973 - INFO - Processing endpoint pair 93500/4692516
+2025-04-09 20:31:11,757 - INFO - Processing endpoint pair 93600/4692516
+2025-04-09 20:31:17,487 - INFO - Processing endpoint pair 93700/4692516
+2025-04-09 20:31:21,045 - INFO - Processing endpoint pair 93800/4692516
+2025-04-09 20:31:24,811 - INFO - Processing endpoint pair 93900/4692516
+2025-04-09 20:31:31,239 - INFO - Processing endpoint pair 94000/4692516
+2025-04-09 20:31:35,486 - INFO - Processing endpoint pair 94100/4692516
+2025-04-09 20:31:40,127 - INFO - Processing endpoint pair 94200/4692516
+2025-04-09 20:31:44,433 - INFO - Processing endpoint pair 94300/4692516
+2025-04-09 20:31:48,833 - INFO - Processing endpoint pair 94400/4692516
+2025-04-09 20:31:52,983 - INFO - Processing endpoint pair 94500/4692516
+2025-04-09 20:31:57,890 - INFO - Processing endpoint pair 94600/4692516
+2025-04-09 20:32:00,652 - INFO - Processing endpoint pair 94700/4692516
+2025-04-09 20:32:03,898 - INFO - Processing endpoint pair 94800/4692516
+2025-04-09 20:32:06,187 - INFO - Processing endpoint pair 94900/4692516
+2025-04-09 20:32:13,484 - INFO - Processing endpoint pair 95000/4692516
+2025-04-09 20:32:17,419 - INFO - Processing endpoint pair 95100/4692516
+2025-04-09 20:32:21,473 - INFO - Processing endpoint pair 95200/4692516
+2025-04-09 20:32:24,885 - INFO - Processing endpoint pair 95300/4692516
+2025-04-09 20:32:28,970 - INFO - Processing endpoint pair 95400/4692516
+2025-04-09 20:32:34,945 - INFO - Processing endpoint pair 95500/4692516
+2025-04-09 20:32:37,638 - INFO - Processing endpoint pair 95600/4692516
+2025-04-09 20:32:40,912 - INFO - Processing endpoint pair 95700/4692516
+2025-04-09 20:32:45,278 - INFO - Processing endpoint pair 95800/4692516
+2025-04-09 20:32:51,615 - INFO - Processing endpoint pair 95900/4692516
+2025-04-09 20:32:55,448 - INFO - Processing endpoint pair 96000/4692516
+2025-04-09 20:32:59,888 - INFO - Processing endpoint pair 96100/4692516
+2025-04-09 20:33:04,570 - INFO - Processing endpoint pair 96200/4692516
+2025-04-09 20:33:13,160 - INFO - Processing endpoint pair 96300/4692516
+2025-04-09 20:33:19,660 - INFO - Processing endpoint pair 96400/4692516
+2025-04-09 20:33:24,774 - INFO - Processing endpoint pair 96500/4692516
+2025-04-09 20:33:31,426 - INFO - Processing endpoint pair 96600/4692516
+2025-04-09 20:33:37,770 - INFO - Processing endpoint pair 96700/4692516
+2025-04-09 20:33:42,410 - INFO - Processing endpoint pair 96800/4692516
+2025-04-09 20:33:47,495 - INFO - Processing endpoint pair 96900/4692516
+2025-04-09 20:33:54,079 - INFO - Processing endpoint pair 97000/4692516
+2025-04-09 20:33:57,368 - INFO - Processing endpoint pair 97100/4692516
+2025-04-09 20:34:05,188 - INFO - Processing endpoint pair 97200/4692516
+2025-04-09 20:34:09,905 - INFO - Processing endpoint pair 97300/4692516
+2025-04-09 20:34:16,277 - INFO - Processing endpoint pair 97400/4692516
+2025-04-09 20:34:21,123 - INFO - Processing endpoint pair 97500/4692516
+2025-04-09 20:34:24,773 - INFO - Processing endpoint pair 97600/4692516
+2025-04-09 20:34:29,211 - INFO - Processing endpoint pair 97700/4692516
+2025-04-09 20:34:32,512 - INFO - Processing endpoint pair 97800/4692516
+2025-04-09 20:34:36,900 - INFO - Processing endpoint pair 97900/4692516
+2025-04-09 20:34:42,634 - INFO - Processing endpoint pair 98000/4692516
+2025-04-09 20:34:49,129 - INFO - Processing endpoint pair 98100/4692516
+2025-04-09 20:34:53,877 - INFO - Processing endpoint pair 98200/4692516
+2025-04-09 20:34:57,017 - INFO - Processing endpoint pair 98300/4692516
+2025-04-09 20:35:01,845 - INFO - Processing endpoint pair 98400/4692516
+2025-04-09 20:35:08,408 - INFO - Processing endpoint pair 98500/4692516
+2025-04-09 20:35:11,960 - INFO - Processing endpoint pair 98600/4692516
+2025-04-09 20:35:15,986 - INFO - Processing endpoint pair 98700/4692516
+2025-04-09 20:35:20,994 - INFO - Processing endpoint pair 98800/4692516
+2025-04-09 20:35:26,208 - INFO - Processing endpoint pair 98900/4692516
+2025-04-09 20:35:30,893 - INFO - Processing endpoint pair 99000/4692516
+2025-04-09 20:35:36,652 - INFO - Processing endpoint pair 99100/4692516
+2025-04-09 20:35:39,781 - INFO - Processing endpoint pair 99200/4692516
+2025-04-09 20:35:46,507 - INFO - Processing endpoint pair 99300/4692516
+2025-04-09 20:35:55,047 - INFO - Processing endpoint pair 99400/4692516
+2025-04-09 20:36:00,166 - INFO - Processing endpoint pair 99500/4692516
+2025-04-09 20:36:08,263 - INFO - Processing endpoint pair 99600/4692516
+2025-04-09 20:36:14,880 - INFO - Processing endpoint pair 99700/4692516
+2025-04-09 20:36:19,714 - INFO - Processing endpoint pair 99800/4692516
+2025-04-09 20:36:25,124 - INFO - Processing endpoint pair 99900/4692516
+2025-04-09 20:36:29,450 - INFO - Processing endpoint pair 100000/4692516
+2025-04-09 20:36:34,498 - INFO - Processing endpoint pair 100100/4692516
+2025-04-09 20:36:39,750 - INFO - Processing endpoint pair 100200/4692516
+2025-04-09 20:36:44,835 - INFO - Processing endpoint pair 100300/4692516
+2025-04-09 20:36:51,140 - INFO - Processing endpoint pair 100400/4692516
+2025-04-09 20:36:55,915 - INFO - Processing endpoint pair 100500/4692516
+2025-04-09 20:37:00,779 - INFO - Processing endpoint pair 100600/4692516
+2025-04-09 20:37:05,769 - INFO - Processing endpoint pair 100700/4692516
+2025-04-09 20:37:09,682 - INFO - Processing endpoint pair 100800/4692516
+2025-04-09 20:37:14,019 - INFO - Processing endpoint pair 100900/4692516
+2025-04-09 20:37:18,241 - INFO - Processing endpoint pair 101000/4692516
+2025-04-09 20:37:23,179 - INFO - Processing endpoint pair 101100/4692516
+2025-04-09 20:37:27,789 - INFO - Processing endpoint pair 101200/4692516
+2025-04-09 20:37:32,214 - INFO - Processing endpoint pair 101300/4692516
+2025-04-09 20:37:35,795 - INFO - Processing endpoint pair 101400/4692516
+2025-04-09 20:37:39,189 - INFO - Processing endpoint pair 101500/4692516
+2025-04-09 20:37:43,739 - INFO - Processing endpoint pair 101600/4692516
+2025-04-09 20:37:46,589 - INFO - Processing endpoint pair 101700/4692516
+2025-04-09 20:37:51,863 - INFO - Processing endpoint pair 101800/4692516
+2025-04-09 20:37:56,859 - INFO - Processing endpoint pair 101900/4692516
+2025-04-09 20:38:00,914 - INFO - Processing endpoint pair 102000/4692516
+2025-04-09 20:38:06,881 - INFO - Processing endpoint pair 102100/4692516
+2025-04-09 20:38:11,409 - INFO - Processing endpoint pair 102200/4692516
+2025-04-09 20:38:14,693 - INFO - Processing endpoint pair 102300/4692516
+2025-04-09 20:38:22,671 - INFO - Processing endpoint pair 102400/4692516
+2025-04-09 20:38:28,068 - INFO - Processing endpoint pair 102500/4692516
+2025-04-09 20:38:34,401 - INFO - Processing endpoint pair 102600/4692516
+2025-04-09 20:38:39,451 - INFO - Processing endpoint pair 102700/4692516
+2025-04-09 20:38:45,142 - INFO - Processing endpoint pair 102800/4692516
+2025-04-09 20:38:49,890 - INFO - Processing endpoint pair 102900/4692516
+2025-04-09 20:38:53,854 - INFO - Processing endpoint pair 103000/4692516
+2025-04-09 20:38:58,920 - INFO - Processing endpoint pair 103100/4692516
+2025-04-09 20:39:03,435 - INFO - Processing endpoint pair 103200/4692516
+2025-04-09 20:39:09,356 - INFO - Processing endpoint pair 103300/4692516
+2025-04-09 20:39:13,843 - INFO - Processing endpoint pair 103400/4692516
+2025-04-09 20:39:18,512 - INFO - Processing endpoint pair 103500/4692516
+2025-04-09 20:39:22,271 - INFO - Processing endpoint pair 103600/4692516
+2025-04-09 20:39:27,521 - INFO - Processing endpoint pair 103700/4692516
+2025-04-09 20:39:31,758 - INFO - Processing endpoint pair 103800/4692516
+2025-04-09 20:39:35,974 - INFO - Processing endpoint pair 103900/4692516
+2025-04-09 20:39:40,593 - INFO - Processing endpoint pair 104000/4692516
+2025-04-09 20:39:47,003 - INFO - Processing endpoint pair 104100/4692516
+2025-04-09 20:39:50,872 - INFO - Processing endpoint pair 104200/4692516
+2025-04-09 20:39:55,730 - INFO - Processing endpoint pair 104300/4692516
+2025-04-09 20:40:00,244 - INFO - Processing endpoint pair 104400/4692516
+2025-04-09 20:40:03,559 - INFO - Processing endpoint pair 104500/4692516
+2025-04-09 20:40:09,279 - INFO - Processing endpoint pair 104600/4692516
+2025-04-09 20:40:11,106 - INFO - Processing endpoint pair 104700/4692516
+2025-04-09 20:40:15,948 - INFO - Processing endpoint pair 104800/4692516
+2025-04-09 20:40:20,544 - INFO - Processing endpoint pair 104900/4692516
+2025-04-09 20:40:25,861 - INFO - Processing endpoint pair 105000/4692516
+2025-04-09 20:40:30,627 - INFO - Processing endpoint pair 105100/4692516
+2025-04-09 20:40:35,176 - INFO - Processing endpoint pair 105200/4692516
+2025-04-09 20:40:40,046 - INFO - Processing endpoint pair 105300/4692516
+2025-04-09 20:40:47,375 - INFO - Processing endpoint pair 105400/4692516
+2025-04-09 20:40:53,783 - INFO - Processing endpoint pair 105500/4692516
+2025-04-09 20:41:00,409 - INFO - Processing endpoint pair 105600/4692516
+2025-04-09 20:41:06,004 - INFO - Processing endpoint pair 105700/4692516
+2025-04-09 20:41:12,875 - INFO - Processing endpoint pair 105800/4692516
+2025-04-09 20:41:17,636 - INFO - Processing endpoint pair 105900/4692516
+2025-04-09 20:41:21,745 - INFO - Processing endpoint pair 106000/4692516
+2025-04-09 20:41:27,158 - INFO - Processing endpoint pair 106100/4692516
+2025-04-09 20:41:31,341 - INFO - Processing endpoint pair 106200/4692516
+2025-04-09 20:41:38,416 - INFO - Processing endpoint pair 106300/4692516
+2025-04-09 20:41:43,619 - INFO - Processing endpoint pair 106400/4692516
+2025-04-09 20:41:48,740 - INFO - Processing endpoint pair 106500/4692516
+2025-04-09 20:41:53,334 - INFO - Processing endpoint pair 106600/4692516
+2025-04-09 20:41:58,265 - INFO - Processing endpoint pair 106700/4692516
+2025-04-09 20:42:03,123 - INFO - Processing endpoint pair 106800/4692516
+2025-04-09 20:42:07,795 - INFO - Processing endpoint pair 106900/4692516
+2025-04-09 20:42:12,300 - INFO - Processing endpoint pair 107000/4692516
+2025-04-09 20:42:18,076 - INFO - Processing endpoint pair 107100/4692516
+2025-04-09 20:42:22,851 - INFO - Processing endpoint pair 107200/4692516
+2025-04-09 20:42:27,961 - INFO - Processing endpoint pair 107300/4692516
+2025-04-09 20:42:32,515 - INFO - Processing endpoint pair 107400/4692516
+2025-04-09 20:42:38,372 - INFO - Processing endpoint pair 107500/4692516
+2025-04-09 20:42:43,015 - INFO - Processing endpoint pair 107600/4692516
+2025-04-09 20:42:46,249 - INFO - Processing endpoint pair 107700/4692516
+2025-04-09 20:42:50,228 - INFO - Processing endpoint pair 107800/4692516
+2025-04-09 20:42:54,882 - INFO - Processing endpoint pair 107900/4692516
+2025-04-09 20:43:01,594 - INFO - Processing endpoint pair 108000/4692516
+2025-04-09 20:43:05,866 - INFO - Processing endpoint pair 108100/4692516
+2025-04-09 20:43:11,339 - INFO - Processing endpoint pair 108200/4692516
+2025-04-09 20:43:16,282 - INFO - Processing endpoint pair 108300/4692516
+2025-04-09 20:43:22,661 - INFO - Processing endpoint pair 108400/4692516
+2025-04-09 20:43:29,763 - INFO - Processing endpoint pair 108500/4692516
+2025-04-09 20:43:36,136 - INFO - Processing endpoint pair 108600/4692516
+2025-04-09 20:43:42,367 - INFO - Processing endpoint pair 108700/4692516
+2025-04-09 20:43:48,739 - INFO - Processing endpoint pair 108800/4692516
+2025-04-09 20:43:53,816 - INFO - Processing endpoint pair 108900/4692516
+2025-04-09 20:43:59,301 - INFO - Processing endpoint pair 109000/4692516
+2025-04-09 20:44:04,517 - INFO - Processing endpoint pair 109100/4692516
+2025-04-09 20:44:08,787 - INFO - Processing endpoint pair 109200/4692516
+2025-04-09 20:44:14,128 - INFO - Processing endpoint pair 109300/4692516
+2025-04-09 20:44:20,464 - INFO - Processing endpoint pair 109400/4692516
+2025-04-09 20:44:25,371 - INFO - Processing endpoint pair 109500/4692516
+2025-04-09 20:44:30,054 - INFO - Processing endpoint pair 109600/4692516
+2025-04-09 20:44:35,124 - INFO - Processing endpoint pair 109700/4692516
+2025-04-09 20:44:40,103 - INFO - Processing endpoint pair 109800/4692516
+2025-04-09 20:44:44,021 - INFO - Processing endpoint pair 109900/4692516
+2025-04-09 20:44:48,964 - INFO - Processing endpoint pair 110000/4692516
+2025-04-09 20:44:54,652 - INFO - Processing endpoint pair 110100/4692516
+2025-04-09 20:45:00,133 - INFO - Processing endpoint pair 110200/4692516
+2025-04-09 20:45:05,071 - INFO - Processing endpoint pair 110300/4692516
+2025-04-09 20:45:09,581 - INFO - Processing endpoint pair 110400/4692516
+2025-04-09 20:45:13,227 - INFO - Processing endpoint pair 110500/4692516
+2025-04-09 20:45:19,422 - INFO - Processing endpoint pair 110600/4692516
+2025-04-09 20:45:24,261 - INFO - Processing endpoint pair 110700/4692516
+2025-04-09 20:45:29,150 - INFO - Processing endpoint pair 110800/4692516
+2025-04-09 20:45:33,464 - INFO - Processing endpoint pair 110900/4692516
+2025-04-09 20:45:38,853 - INFO - Processing endpoint pair 111000/4692516
+2025-04-09 20:45:43,409 - INFO - Processing endpoint pair 111100/4692516
+2025-04-09 20:45:50,514 - INFO - Processing endpoint pair 111200/4692516
+2025-04-09 20:45:55,392 - INFO - Processing endpoint pair 111300/4692516
+2025-04-09 20:46:00,669 - INFO - Processing endpoint pair 111400/4692516
+2025-04-09 20:46:08,375 - INFO - Processing endpoint pair 111500/4692516
+2025-04-09 20:46:15,122 - INFO - Processing endpoint pair 111600/4692516
+2025-04-09 20:46:22,554 - INFO - Processing endpoint pair 111700/4692516
+2025-04-09 20:46:28,185 - INFO - Processing endpoint pair 111800/4692516
+2025-04-09 20:46:33,691 - INFO - Processing endpoint pair 111900/4692516
+2025-04-09 20:46:39,311 - INFO - Processing endpoint pair 112000/4692516
+2025-04-09 20:46:44,435 - INFO - Processing endpoint pair 112100/4692516
+2025-04-09 20:46:49,255 - INFO - Processing endpoint pair 112200/4692516
+2025-04-09 20:46:55,378 - INFO - Processing endpoint pair 112300/4692516
+2025-04-09 20:47:01,318 - INFO - Processing endpoint pair 112400/4692516
+2025-04-09 20:47:07,181 - INFO - Processing endpoint pair 112500/4692516
+2025-04-09 20:47:12,420 - INFO - Processing endpoint pair 112600/4692516
+2025-04-09 20:47:16,704 - INFO - Processing endpoint pair 112700/4692516
+2025-04-09 20:47:21,883 - INFO - Processing endpoint pair 112800/4692516
+2025-04-09 20:47:26,247 - INFO - Processing endpoint pair 112900/4692516
+2025-04-09 20:47:31,088 - INFO - Processing endpoint pair 113000/4692516
+2025-04-09 20:47:35,690 - INFO - Processing endpoint pair 113100/4692516
+2025-04-09 20:47:41,104 - INFO - Processing endpoint pair 113200/4692516
+2025-04-09 20:47:46,717 - INFO - Processing endpoint pair 113300/4692516
+2025-04-09 20:47:50,427 - INFO - Processing endpoint pair 113400/4692516
+2025-04-09 20:47:54,493 - INFO - Processing endpoint pair 113500/4692516
+2025-04-09 20:47:57,627 - INFO - Processing endpoint pair 113600/4692516
+2025-04-09 20:48:02,613 - INFO - Processing endpoint pair 113700/4692516
+2025-04-09 20:48:05,427 - INFO - Processing endpoint pair 113800/4692516
+2025-04-09 20:48:08,949 - INFO - Processing endpoint pair 113900/4692516
+2025-04-09 20:48:14,498 - INFO - Processing endpoint pair 114000/4692516
+2025-04-09 20:48:18,410 - INFO - Processing endpoint pair 114100/4692516
+2025-04-09 20:48:24,037 - INFO - Processing endpoint pair 114200/4692516
+2025-04-09 20:48:28,104 - INFO - Processing endpoint pair 114300/4692516
+2025-04-09 20:48:31,143 - INFO - Processing endpoint pair 114400/4692516
+2025-04-09 20:48:38,205 - INFO - Processing endpoint pair 114500/4692516
+2025-04-09 20:48:44,029 - INFO - Processing endpoint pair 114600/4692516
+2025-04-09 20:48:49,993 - INFO - Processing endpoint pair 114700/4692516
+2025-04-09 20:48:55,132 - INFO - Processing endpoint pair 114800/4692516
+2025-04-09 20:49:00,414 - INFO - Processing endpoint pair 114900/4692516
+2025-04-09 20:49:03,749 - INFO - Processing endpoint pair 115000/4692516
+2025-04-09 20:49:08,062 - INFO - Processing endpoint pair 115100/4692516
+2025-04-09 20:49:13,203 - INFO - Processing endpoint pair 115200/4692516
+2025-04-09 20:49:17,069 - INFO - Processing endpoint pair 115300/4692516
+2025-04-09 20:49:22,946 - INFO - Processing endpoint pair 115400/4692516
+2025-04-09 20:49:27,517 - INFO - Processing endpoint pair 115500/4692516
+2025-04-09 20:49:31,863 - INFO - Processing endpoint pair 115600/4692516
+2025-04-09 20:49:35,665 - INFO - Processing endpoint pair 115700/4692516
+2025-04-09 20:49:40,482 - INFO - Processing endpoint pair 115800/4692516
+2025-04-09 20:49:44,475 - INFO - Processing endpoint pair 115900/4692516
+2025-04-09 20:49:47,767 - INFO - Processing endpoint pair 116000/4692516
+2025-04-09 20:49:51,813 - INFO - Processing endpoint pair 116100/4692516
+2025-04-09 20:49:57,856 - INFO - Processing endpoint pair 116200/4692516
+2025-04-09 20:50:00,780 - INFO - Processing endpoint pair 116300/4692516
+2025-04-09 20:50:05,162 - INFO - Processing endpoint pair 116400/4692516
+2025-04-09 20:50:09,026 - INFO - Processing endpoint pair 116500/4692516
+2025-04-09 20:50:12,848 - INFO - Processing endpoint pair 116600/4692516
+2025-04-09 20:50:17,537 - INFO - Processing endpoint pair 116700/4692516
+2025-04-09 20:50:19,919 - INFO - Processing endpoint pair 116800/4692516
+2025-04-09 20:50:24,138 - INFO - Processing endpoint pair 116900/4692516
+2025-04-09 20:50:28,364 - INFO - Processing endpoint pair 117000/4692516
+2025-04-09 20:50:33,266 - INFO - Processing endpoint pair 117100/4692516
+2025-04-09 20:50:37,440 - INFO - Processing endpoint pair 117200/4692516
+2025-04-09 20:50:41,844 - INFO - Processing endpoint pair 117300/4692516
+2025-04-09 20:50:46,193 - INFO - Processing endpoint pair 117400/4692516
+2025-04-09 20:50:53,426 - INFO - Processing endpoint pair 117500/4692516
+2025-04-09 20:50:58,582 - INFO - Processing endpoint pair 117600/4692516
+2025-04-09 20:51:04,142 - INFO - Processing endpoint pair 117700/4692516
+2025-04-09 20:51:09,344 - INFO - Processing endpoint pair 117800/4692516
+2025-04-09 20:51:15,052 - INFO - Processing endpoint pair 117900/4692516
+2025-04-09 20:51:19,343 - INFO - Processing endpoint pair 118000/4692516
+2025-04-09 20:51:23,919 - INFO - Processing endpoint pair 118100/4692516
+2025-04-09 20:51:28,582 - INFO - Processing endpoint pair 118200/4692516
+2025-04-09 20:51:31,960 - INFO - Processing endpoint pair 118300/4692516
+2025-04-09 20:51:37,405 - INFO - Processing endpoint pair 118400/4692516
+2025-04-09 20:51:42,708 - INFO - Processing endpoint pair 118500/4692516
+2025-04-09 20:51:46,923 - INFO - Processing endpoint pair 118600/4692516
+2025-04-09 20:51:50,271 - INFO - Processing endpoint pair 118700/4692516
+2025-04-09 20:51:54,505 - INFO - Processing endpoint pair 118800/4692516
+2025-04-09 20:51:58,561 - INFO - Processing endpoint pair 118900/4692516
+2025-04-09 20:52:02,663 - INFO - Processing endpoint pair 119000/4692516
+2025-04-09 20:52:06,493 - INFO - Processing endpoint pair 119100/4692516
+2025-04-09 20:52:12,234 - INFO - Processing endpoint pair 119200/4692516
+2025-04-09 20:52:15,693 - INFO - Processing endpoint pair 119300/4692516
+2025-04-09 20:52:20,723 - INFO - Processing endpoint pair 119400/4692516
+2025-04-09 20:52:23,636 - INFO - Processing endpoint pair 119500/4692516
+2025-04-09 20:52:27,823 - INFO - Processing endpoint pair 119600/4692516
+2025-04-09 20:52:31,959 - INFO - Processing endpoint pair 119700/4692516
+2025-04-09 20:52:34,818 - INFO - Processing endpoint pair 119800/4692516
+2025-04-09 20:52:38,957 - INFO - Processing endpoint pair 119900/4692516
+2025-04-09 20:52:42,184 - INFO - Processing endpoint pair 120000/4692516

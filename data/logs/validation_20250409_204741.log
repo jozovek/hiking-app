@@ -1,0 +1,23 @@
+2025-04-09 20:47:41,995 - INFO - Starting data validation
+2025-04-09 20:47:41,995 - INFO - Validating data for Philadelphia County
+2025-04-09 20:47:43,549 - INFO - Validation results for Philadelphia:
+2025-04-09 20:47:43,549 - INFO -   Trail count: 73766
+2025-04-09 20:47:43,549 - INFO -   Difficulty distribution: {'Easy': 71359, 'Hard': 1546, 'Moderate': 861}
+2025-04-09 20:47:43,550 - INFO -   Length statistics: avg=1.45, min=0.00, max=16.63, total=106977.01 miles
+2025-04-09 20:47:43,550 - INFO -   No issues found
+2025-04-09 20:47:43,848 - INFO - Trail points validation results for Philadelphia:
+2025-04-09 20:47:43,848 - INFO -   Point count: 1086819
+2025-04-09 20:47:43,848 - INFO -   Trail count: 73766
+2025-04-09 20:47:43,848 - INFO -   Points per trail: min=2, max=128, avg=14.73
+2025-04-09 20:47:43,848 - INFO -   No issues found
+2025-04-09 20:47:47,033 - INFO - Generated visualizations for Philadelphia County
+2025-04-09 20:47:47,088 - INFO - Database validation results:
+2025-04-09 20:47:47,088 - INFO -   Trails count: 73766
+2025-04-09 20:47:47,088 - INFO -   Points count: 1086819
+2025-04-09 20:47:47,088 - INFO -   Trails with points: 73766
+2025-04-09 20:47:47,088 - INFO -   Metadata: {'db_version': '1.0', 'last_updated': '2025-04-09'}
+2025-04-09 20:47:47,088 - INFO -   County distribution: {'Philadelphia': 73766}
+2025-04-09 20:47:47,088 - INFO -   Difficulty distribution: {'Easy': 71359, 'Hard': 1546, 'Moderate': 861}
+2025-04-09 20:47:47,088 - INFO -   No issues found
+2025-04-09 20:47:47,260 - INFO - Generated summary report at data/visualizations/validation_report.json
+2025-04-09 20:47:47,260 - INFO - Data validation completed successfully

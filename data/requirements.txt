@@ -1,0 +1,21 @@
+# Python dependencies for Philadelphia Hiking Trails data processing
+
+# Data processing
+pandas
+geopandas
+numpy
+shapely
+
+# API interaction
+requests
+overpass
+osmnx
+
+# Web scraping (if needed)
+beautifulsoup4
+
+# Visualization
+matplotlib
+
+# Environment variables
+python-dotenv
